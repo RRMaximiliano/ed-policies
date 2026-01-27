@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Latin America Education Policy Database
 
-## Getting Started
+<!-- badges: start -->
+[![Deploy to GitHub Pages](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml/badge.svg)](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml)
+<!-- badges: end -->
 
-First, run the development server:
+A curated collection of evidence-based education policies implemented across 20 Latin American countries. Designed for researchers, policymakers, and PhD students seeking policy information, evaluation evidence, and impact findings.
+
+**Live site**: https://www.rrmaximiliano.com/ed-policies/
+
+## Overview
+
+This database catalogs 54 education policies with detailed information on:
+
+- Policy mechanisms and objectives
+- Target populations and coverage
+- Evidence quality ratings (high, moderate, emerging, low, none)
+- Evaluation studies and key findings
+- Academic references
+
+### Coverage
+
+| Category | Count |
+|----------|-------|
+| Policies | 54 |
+| Countries | 15+ |
+| Policy types | 13 |
+| With rigorous evidence | 20+ |
+
+### Policy Types
+
+- Conditional Cash Transfers
+- School Feeding Programs
+- Extended School Day
+- Digital Inclusion
+- Teacher Reform
+- Vouchers/School Choice
+- Higher Education Access
+- Early Childhood Education
+- Indigenous/Bilingual Education
+- Tutoring and Remediation
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/RRMaximiliano/ed-policies.git
+cd ed-policies
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Generate static export:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Output is generated in the `out/` directory.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Component | Technology |
+|-----------|------------|
+| Framework | Next.js 14+ |
+| Styling | Tailwind CSS |
+| UI Components | shadcn/ui |
+| State Management | Zustand |
+| Search | Fuse.js |
+| Deployment | GitHub Pages |
 
-## Deploy on Vercel
+## Data Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Policy entries are stored in `src/data/policies.json`. Each entry includes:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```typescript
+interface Policy {
+  id: string;
+  name: string;
+  country: Country;
+  yearStart: number;
+  yearEnd?: number;
+  isActive: boolean;
+  policyTypes: PolicyType[];
+  affectedPopulations: AffectedPopulation[];
+  summaryShort: string;
+  summaryLong: string;
+  objectives: string[];
+  mechanisms: string;
+  coverage?: string;
+  evidenceQuality: 'high' | 'moderate' | 'emerging' | 'low' | 'none';
+  impactSummary: string;
+  keyOutcomes: Outcome[];
+  evaluations: EvaluationStudy[];
+  keyReferences: Reference[];
+}
+```
+
+## Contributing
+
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding new policies or corrections.
+
+## Data Sources
+
+- IADB Publications
+- World Bank Documents
+- J-PAL Evaluations
+- ECLAC Social Protection Database
+- NBER Working Papers
+- VoxDev Education Research
+
+## License
+
+MIT
