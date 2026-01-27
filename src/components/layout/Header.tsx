@@ -36,7 +36,7 @@ export function Header() {
             <NavLink href="/contribute">Contribute</NavLink>
             <div className="w-px h-5 bg-[#e5e0d8] mx-3" />
             <a
-              href="https://github.com"
+              href="https://github.com/RRMaximiliano/ed-policies"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-[#5c6578] hover:text-[#1a2744] transition-colors"
@@ -74,7 +74,7 @@ export function Header() {
                 </nav>
                 <div className="mt-auto py-6 border-t border-[#e5e0d8]">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/RRMaximiliano/ed-policies"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 text-[#5c6578] hover:text-[#1a2744] transition-colors"

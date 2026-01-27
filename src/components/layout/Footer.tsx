@@ -59,7 +59,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-xs uppercase tracking-[0.15em] text-white/50 mb-4">Open Source</h3>
             <a
-              href="https://github.com"
+              href="https://github.com/RRMaximiliano/ed-policies"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-4 py-2 border border-white/30 text-sm hover:bg-white hover:text-[#1a2744] transition-colors"

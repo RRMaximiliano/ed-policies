@@ -43,7 +43,7 @@ export default function ContributePage() {
                 and submit a Pull Request with sources for all claims.
               </p>
               <a
-                href="https://github.com"
+                href="https://github.com/RRMaximiliano/ed-policies"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-sm text-[#c4654a] hover:underline"
