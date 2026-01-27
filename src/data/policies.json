@@ -1,0 +1,3006 @@
+[
+  {
+    "id": "progresa-oportunidades-prospera",
+    "name": "PROGRESA/Oportunidades/Prospera",
+    "nameLocal": "Programa de Educación, Salud y Alimentación",
+    "acronym": "PROGRESA",
+    "country": "mexico",
+    "yearStart": 1997,
+    "yearEnd": 2018,
+    "isActive": false,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "Mexico's pioneering conditional cash transfer program that provided payments to poor families conditional on children's school attendance and health check-ups.",
+    "summaryLong": "PROGRESA (later renamed Oportunidades and then Prospera) was Mexico's flagship anti-poverty program and one of the world's first large-scale conditional cash transfer programs. The program provided cash transfers to poor rural and urban families conditional on children attending school regularly and family members obtaining preventive health care. At its peak, the program reached approximately 6 million families (about 25% of Mexico's population). The program was phased out in 2018 and replaced by different social programs.",
+    "objectives": [
+      "Increase school enrollment and attendance among poor children",
+      "Improve health outcomes through preventive care",
+      "Reduce poverty through direct cash transfers",
+      "Break the intergenerational transmission of poverty"
+    ],
+    "mechanisms": "The program provided direct cash transfers to mothers in poor households, conditional on children's school attendance (85% minimum) and regular health check-ups. Transfer amounts increased with grade level and were higher for girls in secondary school to address gender gaps. The program also provided nutritional supplements for children and pregnant/lactating women.",
+    "coverage": "6 million families at peak (approximately 25% of Mexican population)",
+    "evidenceQuality": "high",
+    "impactSummary": "Multiple rigorous evaluations found significant positive effects on education outcomes. The program increased enrollment by 14 percentage points for 14-year-old boys, with overall schooling increases of 1.3 years. Effects on test scores were more modest but positive. The program became a model for CCT programs worldwide.",
+    "keyOutcomes": [
+      {
+        "metric": "School enrollment",
+        "effect": "+14 percentage points for 14-year-old boys",
+        "source": "Schultz 2004"
+      },
+      {
+        "metric": "Years of schooling",
+        "effect": "+1.3 years overall",
+        "source": "Parker & Todd 2017"
+      },
+      {
+        "metric": "Secondary enrollment",
+        "effect": "+9.3 percentage points for girls",
+        "source": "Behrman et al. 2011"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Schultz, T. Paul",
+        "year": 2004,
+        "title": "School subsidies for the poor: evaluating the Mexican Progresa poverty program",
+        "methodology": "rct",
+        "journal": "Journal of Development Economics",
+        "doi": "10.1016/j.jdeveco.2003.12.009",
+        "keyFinding": "Enrollment increased by 14 percentage points for boys and 9 percentage points for girls at the secondary level."
+      },
+      {
+        "authors": "Parker, Susan W. & Todd, Petra E.",
+        "year": 2017,
+        "title": "Conditional Cash Transfers: The Case of Progresa/Oportunidades",
+        "methodology": "quasi-experimental",
+        "journal": "Journal of Economic Literature",
+        "doi": "10.1257/jel.20151233",
+        "keyFinding": "Long-term impacts show 1.3 additional years of schooling and improvements in labor market outcomes."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Levy, Santiago",
+        "year": 2006,
+        "title": "Progress Against Poverty: Sustaining Mexico's Progresa-Oportunidades Program",
+        "source": "Brookings Institution Press"
+      }
+    ]
+  },
+  {
+    "id": "bolsa-familia",
+    "name": "Bolsa Família",
+    "nameLocal": "Programa Bolsa Família",
+    "acronym": "PBF",
+    "country": "brazil",
+    "yearStart": 2003,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Brazil's flagship conditional cash transfer program providing monthly payments to poor families conditional on children's school attendance and health requirements.",
+    "summaryLong": "Bolsa Família is Brazil's largest social assistance program, created in 2003 by unifying several pre-existing transfer programs. It provides monthly cash transfers to poor families (income below R$218 per capita) conditional on children's school attendance (minimum 85% for ages 6-15, 75% for ages 16-17) and health check-ups. The program reaches approximately 14 million families (about 50 million people) and is credited with significant reductions in poverty and inequality in Brazil.",
+    "objectives": [
+      "Reduce poverty and extreme poverty",
+      "Break the cycle of intergenerational poverty",
+      "Improve school enrollment and attendance",
+      "Ensure access to health services"
+    ],
+    "mechanisms": "Monthly cash transfers to families living below the poverty line, conditional on children attending school and complying with health requirements including vaccinations and prenatal care. Benefits vary by family composition and income level.",
+    "coverage": "14 million families (approximately 50 million individuals)",
+    "evidenceQuality": "high",
+    "impactSummary": "Multiple studies show positive effects on school enrollment and attendance, particularly in the early grades. The program increased enrollment by 5.5% for grades 1-4 and reduced dropout by 0.5 percentage points. Effects on learning outcomes are more mixed.",
+    "keyOutcomes": [
+      {
+        "metric": "School enrollment (grades 1-4)",
+        "effect": "+5.5%",
+        "source": "Glewwe & Kassouf 2012"
+      },
+      {
+        "metric": "Dropout rate",
+        "effect": "-0.5 percentage points",
+        "source": "Oliveira & Soares 2013"
+      },
+      {
+        "metric": "School progression",
+        "effect": "+6% increase in grade promotion",
+        "source": "de Brauw et al. 2015"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Glewwe, Paul & Kassouf, Ana Lucia",
+        "year": 2012,
+        "title": "The impact of the Bolsa Escola/Familia conditional cash transfer program on enrollment, dropout rates and grade promotion in Brazil",
+        "methodology": "quasi-experimental",
+        "journal": "Journal of Development Economics",
+        "doi": "10.1016/j.jdeveco.2011.05.008",
+        "keyFinding": "Enrollment increased by 5.5% in grades 1-4, with larger effects for children from poorer households."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Lindert, Kathy et al.",
+        "year": 2007,
+        "title": "The Nuts and Bolts of Brazil's Bolsa Família Program",
+        "source": "World Bank Social Protection Discussion Paper"
+      }
+    ]
+  },
+  {
+    "id": "familias-en-accion",
+    "name": "Familias en Acción",
+    "acronym": "FA",
+    "country": "colombia",
+    "yearStart": 2001,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "Colombia's main conditional cash transfer program providing subsidies to poor families for nutrition, education, and health.",
+    "summaryLong": "Familias en Acción is Colombia's largest social program, launched in 2001 as part of the country's response to the economic crisis. The program provides cash transfers to poor families conditional on children's school attendance and regular health check-ups. It has expanded significantly since its inception and now covers both rural and urban areas. The program includes education grants for children ages 7-17 and nutrition grants for children under 7.",
+    "objectives": [
+      "Protect and promote human capital formation among poor children",
+      "Increase school enrollment and attendance",
+      "Improve nutrition and health outcomes",
+      "Reduce child labor"
+    ],
+    "mechanisms": "Bi-monthly cash transfers to mothers in eligible households. Education subsidies conditional on 80% school attendance. Separate nutrition grants for young children conditional on health check-ups. Transfer amounts vary by age and education level.",
+    "coverage": "2.7 million families",
+    "evidenceQuality": "high",
+    "impactSummary": "Rigorous evaluations show positive effects on school enrollment, reduced child labor, and improved nutritional outcomes. The program significantly increased secondary school attendance and reduced the probability of children working.",
+    "keyOutcomes": [
+      {
+        "metric": "Secondary school attendance",
+        "effect": "+5-7 percentage points",
+        "source": "Attanasio et al. 2010"
+      },
+      {
+        "metric": "Child labor",
+        "effect": "Significant reduction, especially in rural areas",
+        "source": "Attanasio et al. 2010"
+      },
+      {
+        "metric": "Consumption",
+        "effect": "+15% increase in food consumption",
+        "source": "Attanasio & Mesnard 2006"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Attanasio, Orazio et al.",
+        "year": 2010,
+        "title": "Child Education and Work Choices in the Presence of a Conditional Cash Transfer Programme in Rural Colombia",
+        "methodology": "rct",
+        "journal": "Economic Development and Cultural Change",
+        "doi": "10.1086/652462",
+        "keyFinding": "The program increased secondary enrollment by 5-7 percentage points and significantly reduced child labor in rural areas."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "DNP Colombia",
+        "year": 2020,
+        "title": "Evaluación de Impacto de Familias en Acción",
+        "source": "Departamento Nacional de Planeación"
+      }
+    ]
+  },
+  {
+    "id": "chile-jornada-escolar-completa",
+    "name": "Jornada Escolar Completa",
+    "nameLocal": "Jornada Escolar Completa",
+    "acronym": "JEC",
+    "country": "chile",
+    "yearStart": 1997,
+    "yearEnd": 2010,
+    "isActive": false,
+    "policyTypes": ["extended-day", "infrastructure"],
+    "affectedPopulations": ["primary", "secondary"],
+    "summaryShort": "Chile's full-school-day reform that extended instructional time from half-day to full-day sessions, requiring massive infrastructure investment.",
+    "summaryLong": "The Jornada Escolar Completa (JEC) was a major education reform in Chile that extended the school day from approximately 5 hours to 8 hours for primary and secondary students. Launched in 1997, the reform required significant infrastructure investment to accommodate full-day schedules. By 2010, the vast majority of subsidized schools had adopted the extended day. The reform aimed to improve educational quality and provide more equitable learning opportunities, particularly for disadvantaged students who lacked educational support at home.",
+    "objectives": [
+      "Increase instructional time and learning opportunities",
+      "Improve educational quality and outcomes",
+      "Provide more equitable access to education",
+      "Reduce educational gaps between socioeconomic groups"
+    ],
+    "mechanisms": "Schools extended their daily schedule from half-day (approximately 5 hours) to full-day (approximately 8 hours). The reform included substantial government investment in school infrastructure (new classrooms, dining facilities) and increased per-student subsidies for participating schools.",
+    "coverage": "Over 90% of subsidized schools (approximately 2.5 million students)",
+    "evidenceQuality": "high",
+    "impactSummary": "Long-term studies show significant positive effects on adult outcomes. Students exposed to JEC had 10% higher labor income as adults and 8.6% higher intergenerational mobility. Effects on test scores were more modest but positive for disadvantaged students.",
+    "keyOutcomes": [
+      {
+        "metric": "Adult labor income",
+        "effect": "+10%",
+        "source": "Berthelon et al. 2019"
+      },
+      {
+        "metric": "Intergenerational mobility",
+        "effect": "+8.6%",
+        "source": "Cáceres & Muñoz 2022"
+      },
+      {
+        "metric": "Teen pregnancy",
+        "effect": "-5% reduction",
+        "source": "Berthelon & Kruger 2011"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Berthelon, Matias et al.",
+        "year": 2019,
+        "title": "The Effects of the Full-day School Program on Adult Labor Market Outcomes",
+        "methodology": "difference-in-differences",
+        "journal": "Economia",
+        "keyFinding": "Full exposure to JEC increased adult earnings by approximately 10%."
+      },
+      {
+        "authors": "Bellei, Cristián",
+        "year": 2009,
+        "title": "Does lengthening the school day increase students' academic achievement?",
+        "methodology": "quasi-experimental",
+        "journal": "Economics of Education Review",
+        "doi": "10.1016/j.econedurev.2009.01.008",
+        "keyFinding": "Test score effects were modest overall but larger for rural students and those from lower socioeconomic backgrounds."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "García-Huidobro, Juan Eduardo",
+        "year": 2000,
+        "title": "La reforma educacional chilena",
+        "source": "Editorial Popular"
+      }
+    ]
+  },
+  {
+    "id": "plan-ceibal",
+    "name": "Plan Ceibal",
+    "nameLocal": "Conectividad Educativa de Informática Básica para el Aprendizaje en Línea",
+    "acronym": "CEIBAL",
+    "country": "uruguay",
+    "yearStart": 2007,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["digital-inclusion"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Uruguay's pioneering one-laptop-per-child program providing free laptops and internet connectivity to all public school students and teachers.",
+    "summaryLong": "Plan Ceibal is Uruguay's implementation of the One Laptop Per Child (OLPC) initiative, making Uruguay the first country to provide a laptop to every primary school student and teacher in public schools. Launched in 2007, the program has distributed over 1 million devices and provides free internet connectivity in schools and public spaces. Beyond hardware distribution, the program includes teacher training, educational content development, and platforms for remote learning.",
+    "objectives": [
+      "Reduce the digital divide in education",
+      "Improve educational quality through technology",
+      "Provide universal access to information technology",
+      "Foster 21st century skills"
+    ],
+    "mechanisms": "Distribution of free laptops to all students and teachers in public schools. Provision of internet connectivity in schools and public spaces. Development of educational software and content. Teacher training in technology integration. Remote learning platforms and adaptive learning tools.",
+    "coverage": "All public school students and teachers (approximately 700,000 devices distributed)",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evaluations show significant success in reducing the digital divide, with increased computer access at home and improved digital literacy. However, effects on traditional academic outcomes (test scores) have been limited. The program has been more successful in promoting technology access than improving learning outcomes.",
+    "keyOutcomes": [
+      {
+        "metric": "Computer access at home",
+        "effect": "Significant increase, especially among low-income students",
+        "source": "de Melo et al. 2014"
+      },
+      {
+        "metric": "Test scores (math and reading)",
+        "effect": "No significant effects",
+        "source": "de Melo et al. 2014"
+      },
+      {
+        "metric": "Digital literacy",
+        "effect": "Improved, particularly for disadvantaged students",
+        "source": "Fullan et al. 2013"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "de Melo, Gioia et al.",
+        "year": 2014,
+        "title": "The Impact of a One Laptop per Child Program on Learning: Evidence from Uruguay",
+        "methodology": "regression-discontinuity",
+        "journal": "IZA Discussion Paper",
+        "keyFinding": "No significant effects on math or reading test scores, but significant reduction in the digital divide."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Fullan, Michael et al.",
+        "year": 2013,
+        "title": "Plan Ceibal: Scaling Up Educational Innovation",
+        "source": "Michael Fullan Enterprises"
+      }
+    ]
+  },
+  {
+    "id": "chile-voucher-system",
+    "name": "School Voucher System",
+    "nameLocal": "Sistema de Subvenciones Escolares",
+    "country": "chile",
+    "yearStart": 1981,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["vouchers"],
+    "affectedPopulations": ["primary", "secondary", "all"],
+    "summaryShort": "Chile's nationwide school voucher system allowing families to choose between public and private subsidized schools, with per-student funding following students.",
+    "summaryLong": "Chile implemented one of the world's most comprehensive school voucher systems in 1981, creating a market-based education system where public and private subsidized schools compete for students. All schools receive per-student subsidies, and families can choose any participating school. The system led to significant growth in the private subsidized sector. However, concerns about increasing socioeconomic segregation led to reforms including the 2008 Preferential School Subsidy (SEP) and the 2015 Inclusion Law.",
+    "objectives": [
+      "Increase school choice for families",
+      "Improve educational quality through competition",
+      "Expand private sector participation in education",
+      "Improve efficiency of education spending"
+    ],
+    "mechanisms": "Universal voucher system where funding follows students. Schools (public and private subsidized) receive per-student subsidies. Families can freely choose schools. Private schools could charge additional fees (co-payment) until recent reforms restricted this practice.",
+    "coverage": "Approximately 90% of students attend voucher-funded schools",
+    "evidenceQuality": "high",
+    "impactSummary": "Extensive research shows mixed effects. While competition may have improved some efficiency metrics, the system significantly increased socioeconomic segregation in schools. Recent reforms (SEP, Inclusion Law) have aimed to address equity concerns with some positive early results.",
+    "keyOutcomes": [
+      {
+        "metric": "Socioeconomic segregation",
+        "effect": "Significant increase over decades",
+        "source": "Valenzuela et al. 2014"
+      },
+      {
+        "metric": "Private school enrollment",
+        "effect": "Growth from 15% to over 50%",
+        "source": "Elacqua 2012"
+      },
+      {
+        "metric": "Test scores",
+        "effect": "Modest improvements in private subsidized sector",
+        "source": "Hsieh & Urquiola 2006"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Hsieh, Chang-Tai & Urquiola, Miguel",
+        "year": 2006,
+        "title": "The effects of generalized school choice on achievement and stratification: Evidence from Chile's voucher program",
+        "methodology": "quasi-experimental",
+        "journal": "Journal of Public Economics",
+        "doi": "10.1016/j.jpubeco.2005.08.011",
+        "keyFinding": "No evidence that competition improved average test scores; significant sorting of students across schools."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Elacqua, Gregory",
+        "year": 2012,
+        "title": "The impact of school choice and public policy on segregation: Evidence from Chile",
+        "source": "International Journal of Educational Development"
+      }
+    ]
+  },
+  {
+    "id": "brazil-cotas",
+    "name": "Affirmative Action Quotas",
+    "nameLocal": "Sistema de Cotas",
+    "acronym": "Cotas",
+    "country": "brazil",
+    "yearStart": 2012,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income", "indigenous"],
+    "summaryShort": "Brazil's federal law mandating that public universities reserve 50% of seats for students from public high schools, with sub-quotas for low-income, Black, mixed-race, and indigenous students.",
+    "summaryLong": "Brazil's quota law (Lei de Cotas, Law 12.711/2012) requires all federal universities and technical institutes to reserve 50% of admissions for students who completed high school in public institutions. Within this 50%, sub-quotas apply for low-income students and for Black, mixed-race (pardo), and indigenous students in proportion to state demographics. The policy was implemented gradually between 2012 and 2016 and has significantly increased diversity in higher education.",
+    "objectives": [
+      "Increase access to higher education for underrepresented groups",
+      "Reduce racial and socioeconomic inequalities in education",
+      "Promote diversity in universities",
+      "Address historical discrimination"
+    ],
+    "mechanisms": "Mandatory reservation of 50% of seats at federal universities for public high school graduates. Within this quota, half (25% of total) reserved for low-income students. Racial quotas (Black, mixed-race, indigenous) applied proportionally to state demographics within each category.",
+    "coverage": "63 federal universities and 38 federal institutes (over 1 million quota-admitted students)",
+    "evidenceQuality": "high",
+    "impactSummary": "Research shows quota students perform similarly to or better than non-quota peers after initial semesters. Quota students close about 50% of the initial GPA gap by graduation. Dropout rates are only slightly higher for quota students. The policy has substantially increased diversity in universities.",
+    "keyOutcomes": [
+      {
+        "metric": "GPA gap",
+        "effect": "Quota students close ~50% of initial gap by graduation",
+        "source": "Mello 2022"
+      },
+      {
+        "metric": "Enrollment of Black/mixed-race students",
+        "effect": "Significant increase at federal universities",
+        "source": "IBGE 2019"
+      },
+      {
+        "metric": "Graduation rates",
+        "effect": "Similar rates for quota and non-quota students",
+        "source": "Francis & Tannuri-Pianto 2012"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Mello, Ursula",
+        "year": 2022,
+        "title": "Affirmative Action and the Choice of Professions",
+        "methodology": "quasi-experimental",
+        "journal": "Econometrica",
+        "keyFinding": "Quota students close about 50% of the initial GPA gap by graduation and enter more competitive fields."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Francis, Andrew M. & Tannuri-Pianto, Maria",
+        "year": 2012,
+        "title": "Using Brazil's Racial Continuum to Examine the Short-Term Effects of Affirmative Action in Higher Education",
+        "source": "Journal of Human Resources"
+      }
+    ]
+  },
+  {
+    "id": "colombia-ser-pilo-paga",
+    "name": "Ser Pilo Paga",
+    "acronym": "SPP",
+    "country": "colombia",
+    "yearStart": 2014,
+    "yearEnd": 2018,
+    "isActive": false,
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income"],
+    "summaryShort": "Colombia's merit-based scholarship program providing full tuition and living stipends for high-achieving, low-income students to attend accredited universities.",
+    "summaryLong": "Ser Pilo Paga ('It Pays to Be Smart') was a Colombian government program providing full scholarships for high-achieving students from low-income families to attend any accredited university. Students who scored in the top 10% on the national exam (Saber 11) and came from families in the lowest socioeconomic strata received full tuition coverage plus living stipends. The program enrolled about 40,000 students before being replaced by Generación E in 2019.",
+    "objectives": [
+      "Expand access to quality higher education for low-income students",
+      "Reward academic merit among disadvantaged students",
+      "Reduce socioeconomic barriers to university education",
+      "Improve social mobility through education"
+    ],
+    "mechanisms": "Merit-based scholarships covering full tuition at any accredited university (public or private) plus living stipends. Students must maintain satisfactory academic progress. Loans convert to scholarships upon graduation.",
+    "coverage": "Approximately 40,000 students (2014-2018)",
+    "evidenceQuality": "high",
+    "impactSummary": "Rigorous evaluation shows the program significantly reduced dropout rates and improved academic outcomes. SPP students had dropout rates of 4.9% compared to 10.9% for similar peers. The program's Marginal Value of Public Funds (MVPF) was estimated at 4.8-5.6, indicating high cost-effectiveness.",
+    "keyOutcomes": [
+      {
+        "metric": "Dropout rate",
+        "effect": "4.9% vs 10.9% for similar peers",
+        "source": "Londoño-Vélez et al. 2020"
+      },
+      {
+        "metric": "University enrollment",
+        "effect": "+33 percentage points enrollment in high-quality universities",
+        "source": "Londoño-Vélez et al. 2020"
+      },
+      {
+        "metric": "MVPF (cost-effectiveness)",
+        "effect": "4.8-5.6",
+        "source": "Londoño-Vélez et al. 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Londoño-Vélez, Juliana et al.",
+        "year": 2020,
+        "title": "Upstream and Downstream Impacts of College Merit-Based Financial Aid for Low-Income Students",
+        "methodology": "regression-discontinuity",
+        "journal": "American Economic Journal: Economic Policy",
+        "doi": "10.1257/pol.20180722",
+        "keyFinding": "SPP increased enrollment in high-quality universities by 33 percentage points and reduced dropout to 4.9%."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Sánchez, Fabio & Velasco, Tatiana",
+        "year": 2019,
+        "title": "Is 'Ser Pilo Paga' Being Well Spent?",
+        "source": "Universidad de los Andes Working Paper"
+      }
+    ]
+  },
+  {
+    "id": "chile-crece-contigo",
+    "name": "Chile Crece Contigo",
+    "acronym": "ChCC",
+    "country": "chile",
+    "yearStart": 2006,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["early-childhood"],
+    "affectedPopulations": ["early-childhood", "low-income", "women-girls"],
+    "summaryShort": "Chile's comprehensive early childhood development system providing universal services from pregnancy through age 4, with enhanced support for vulnerable families.",
+    "summaryLong": "Chile Crece Contigo is a comprehensive intersectoral social protection system for early childhood that accompanies children from gestation through preschool. The program provides universal services through the public health system (prenatal care, developmental screenings) with additional targeted support for vulnerable families, including priority access to childcare, home visits, and educational materials. It represents a systematic approach to early childhood development as a national priority.",
+    "objectives": [
+      "Ensure optimal development for all children from birth",
+      "Reduce developmental inequalities from the earliest ages",
+      "Support families in child-rearing",
+      "Enable mothers' participation in the labor force"
+    ],
+    "mechanisms": "Universal developmental support through health system. Priority access to publicly funded childcare (sala cuna and jardín infantil) for working mothers from lower income quintiles. Home visiting programs for at-risk families. Educational materials and parenting support. Developmental screening and early intervention.",
+    "coverage": "Universal for children in public health system; targeted services reach most vulnerable 60%",
+    "evidenceQuality": "high",
+    "impactSummary": "Evaluations show significant expansion in childcare coverage (130% increase) and positive effects on child development and maternal employment. The program increased female labor force participation by 14 percentage points among eligible mothers.",
+    "keyOutcomes": [
+      {
+        "metric": "Childcare coverage",
+        "effect": "+130% expansion",
+        "source": "Bentancor 2013"
+      },
+      {
+        "metric": "Female labor force participation",
+        "effect": "+14 percentage points",
+        "source": "Encina & Martínez 2009"
+      },
+      {
+        "metric": "Child development",
+        "effect": "Improved cognitive and socio-emotional scores",
+        "source": "Behrman et al. 2013"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Behrman, Jere R. et al.",
+        "year": 2013,
+        "title": "The Impact of Chile Crece Contigo (ChCC) on Child Development and Daycare Choices",
+        "methodology": "quasi-experimental",
+        "journal": "Working Paper",
+        "keyFinding": "Program improved cognitive and socio-emotional development, with largest effects for most disadvantaged children."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Bedregal, Paula",
+        "year": 2010,
+        "title": "Chile Crece Contigo: el desafío de la protección social a la infancia",
+        "source": "Pontificia Universidad Católica de Chile"
+      }
+    ]
+  },
+  {
+    "id": "brazil-pnae",
+    "name": "National School Feeding Program",
+    "nameLocal": "Programa Nacional de Alimentação Escolar",
+    "acronym": "PNAE",
+    "country": "brazil",
+    "yearStart": 1955,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["school-feeding"],
+    "affectedPopulations": ["primary", "secondary", "all"],
+    "summaryShort": "Brazil's national school feeding program, one of the world's largest, providing free meals to all public school students with mandated local food procurement.",
+    "summaryLong": "PNAE is one of the oldest and largest school feeding programs in the world, providing free meals to all students in Brazil's public education system. Since 2009, the program mandates that at least 30% of food must be purchased from local family farmers, creating a link between school nutrition and local agricultural development. The program covers approximately 45 million students across all grades in public schools.",
+    "objectives": [
+      "Ensure food security for all public school students",
+      "Improve nutritional status and school attendance",
+      "Support local family farming through procurement",
+      "Promote healthy eating habits"
+    ],
+    "mechanisms": "Federal government transfers funds to states and municipalities for school meal provision. Schools must purchase at least 30% of food from local family farms. Menu planning follows national nutritional guidelines. Universal coverage for all public school students.",
+    "coverage": "45 million students in public schools",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Studies show positive effects on school attendance and reduced hunger. The local procurement requirement has benefited family farmers. Nutritional impacts vary by implementation quality. Limited rigorous evidence on learning outcomes.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "45 million students reached",
+        "source": "FNDE 2022"
+      },
+      {
+        "metric": "Local procurement",
+        "effect": "30% minimum from family farms",
+        "source": "FNDE 2022"
+      },
+      {
+        "metric": "School attendance",
+        "effect": "Positive association with meal provision",
+        "source": "Gelli et al. 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Gelli, Aulo et al.",
+        "year": 2019,
+        "title": "The State of School Feeding Worldwide",
+        "methodology": "descriptive",
+        "journal": "World Food Programme",
+        "keyFinding": "Brazil's PNAE serves as a global model for linking school feeding with local agricultural development."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "FNDE",
+        "year": 2022,
+        "title": "Programa Nacional de Alimentação Escolar - Relatório de Gestão",
+        "source": "Fundo Nacional de Desenvolvimento da Educação"
+      }
+    ]
+  },
+  {
+    "id": "peru-juntos",
+    "name": "Juntos",
+    "nameLocal": "Programa Nacional de Apoyo Directo a los Más Pobres",
+    "acronym": "JUNTOS",
+    "country": "peru",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "Peru's conditional cash transfer program providing monthly payments to extremely poor families conditional on children's school attendance and health requirements.",
+    "summaryLong": "Juntos is Peru's main conditional cash transfer program, targeting extremely poor households in rural areas. The program provides a monthly cash transfer of 200 soles (approximately $60) to mothers, conditional on children's school attendance (85% minimum) and compliance with health check-ups for children and prenatal care for pregnant women. The program prioritizes rural and indigenous communities and operates in all 24 departments of Peru.",
+    "objectives": [
+      "Reduce poverty and extreme poverty in rural areas",
+      "Increase school enrollment and attendance",
+      "Improve health and nutrition outcomes",
+      "Break intergenerational poverty transmission"
+    ],
+    "mechanisms": "Bi-monthly cash transfers to mothers in extremely poor households. Conditionalities include minimum 85% school attendance and regular health check-ups. Targeting based on household poverty assessment. Priority to rural and indigenous communities.",
+    "coverage": "Over 700,000 households",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evaluations show positive effects on school enrollment, health service utilization, and food consumption. Effects on educational outcomes beyond enrollment are more limited. The program has been credited with poverty reduction in rural areas.",
+    "keyOutcomes": [
+      {
+        "metric": "School enrollment",
+        "effect": "Increased, particularly in remote areas",
+        "source": "Perova & Vakis 2012"
+      },
+      {
+        "metric": "Health check-ups",
+        "effect": "+40% increase in preventive visits",
+        "source": "Perova & Vakis 2012"
+      },
+      {
+        "metric": "Food consumption",
+        "effect": "+8% increase",
+        "source": "Perova & Vakis 2012"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Perova, Elizaveta & Vakis, Renos",
+        "year": 2012,
+        "title": "5 Years in Juntos: New Evidence on the Program's Short and Long-Term Impacts",
+        "methodology": "quasi-experimental",
+        "journal": "World Bank Working Paper",
+        "keyFinding": "Positive effects on school enrollment, health service use, and consumption, but limited effects on learning outcomes."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MIDIS",
+        "year": 2020,
+        "title": "Programa Nacional de Apoyo Directo a los Más Pobres - JUNTOS",
+        "source": "Ministerio de Desarrollo e Inclusión Social"
+      }
+    ]
+  },
+  {
+    "id": "argentina-auh",
+    "name": "Asignación Universal por Hijo",
+    "acronym": "AUH",
+    "country": "argentina",
+    "yearStart": 2009,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Argentina's universal child allowance providing monthly payments to informal workers' families conditional on school attendance and health requirements.",
+    "summaryLong": "The Asignación Universal por Hijo (Universal Child Allowance) extends Argentina's family allowance system to children of unemployed workers, informal workers, and domestic workers. The program provides monthly payments per child (up to 5 children) conditional on school attendance and vaccination compliance. It covers approximately 4 million children and represents one of the largest social protection programs in Argentina.",
+    "objectives": [
+      "Extend social protection to informal sector workers",
+      "Reduce child poverty and inequality",
+      "Increase school attendance and retention",
+      "Ensure access to health care"
+    ],
+    "mechanisms": "Monthly cash transfer per child (up to 5) to families in informal employment or unemployed. 80% paid monthly, 20% upon proof of school attendance and health compliance. Benefits indexed to inflation.",
+    "coverage": "Approximately 4 million children",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Studies show modest positive effects on school attendance and enrollment, particularly at the secondary level. The program reduced school dropout and improved attendance rates by approximately 1.3 percentage points.",
+    "keyOutcomes": [
+      {
+        "metric": "School attendance",
+        "effect": "+1.3 percentage points",
+        "source": "Edo & Marchionni 2019"
+      },
+      {
+        "metric": "Secondary enrollment",
+        "effect": "Positive effect, especially for poorest quintile",
+        "source": "Bustos & Villafañe 2011"
+      },
+      {
+        "metric": "Child poverty reduction",
+        "effect": "Significant reduction in extreme poverty",
+        "source": "Gasparini & Cruces 2010"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Edo, María & Marchionni, Mariana",
+        "year": 2019,
+        "title": "The Impact of a Conditional Cash Transfer on Education: The Universal Child Allowance in Argentina",
+        "methodology": "difference-in-differences",
+        "journal": "CEDLAS Working Paper",
+        "keyFinding": "AUH increased school attendance by 1.3 percentage points, with larger effects for adolescents."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "ANSES",
+        "year": 2021,
+        "title": "Asignación Universal por Hijo - Informe de Gestión",
+        "source": "Administración Nacional de la Seguridad Social"
+      }
+    ]
+  },
+  {
+    "id": "brazil-mais-educacao",
+    "name": "Mais Educação",
+    "nameLocal": "Programa Mais Educação",
+    "country": "brazil",
+    "yearStart": 2008,
+    "yearEnd": 2017,
+    "isActive": false,
+    "policyTypes": ["extended-day"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Brazil's extended school day program offering supplementary activities in arts, sports, and academic support to vulnerable students in public schools.",
+    "summaryLong": "Mais Educação was a federal program that provided funding for extended school day activities in public schools with high concentrations of students from low-income families. Schools could choose from various activity modules including academic tutoring, arts, sports, environmental education, and human rights. The program aimed to improve learning and provide safe spaces for vulnerable students. It was replaced by Novo Mais Educação in 2017 with a greater focus on literacy and math.",
+    "objectives": [
+      "Extend learning time for vulnerable students",
+      "Improve academic outcomes through supplementary activities",
+      "Provide safe spaces for children during non-school hours",
+      "Promote integral education including arts and sports"
+    ],
+    "mechanisms": "Federal funding to schools for extended day activities. Schools selected activity modules from a menu of options. Activities delivered by community volunteers and monitors. Target schools based on low IDEB scores and high poverty.",
+    "coverage": "Approximately 60,000 schools at peak (2014)",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Rigorous evaluations found no positive effect or even negative effects on standardized test scores. The program may have disrupted regular instruction time. Implementation quality varied significantly across schools.",
+    "keyOutcomes": [
+      {
+        "metric": "Math test scores",
+        "effect": "No effect or negative",
+        "source": "Gandra & Gomes 2018"
+      },
+      {
+        "metric": "Portuguese test scores",
+        "effect": "No effect or negative",
+        "source": "Gandra & Gomes 2018"
+      },
+      {
+        "metric": "School climate",
+        "effect": "Mixed results, some improvement in student engagement",
+        "source": "Leclerc & Moll 2012"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Gandra, Marcelo & Gomes, Cristiano",
+        "year": 2018,
+        "title": "Impact Evaluation of the Mais Educação Program",
+        "methodology": "difference-in-differences",
+        "journal": "IPEA Working Paper",
+        "keyFinding": "No positive effects on test scores; possible negative effects in some specifications."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MEC",
+        "year": 2014,
+        "title": "Manual Operacional de Educação Integral",
+        "source": "Ministério da Educação"
+      }
+    ]
+  },
+  {
+    "id": "mexico-carrera-magisterial",
+    "name": "Carrera Magisterial",
+    "country": "mexico",
+    "yearStart": 1992,
+    "yearEnd": 2015,
+    "isActive": false,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["teachers", "primary", "secondary"],
+    "summaryShort": "Mexico's teacher career ladder program providing salary increases based on a points system incorporating student test scores, professional development, and seniority.",
+    "summaryLong": "Carrera Magisterial was Mexico's main teacher incentive program, allowing teachers to earn salary increases (up to 200% of base salary) by accumulating points across multiple dimensions: student test scores, professional development, seniority, academic degrees, and peer evaluation. The program was negotiated with the powerful teachers' union (SNTE) and became a major component of teacher compensation. It was replaced by the Servicio Profesional Docente in 2013-2015.",
+    "objectives": [
+      "Improve teacher quality and motivation",
+      "Link teacher compensation to performance",
+      "Encourage professional development",
+      "Improve student learning outcomes"
+    ],
+    "mechanisms": "Points-based salary supplement system. Points earned for: student test scores (ENLACE), professional development courses, academic credentials, seniority, peer review. Teachers competed for limited advancement slots. Five salary levels with increasing supplements.",
+    "coverage": "Approximately 800,000 teachers participated",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evaluations found no significant effects on student test scores. Teachers responded to incentives by taking courses and accumulating credentials, but this did not translate to improved student learning. Critics noted gaming of the points system and capture by union interests.",
+    "keyOutcomes": [
+      {
+        "metric": "Student test scores",
+        "effect": "No significant effect",
+        "source": "Santibañez et al. 2007"
+      },
+      {
+        "metric": "Teacher certification",
+        "effect": "Increased credential accumulation",
+        "source": "Vegas & Umansky 2005"
+      },
+      {
+        "metric": "Teacher sorting",
+        "effect": "Some evidence of negative sorting to disadvantaged schools",
+        "source": "Luschei et al. 2013"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Santibañez, Lucrecia et al.",
+        "year": 2007,
+        "title": "Breaking Ground: Analysis of the Assessment System and Impact of Mexico's Carrera Magisterial Program",
+        "methodology": "quasi-experimental",
+        "journal": "RAND Working Paper",
+        "keyFinding": "No significant relationship between participation in Carrera Magisterial and student test score gains."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Vegas, Emiliana & Umansky, Ilana",
+        "year": 2005,
+        "title": "Improving Teaching and Learning through Effective Incentives",
+        "source": "World Bank"
+      }
+    ]
+  },
+  {
+    "id": "chile-ley-inclusion",
+    "name": "Inclusion Law",
+    "nameLocal": "Ley de Inclusión Escolar",
+    "country": "chile",
+    "yearStart": 2015,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["vouchers", "governance"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Chile's education reform ending for-profit schools, eliminating co-payments, and prohibiting selective admissions in subsidized schools to reduce segregation.",
+    "summaryLong": "The Inclusion Law (Ley 20.845) represented a major reform to Chile's market-based education system. The law: (1) ended for-profit status for schools receiving public subsidies, (2) gradually eliminated parental co-payments (copago), and (3) prohibited selective admissions in publicly funded schools. A new centralized lottery system (SAE) was introduced for admissions. The reform aimed to address decades of increasing socioeconomic segregation in Chilean schools.",
+    "objectives": [
+      "Reduce socioeconomic segregation in schools",
+      "Ensure free education in publicly funded schools",
+      "End for-profit incentives in education",
+      "Create fair and transparent admissions processes"
+    ],
+    "mechanisms": "Prohibition of for-profit schools receiving subsidies (transition period). Gradual elimination of parental co-payments with compensating subsidies. Centralized admissions lottery (SAE) replacing school selection. Increased preferential subsidies for low-income students.",
+    "coverage": "All subsidized schools (approximately 90% of students)",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Early evidence suggests the reform has begun to reduce quality gaps between students from different socioeconomic backgrounds. The gap in school quality between poor and non-poor students decreased by 16%. Full effects will take time to materialize as the reform continues implementation.",
+    "keyOutcomes": [
+      {
+        "metric": "Quality gap (poor vs. non-poor)",
+        "effect": "-16% reduction",
+        "source": "Neilson 2021"
+      },
+      {
+        "metric": "Socioeconomic segregation",
+        "effect": "Early signs of reduction",
+        "source": "Valenzuela & Montecinos 2017"
+      },
+      {
+        "metric": "Private school enrollment",
+        "effect": "Stable, some conversion to non-profit",
+        "source": "MINEDUC 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Neilson, Christopher",
+        "year": 2021,
+        "title": "Targeted Vouchers, Competition Among Schools, and the Academic Achievement of Poor Students",
+        "methodology": "regression-discontinuity",
+        "journal": "Working Paper",
+        "keyFinding": "The reform reduced the gap in school quality attending by poor vs. non-poor students by 16%."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Bellei, Cristián & Muñoz, Gonzalo",
+        "year": 2021,
+        "title": "Models of regulation, education policies, and changes in the education system: a long-term analysis of the Chilean case",
+        "source": "Journal of Educational Change"
+      }
+    ]
+  },
+  {
+    "id": "colombia-tutoring",
+    "name": "Literacy Tutoring Program",
+    "nameLocal": "Programa de Tutores de Lectura",
+    "country": "colombia",
+    "yearStart": 2010,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["tutoring"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "High-dosage tutoring program in Colombia providing one-on-one literacy instruction to struggling early-grade readers with persistent positive effects.",
+    "summaryLong": "This structured tutoring program provides intensive one-on-one literacy instruction to first and second-grade students struggling with reading. Trained tutors work with students for 30 minutes daily, following a structured curriculum. The program has been rigorously evaluated through multiple RCTs and has shown persistent positive effects on both literacy and math outcomes, even years after the intervention ended.",
+    "objectives": [
+      "Improve foundational literacy skills",
+      "Prevent reading failure in early grades",
+      "Reduce educational inequality",
+      "Provide cost-effective remediation"
+    ],
+    "mechanisms": "One-on-one tutoring sessions (30 minutes daily) with trained tutors. Structured curriculum focusing on phonemic awareness, decoding, and comprehension. Targeting students identified as struggling readers through assessments.",
+    "coverage": "Multiple school districts in Colombia",
+    "evidenceQuality": "high",
+    "impactSummary": "RCT evidence shows significant and persistent effects on literacy and numeracy. Effects on reading persist at 0.27 standard deviations one year after the intervention. Notably, the program also improved math achievement despite not directly targeting it.",
+    "keyOutcomes": [
+      {
+        "metric": "Reading achievement",
+        "effect": "+0.27 SD (persistent)",
+        "source": "Banerjee et al. 2007"
+      },
+      {
+        "metric": "Math achievement",
+        "effect": "Positive spillover effects",
+        "source": "Borman et al. 2020"
+      },
+      {
+        "metric": "Grade repetition",
+        "effect": "Reduced likelihood",
+        "source": "Borman et al. 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Borman, Geoffrey et al.",
+        "year": 2020,
+        "title": "Literacy Tutoring Programs: Replication and Persistence of Effects",
+        "methodology": "rct",
+        "journal": "Educational Researcher",
+        "keyFinding": "Tutoring effects persist and even grow over time, with spillover effects to untargeted subjects."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "J-PAL",
+        "year": 2019,
+        "title": "Tutoring Policy Insights",
+        "source": "Abdul Latif Jameel Poverty Action Lab"
+      }
+    ]
+  },
+  {
+    "id": "chile-gratuidad",
+    "name": "Gratuidad (Free Tuition)",
+    "country": "chile",
+    "yearStart": 2016,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income"],
+    "summaryShort": "Chile's policy providing free higher education tuition for students from the lowest 60% of household income, covering accredited universities and technical institutes.",
+    "summaryLong": "Gratuidad is Chile's policy of free tuition for higher education, implemented in 2016. Students from households in the lowest 60% of income distribution attending accredited institutions receive full tuition coverage from the government. The policy built on earlier student aid expansions and responded to massive student protests demanding free education. By 2023, the policy covered approximately 38% of total enrollment.",
+    "objectives": [
+      "Ensure access to higher education regardless of ability to pay",
+      "Reduce student debt burden",
+      "Expand higher education participation",
+      "Reduce inequality in access to quality institutions"
+    ],
+    "mechanisms": "Government pays tuition directly to accredited institutions for eligible students. Eligibility based on household income (bottom 60%). Students must maintain satisfactory academic progress. Institutions must meet accreditation and other requirements to participate.",
+    "coverage": "Approximately 38% of higher education enrollment (400,000+ students)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Early evidence suggests the policy has not significantly increased overall enrollment but has shifted enrollment patterns toward higher-quality institutions. The policy may have benefited students who would have enrolled anyway by reducing their debt burden rather than expanding access to new students.",
+    "keyOutcomes": [
+      {
+        "metric": "Overall enrollment",
+        "effect": "No significant increase",
+        "source": "Bucarey et al. 2020"
+      },
+      {
+        "metric": "Enrollment in quality institutions",
+        "effect": "Some positive reallocation",
+        "source": "MINEDUC 2020"
+      },
+      {
+        "metric": "Student debt",
+        "effect": "Reduced for covered students",
+        "source": "MINEDUC 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Bucarey, Alonso et al.",
+        "year": 2020,
+        "title": "The Effects of Free Tuition on College Enrollment and Completion",
+        "methodology": "difference-in-differences",
+        "journal": "Working Paper",
+        "keyFinding": "Free tuition did not significantly increase enrollment but shifted students toward better institutions."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MINEDUC",
+        "year": 2020,
+        "title": "Balance de Gratuidad en Educación Superior",
+        "source": "Ministerio de Educación de Chile"
+      }
+    ]
+  },
+  {
+    "id": "ecuador-bono-desarrollo-humano",
+    "name": "Bono de Desarrollo Humano",
+    "acronym": "BDH",
+    "country": "ecuador",
+    "yearStart": 1998,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Ecuador's conditional cash transfer providing monthly payments to poor families, with impacts on cognitive development and school enrollment.",
+    "summaryLong": "The Bono de Desarrollo Humano began in 1998 as an unconditional transfer (Bono Solidario) and was transformed into a conditional cash transfer in 2003. The program provides monthly payments to families in the two lowest income quintiles, conditional on children's school enrollment and health check-ups. Studies have found positive effects on cognitive development among the poorest beneficiaries.",
+    "objectives": [
+      "Reduce poverty and extreme poverty",
+      "Increase human capital investment",
+      "Improve child development outcomes",
+      "Ensure basic consumption levels"
+    ],
+    "mechanisms": "Monthly cash transfers to eligible households. Conditionalities include school enrollment and health visits. Targeting through proxy means testing. Benefits adjusted periodically for inflation.",
+    "coverage": "Over 1.2 million households",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Research shows positive effects on cognitive development, particularly for the poorest children. School enrollment effects are positive but modest. The program has been effective at reducing poverty and improving consumption.",
+    "keyOutcomes": [
+      {
+        "metric": "Cognitive development",
+        "effect": "Improved for poorest quintile children",
+        "source": "Paxson & Schady 2010"
+      },
+      {
+        "metric": "School enrollment",
+        "effect": "Modest positive effects",
+        "source": "Schady & Araujo 2008"
+      },
+      {
+        "metric": "Consumption",
+        "effect": "Increased, particularly food consumption",
+        "source": "Ponce & Bedi 2010"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Paxson, Christina & Schady, Norbert",
+        "year": 2010,
+        "title": "Does Money Matter? The Effects of Cash Transfers on Child Development in Rural Ecuador",
+        "methodology": "rct",
+        "journal": "Economic Development and Cultural Change",
+        "doi": "10.1086/655458",
+        "keyFinding": "Cash transfers improved cognitive development among the poorest children, with effects of 0.18 SD on vocabulary."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MIES",
+        "year": 2020,
+        "title": "Bono de Desarrollo Humano - Informe Anual",
+        "source": "Ministerio de Inclusión Económica y Social"
+      }
+    ]
+  },
+  {
+    "id": "honduras-bono-10000",
+    "name": "Bono 10,000 / Bono Vida Mejor",
+    "country": "honduras",
+    "yearStart": 2010,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "Honduras's conditional cash transfer providing $10,000 Lempiras annually to extremely poor rural families conditional on school attendance and health compliance.",
+    "summaryLong": "Bono 10,000 (now Bono Vida Mejor) is Honduras's flagship conditional cash transfer program, providing approximately $400 annually to extremely poor households. The program targets rural areas with high poverty rates and conditions transfers on children's school attendance (minimum 80%) and regular health check-ups. Evaluations show significant impacts on school enrollment and child labor reduction.",
+    "objectives": [
+      "Reduce extreme poverty in rural areas",
+      "Increase school enrollment and attendance",
+      "Reduce child labor",
+      "Improve health outcomes"
+    ],
+    "mechanisms": "Annual transfer of 10,000 Lempiras (approximately $400) paid in installments. Conditionalities include 80% school attendance and health check-ups. Targeting extremely poor households in rural areas through proxy means testing.",
+    "coverage": "Approximately 350,000 households",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evaluations found significant positive effects on school enrollment (+12%) and substantial reductions in child labor (-30%). The program has been particularly effective at reaching remote rural communities.",
+    "keyOutcomes": [
+      {
+        "metric": "School enrollment",
+        "effect": "+12%",
+        "source": "Galiani & McEwan 2013"
+      },
+      {
+        "metric": "Child labor",
+        "effect": "-30%",
+        "source": "Galiani & McEwan 2013"
+      },
+      {
+        "metric": "School attendance",
+        "effect": "Significant improvement",
+        "source": "World Bank 2015"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Galiani, Sebastian & McEwan, Patrick",
+        "year": 2013,
+        "title": "The heterogeneous impact of conditional cash transfers",
+        "methodology": "rct",
+        "journal": "Journal of Public Economics",
+        "doi": "10.1016/j.jpubeco.2013.01.006",
+        "keyFinding": "The program increased enrollment by 12 percentage points and reduced child labor by 30%."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "SEDIS",
+        "year": 2019,
+        "title": "Bono Vida Mejor - Informe de Gestión",
+        "source": "Secretaría de Desarrollo e Inclusión Social"
+      }
+    ]
+  },
+  {
+    "id": "brazil-ceara-literacy",
+    "name": "Ceará Literacy Program",
+    "nameLocal": "Programa Alfabetização na Idade Certa",
+    "acronym": "PAIC",
+    "country": "brazil",
+    "yearStart": 2007,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["tutoring", "teacher-reform", "governance"],
+    "affectedPopulations": ["primary", "teachers"],
+    "summaryShort": "Ceará state's comprehensive literacy program combining structured materials, teacher training, and municipal incentives that dramatically improved early-grade reading.",
+    "summaryLong": "PAIC is a comprehensive literacy program implemented by the state of Ceará in northeastern Brazil. The program combines structured pedagogical materials, intensive teacher training, regular student assessments, and strong incentives for municipalities through a results-based allocation of state transfers (ICMS). Ceará transformed from below-average to among Brazil's top-performing states in early literacy, despite being one of the poorest.",
+    "objectives": [
+      "Ensure all children are literate by end of 2nd grade",
+      "Improve educational quality in early grades",
+      "Reduce learning inequalities between municipalities",
+      "Build municipal capacity for education management"
+    ],
+    "mechanisms": "Structured literacy curriculum and materials. Intensive teacher training and coaching. Regular diagnostic assessments. Strong accountability system with public reporting. Results-based fiscal transfers incentivizing municipal performance. Technical support for municipal education secretariats.",
+    "coverage": "All 184 municipalities in Ceará state (approximately 1.5 million students)",
+    "evidenceQuality": "high",
+    "impactSummary": "Ceará's literacy rates improved dramatically, with the state moving from below to above the national average. Studies attribute improvements to the combination of structured pedagogy, teacher support, and strong municipal incentives. The program has been replicated in other Brazilian states.",
+    "keyOutcomes": [
+      {
+        "metric": "Literacy rate (2nd grade)",
+        "effect": "Increased from 48% to 78% adequate literacy",
+        "source": "Loureiro et al. 2020"
+      },
+      {
+        "metric": "IDEB scores",
+        "effect": "Ceará ranks among top states despite poverty",
+        "source": "INEP 2019"
+      },
+      {
+        "metric": "Learning inequality",
+        "effect": "Reduced gaps between municipalities",
+        "source": "Cruz & Loureiro 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Loureiro, Andre et al.",
+        "year": 2020,
+        "title": "The Effects of a Statewide Literacy Reform on School District Management and Student Outcomes",
+        "methodology": "difference-in-differences",
+        "journal": "World Bank Policy Research Working Paper",
+        "keyFinding": "PAIC improved literacy outcomes by 0.3 SD and effects were sustained over time."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Seduc Ceará",
+        "year": 2020,
+        "title": "PAIC - Programa Alfabetização na Idade Certa",
+        "source": "Secretaria da Educação do Estado do Ceará"
+      }
+    ]
+  },
+  {
+    "id": "el-salvador-remote-tutoring",
+    "name": "Remote Tutoring Program",
+    "country": "el-salvador",
+    "yearStart": 2020,
+    "yearEnd": 2021,
+    "isActive": false,
+    "policyTypes": ["tutoring", "digital-inclusion"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "Low-cost phone-based tutoring intervention during COVID-19 school closures showing significant math learning gains through weekly calls.",
+    "summaryLong": "During COVID-19 school closures in El Salvador, researchers implemented a low-cost remote tutoring program using basic phone calls. Trained tutors made weekly 15-minute calls to students (or their caregivers) to guide them through grade-appropriate math problems. The intervention demonstrated that simple, scalable approaches can produce meaningful learning gains even without internet access or smartphones.",
+    "objectives": [
+      "Mitigate learning loss during school closures",
+      "Provide accessible remote support for disadvantaged students",
+      "Test cost-effective tutoring delivery models",
+      "Support continued learning without internet access"
+    ],
+    "mechanisms": "Weekly 15-minute phone calls from trained tutors. Tutors guide students through math problems from workbooks. Low-tech approach requiring only basic phone access. Tutors also provide encouragement and accountability.",
+    "coverage": "Study sample in selected schools",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The RCT found significant positive effects on math learning (+0.24 SD) with a highly cost-effective delivery model. The intervention was particularly effective for students with lower baseline achievement. The study demonstrates potential for low-tech tutoring at scale.",
+    "keyOutcomes": [
+      {
+        "metric": "Math learning",
+        "effect": "+0.24 standard deviations",
+        "source": "Angrist et al. 2022"
+      },
+      {
+        "metric": "Cost-effectiveness",
+        "effect": "Highly cost-effective ($10-20 per student)",
+        "source": "Angrist et al. 2022"
+      },
+      {
+        "metric": "Engagement",
+        "effect": "High participation rates",
+        "source": "Angrist et al. 2022"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Angrist, Noam et al.",
+        "year": 2022,
+        "title": "Building Resilient Education Systems: Evidence from Large-Scale Randomized Trials in Five Countries",
+        "methodology": "rct",
+        "journal": "NBER Working Paper",
+        "keyFinding": "Phone-based tutoring improved math scores by 0.24 SD at very low cost, demonstrating scalable remote learning solutions."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2021,
+        "title": "Acting Now to Protect the Human Capital of Our Children",
+        "source": "World Bank COVID-19 Response"
+      }
+    ]
+  },
+  {
+    "id": "mexico-intercultural-bilingual",
+    "name": "Intercultural Bilingual Education",
+    "nameLocal": "Educación Intercultural Bilingüe",
+    "country": "mexico",
+    "yearStart": 1992,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["indigenous-ed", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "indigenous"],
+    "summaryShort": "Mexico's constitutional framework and programs providing education in indigenous languages alongside Spanish to preserve cultural heritage and improve indigenous education outcomes.",
+    "summaryLong": "Mexico's Intercultural Bilingual Education (EIB) policy provides instruction in 68 indigenous languages alongside Spanish in schools serving indigenous communities. Rooted in constitutional reforms recognizing Mexico as a pluricultural nation, the policy aims to preserve indigenous languages and cultures while ensuring indigenous children gain Spanish proficiency. Implementation has been uneven, with significant challenges in teacher preparation and material development.",
+    "objectives": [
+      "Preserve and revitalize indigenous languages",
+      "Provide culturally relevant education for indigenous children",
+      "Improve educational outcomes for indigenous populations",
+      "Promote intercultural understanding"
+    ],
+    "mechanisms": "Bilingual instruction in indigenous language and Spanish. Development of curriculum materials in indigenous languages. Training of bilingual indigenous teachers. Indigenous education subsystem within SEP (DGEI).",
+    "coverage": "Approximately 1.2 million indigenous students",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evidence on effectiveness is mixed. When well-implemented, bilingual education can improve learning outcomes for indigenous children. However, implementation challenges including teacher shortages and inadequate materials have limited impact in many areas. Indigenous students continue to have lower educational outcomes than the national average.",
+    "keyOutcomes": [
+      {
+        "metric": "Language preservation",
+        "effect": "Varied by region and language",
+        "source": "Hamel 2008"
+      },
+      {
+        "metric": "Educational attainment",
+        "effect": "Gap with non-indigenous students persists",
+        "source": "INEE 2018"
+      },
+      {
+        "metric": "Learning outcomes",
+        "effect": "Improved when well-implemented",
+        "source": "Patrinos & Velez 2009"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Patrinos, Harry & Velez, Eduardo",
+        "year": 2009,
+        "title": "Indigenous Peoples, Poverty, and Human Development in Latin America",
+        "methodology": "descriptive",
+        "journal": "Palgrave Macmillan",
+        "keyFinding": "Bilingual education shows positive effects when implemented with adequate resources and trained teachers."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "INEE",
+        "year": 2018,
+        "title": "La Educación Obligatoria en México: Informe 2018",
+        "source": "Instituto Nacional para la Evaluación de la Educación"
+      }
+    ]
+  },
+  {
+    "id": "peru-qali-warma",
+    "name": "Qali Warma",
+    "country": "peru",
+    "yearStart": 2012,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["school-feeding"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Peru's national school feeding program providing free breakfast to public school students, with a focus on local food sourcing and nutritional quality.",
+    "summaryLong": "Qali Warma (meaning 'healthy child' in Quechua) is Peru's national school feeding program, launched in 2012 to replace the previous Programa Nacional de Asistencia Alimentaria (PRONAA). The program provides free school meals to approximately 4.1 million students in public preschools and primary schools. It emphasizes local food sourcing, nutritional adequacy, and community involvement in meal preparation and oversight.",
+    "objectives": [
+      "Ensure food security for school-age children",
+      "Improve nutritional status and cognitive function",
+      "Support school attendance",
+      "Promote local food systems"
+    ],
+    "mechanisms": "Provision of school breakfast (and lunch in some areas) to all public school students up to primary level. Food procurement emphasizes local suppliers. School feeding committees oversee quality and delivery. Menus designed to meet nutritional requirements.",
+    "coverage": "4.1 million students across Peru",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Studies show short-term cognitive benefits during school hours but limited long-term effects on academic achievement. Implementation quality varies across regions. Challenges with food quality and storage have been documented.",
+    "keyOutcomes": [
+      {
+        "metric": "Short-term cognition",
+        "effect": "Positive during school hours",
+        "source": "Gajate-Garrido & Ahuja 2015"
+      },
+      {
+        "metric": "Test scores",
+        "effect": "Limited long-term effects",
+        "source": "Bos et al. 2022"
+      },
+      {
+        "metric": "Attendance",
+        "effect": "Modest positive association",
+        "source": "MIDIS 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Gajate-Garrido, Gissele & Ahuja, Amrita",
+        "year": 2015,
+        "title": "Qali Warma: Impact Evaluation of Peru's School Feeding Program",
+        "methodology": "quasi-experimental",
+        "journal": "Working Paper",
+        "keyFinding": "Positive effects on short-term cognitive function but no clear effects on learning outcomes."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MIDIS",
+        "year": 2020,
+        "title": "Qali Warma: Memoria Institucional",
+        "source": "Ministerio de Desarrollo e Inclusión Social"
+      }
+    ]
+  },
+  {
+    "id": "colombia-de-cero-a-siempre",
+    "name": "De Cero a Siempre",
+    "country": "colombia",
+    "yearStart": 2011,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["early-childhood"],
+    "affectedPopulations": ["early-childhood", "low-income"],
+    "summaryShort": "Colombia's national early childhood development policy providing comprehensive services for children from birth to age 5, with focus on most vulnerable populations.",
+    "summaryLong": "De Cero a Siempre (From Zero to Forever) is Colombia's comprehensive national policy for early childhood development, established as state policy through Law 1804 in 2016. The policy coordinates multiple sectors (health, education, culture, social protection) to ensure comprehensive attention to children from pregnancy through age 5, with priority for children in vulnerable situations. Services include health care, nutrition, early stimulation, and preschool education.",
+    "objectives": [
+      "Ensure comprehensive early childhood development",
+      "Coordinate multi-sectoral services for young children",
+      "Reduce inequalities in early childhood outcomes",
+      "Support families in child-rearing"
+    ],
+    "mechanisms": "Integration of health, nutrition, education, and protection services. Child development centers (CDI) providing comprehensive care. Home visit programs for vulnerable families. Coordination across government agencies. Priority targeting of vulnerable children.",
+    "coverage": "Over 1.5 million children in comprehensive care",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Evaluations show positive effects on child development indicators, particularly for children in center-based care. Implementation quality varies across regions. The policy has improved coordination across sectors and increased coverage of early childhood services.",
+    "keyOutcomes": [
+      {
+        "metric": "Child development",
+        "effect": "Positive effects on cognitive and socio-emotional indicators",
+        "source": "Bernal 2015"
+      },
+      {
+        "metric": "Service coverage",
+        "effect": "Significant expansion of comprehensive care",
+        "source": "ICBF 2019"
+      },
+      {
+        "metric": "Sector coordination",
+        "effect": "Improved cross-sector planning",
+        "source": "DNP 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Bernal, Raquel",
+        "year": 2015,
+        "title": "The Impact of Early Childhood Development Programs on Child Development in Colombia",
+        "methodology": "quasi-experimental",
+        "journal": "Working Paper",
+        "keyFinding": "Center-based programs show positive effects on language and cognitive development."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Presidencia de Colombia",
+        "year": 2016,
+        "title": "Ley 1804 de 2016 - Política de Estado para el Desarrollo Integral de la Primera Infancia",
+        "source": "Congreso de Colombia"
+      }
+    ]
+  },
+  {
+    "id": "argentina-conectar-igualdad",
+    "name": "Conectar Igualdad",
+    "country": "argentina",
+    "yearStart": 2010,
+    "yearEnd": 2015,
+    "isActive": false,
+    "policyTypes": ["digital-inclusion"],
+    "affectedPopulations": ["secondary", "teachers"],
+    "summaryShort": "Argentina's one-laptop-per-child program distributing over 5 million netbooks to secondary students and teachers in public schools.",
+    "summaryLong": "Conectar Igualdad was Argentina's large-scale digital inclusion program that distributed netbooks to all students and teachers in public secondary schools, special education schools, and teacher training institutes. Launched in 2010, the program distributed over 5 million devices by 2015. The program also included teacher training, digital content development, and infrastructure improvements for connectivity.",
+    "objectives": [
+      "Reduce the digital divide between public and private school students",
+      "Integrate technology into teaching and learning",
+      "Improve educational quality through digital tools",
+      "Develop 21st century skills"
+    ],
+    "mechanisms": "Distribution of netbooks to all secondary students and teachers in public schools. Teacher training in technology integration. Development of digital educational content. Investment in school connectivity infrastructure.",
+    "coverage": "Over 5 million netbooks distributed (2010-2015)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The program successfully increased access to technology and reduced the digital divide. However, evidence on effects on learning outcomes is limited. Integration of devices into classroom instruction was uneven, with many teachers struggling to effectively use the technology pedagogically.",
+    "keyOutcomes": [
+      {
+        "metric": "Computer access",
+        "effect": "Significant increase, especially for low-income students",
+        "source": "Alderete & Formichella 2016"
+      },
+      {
+        "metric": "Learning outcomes",
+        "effect": "Limited evidence of effects on test scores",
+        "source": "Benítez Larghi et al. 2015"
+      },
+      {
+        "metric": "Classroom integration",
+        "effect": "Mixed, varying by teacher capacity",
+        "source": "Vacchieri 2013"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Alderete, María Verónica & Formichella, María Marta",
+        "year": 2016,
+        "title": "Efecto de las TIC en el rendimiento educativo",
+        "methodology": "quasi-experimental",
+        "journal": "CEPAL Review",
+        "keyFinding": "Program increased technology access but effects on academic achievement were not clearly demonstrated."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Vacchieri, Ariana",
+        "year": 2013,
+        "title": "Estado del arte sobre la gestión de las políticas de integración de computadoras y dispositivos móviles en los sistemas educativos",
+        "source": "UNICEF Argentina"
+      }
+    ]
+  },
+  {
+    "id": "el-salvador-comunidades-solidarias",
+    "name": "Comunidades Solidarias",
+    "country": "el-salvador",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "El Salvador's conditional cash transfer program providing incentives for education and health, with evidence showing significant effects when children are exposed from birth.",
+    "summaryLong": "Comunidades Solidarias (formerly Red Solidaria) is El Salvador's conditional cash transfer program targeting extremely poor rural and urban households. The program provides monthly cash transfers conditional on children's school attendance and regular health check-ups. Research has shown particularly strong effects on school entry when children are exposed to the program from birth.",
+    "objectives": [
+      "Reduce extreme poverty",
+      "Increase school enrollment and attendance",
+      "Improve health and nutrition outcomes",
+      "Break the intergenerational poverty cycle"
+    ],
+    "mechanisms": "Monthly cash transfers to eligible households. Conditionalities include school attendance and health visits. Geographic targeting of poorest communities. Both rural and urban components.",
+    "coverage": "Approximately 150,000 households",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Studies show positive effects on school enrollment, with particularly strong impacts (+8 percentage points) when children are exposed from birth. The program has also improved health service utilization and nutritional outcomes.",
+    "keyOutcomes": [
+      {
+        "metric": "School entry (CCT from birth)",
+        "effect": "+8 percentage points",
+        "source": "Barham et al. 2018"
+      },
+      {
+        "metric": "Health visits",
+        "effect": "Increased utilization",
+        "source": "de Brauw & Peterman 2011"
+      },
+      {
+        "metric": "Nutrition",
+        "effect": "Improved dietary diversity",
+        "source": "de Brauw & Peterman 2011"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Barham, Tania et al.",
+        "year": 2018,
+        "title": "Long-Term Effects of Conditional Cash Transfers: Evidence from a Randomized Experiment in Central America",
+        "methodology": "rct",
+        "journal": "Economica",
+        "keyFinding": "Children exposed to CCT from birth had 8 percentage point higher school entry rates."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "FISDL",
+        "year": 2019,
+        "title": "Comunidades Solidarias - Informe de Gestión",
+        "source": "Fondo de Inversión Social para el Desarrollo Local"
+      }
+    ]
+  },
+  {
+    "id": "dominican-republic-progresando",
+    "name": "Progresando con Solidaridad",
+    "acronym": "PROSOLI",
+    "country": "dominican-republic",
+    "yearStart": 2012,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Dominican Republic's integrated social protection program combining cash transfers with socioeconomic accompaniment services to promote human capital development.",
+    "summaryLong": "Progresando con Solidaridad (PROSOLI) is the Dominican Republic's main social protection program, created in 2012 by merging the conditional cash transfer program Solidaridad with the Progresando accompaniment program. Beyond cash transfers, PROSOLI provides socioeconomic support services including financial literacy, health promotion, and employment support. The program reaches approximately 900,000 households.",
+    "objectives": [
+      "Reduce poverty and extreme poverty",
+      "Promote human capital development",
+      "Provide comprehensive social support services",
+      "Enable graduation from poverty"
+    ],
+    "mechanisms": "Monthly cash transfers conditional on education and health requirements. Socioeconomic accompaniment through family promoters. Links to complementary social services. SIUBEN targeting system for eligibility.",
+    "coverage": "Approximately 900,000 households",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The program has expanded coverage significantly and linked cash transfers with support services. Evidence on educational impacts is emerging, with the school attendance conditionality expected to affect enrollment and retention.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "Reached 900,000+ households",
+        "source": "PROSOLI 2020"
+      },
+      {
+        "metric": "Poverty reduction",
+        "effect": "Contributed to declining poverty rates",
+        "source": "World Bank 2018"
+      },
+      {
+        "metric": "School attendance",
+        "effect": "Required for transfer receipt",
+        "source": "PROSOLI 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "World Bank",
+        "year": 2018,
+        "title": "Dominican Republic Social Protection Assessment",
+        "methodology": "descriptive",
+        "journal": "World Bank Report",
+        "keyFinding": "PROSOLI has expanded social protection coverage and improved targeting of the poor."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "PROSOLI",
+        "year": 2020,
+        "title": "Memoria Institucional 2020",
+        "source": "Progresando con Solidaridad"
+      }
+    ]
+  },
+  {
+    "id": "colombia-jornada-unica",
+    "name": "Jornada Única",
+    "country": "colombia",
+    "yearStart": 2014,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["extended-day"],
+    "affectedPopulations": ["primary", "secondary"],
+    "summaryShort": "Colombia's extended school day program expanding instructional time from 5 to 8 hours, with early evidence suggesting reduced dropout rates.",
+    "summaryLong": "Jornada Única is Colombia's policy to extend the school day from approximately 5-6 hours to 8 hours in public schools. Launched in 2014 as part of broader education quality reforms, the policy requires significant infrastructure investment to transition schools from multiple shifts to single full-day operation. Implementation has been gradual, prioritizing schools in disadvantaged areas.",
+    "objectives": [
+      "Increase instructional time",
+      "Improve educational quality",
+      "Reduce dropout rates",
+      "Provide safe spaces for students"
+    ],
+    "mechanisms": "Extension of school day from 5-6 hours to 8 hours. Infrastructure investment for single-shift operation. Additional teaching resources and materials. School meal provision for full-day students.",
+    "coverage": "Approximately 15% of public schools (target: full coverage)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Early evidence suggests lower dropout rates in schools implementing Jornada Única. Full implementation faces infrastructure constraints. Effects on learning outcomes are still being evaluated as the program expands.",
+    "keyOutcomes": [
+      {
+        "metric": "Dropout rates",
+        "effect": "Lower in participating schools",
+        "source": "MEN 2019"
+      },
+      {
+        "metric": "Instructional time",
+        "effect": "Increased by 2-3 hours daily",
+        "source": "MEN 2019"
+      },
+      {
+        "metric": "Coverage",
+        "effect": "15% of schools, expanding gradually",
+        "source": "MEN 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Ministerio de Educación Nacional",
+        "year": 2019,
+        "title": "Evaluación de Jornada Única",
+        "methodology": "descriptive",
+        "journal": "MEN Report",
+        "keyFinding": "Schools implementing Jornada Única show lower dropout rates and improved school climate."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MEN",
+        "year": 2020,
+        "title": "Plan de Implementación de la Jornada Única",
+        "source": "Ministerio de Educación Nacional de Colombia"
+      }
+    ]
+  },
+  {
+    "id": "peru-educacion-intercultural",
+    "name": "Educación Intercultural Bilingüe",
+    "acronym": "EIB",
+    "country": "peru",
+    "yearStart": 1993,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["indigenous-ed", "teacher-reform"],
+    "affectedPopulations": ["primary", "secondary", "indigenous", "rural"],
+    "summaryShort": "Peru's intercultural bilingual education policy serving indigenous communities in 47 languages, with teacher training through PROEIB Andes.",
+    "summaryLong": "Peru's Intercultural Bilingual Education (EIB) policy provides education in 47 indigenous languages alongside Spanish to children in indigenous communities. The policy emphasizes culturally relevant pedagogy and has developed curriculum materials in multiple languages. Teacher training is supported through programs like PROEIB Andes (Programa de Formación en Educación Intercultural Bilingüe para los Países Andinos).",
+    "objectives": [
+      "Provide quality education in indigenous languages",
+      "Preserve and value indigenous cultures and languages",
+      "Achieve Spanish proficiency alongside native language",
+      "Improve educational outcomes for indigenous children"
+    ],
+    "mechanisms": "Instruction in indigenous language (L1) and Spanish (L2). Development of curriculum and materials in indigenous languages. Training of bilingual indigenous teachers through PROEIB Andes and national programs. Community participation in education planning.",
+    "coverage": "Approximately 26,000 schools designated as EIB",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The policy has expanded coverage of bilingual education and developed materials in numerous languages. Teacher training programs have improved capacity. However, quality of implementation varies significantly, and learning gaps between indigenous and non-indigenous students persist.",
+    "keyOutcomes": [
+      {
+        "metric": "Language coverage",
+        "effect": "Materials and instruction in 47 languages",
+        "source": "MINEDU 2020"
+      },
+      {
+        "metric": "Teacher training",
+        "effect": "Thousands trained through PROEIB Andes",
+        "source": "López 2009"
+      },
+      {
+        "metric": "Learning outcomes",
+        "effect": "Gap with non-indigenous students persists",
+        "source": "UMC 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "López, Luis Enrique",
+        "year": 2009,
+        "title": "Reaching the Unreached: Indigenous Intercultural Bilingual Education in Latin America",
+        "methodology": "qualitative",
+        "journal": "UNESCO Paper",
+        "keyFinding": "Peru's EIB policy has expanded access but implementation quality remains a challenge."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MINEDU",
+        "year": 2020,
+        "title": "Política Sectorial de Educación Intercultural Bilingüe",
+        "source": "Ministerio de Educación del Perú"
+      }
+    ]
+  },
+  {
+    "id": "colombia-pae",
+    "name": "Programa de Alimentación Escolar",
+    "acronym": "PAE",
+    "country": "colombia",
+    "yearStart": 1941,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["school-feeding"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Colombia's national school feeding program, one of Latin America's oldest, providing meals to millions of students with decentralized implementation.",
+    "summaryLong": "Colombia's School Feeding Program (PAE) is one of the oldest in Latin America, dating back to 1941. The program provides school meals to students in public schools, with implementation managed at the departmental and municipal level. Coverage has expanded significantly in recent decades, though challenges with implementation quality, food safety, and corruption have affected the program.",
+    "objectives": [
+      "Ensure food security for school-age children",
+      "Support school attendance and retention",
+      "Improve nutritional status",
+      "Reduce educational inequality"
+    ],
+    "mechanisms": "School meal provision managed by departments and municipalities. National guidelines on nutritional requirements. Mix of direct provision and contracted operators. Targeting prioritizes poorest areas and most vulnerable students.",
+    "coverage": "Over 5 million students",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The program has expanded coverage significantly but faces implementation challenges. Corruption scandals and quality issues have affected the program in some areas. Rigorous impact evaluations are limited.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "Over 5 million students reached",
+        "source": "MEN 2020"
+      },
+      {
+        "metric": "Nutritional standards",
+        "effect": "National guidelines established",
+        "source": "MEN 2020"
+      },
+      {
+        "metric": "Implementation challenges",
+        "effect": "Quality varies significantly by region",
+        "source": "CGR 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Contraloría General de la República",
+        "year": 2019,
+        "title": "Auditoría al Programa de Alimentación Escolar",
+        "methodology": "descriptive",
+        "journal": "CGR Report",
+        "keyFinding": "Implementation quality varies significantly across departments, with challenges in oversight and quality control."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MEN",
+        "year": 2020,
+        "title": "Lineamientos Técnicos del Programa de Alimentación Escolar",
+        "source": "Ministerio de Educación Nacional"
+      }
+    ]
+  },
+  {
+    "id": "chile-teacher-evaluation",
+    "name": "Teacher Performance Evaluation",
+    "nameLocal": "Evaluación del Desempeño Profesional Docente",
+    "country": "chile",
+    "yearStart": 2004,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["teachers", "primary", "secondary"],
+    "summaryShort": "Chile's comprehensive teacher evaluation system using portfolios, peer assessment, and self-evaluation to inform professional development and career advancement.",
+    "summaryLong": "Chile's Teacher Performance Evaluation system assesses public school teachers through multiple instruments: portfolio with lesson plans and video recordings, peer evaluation, supervisor assessment, and self-evaluation. Results classify teachers into four performance levels and inform career advancement opportunities and professional development needs. The system has evolved over time and is connected to the teacher career ladder (Carrera Docente).",
+    "objectives": [
+      "Provide formative feedback to teachers",
+      "Identify professional development needs",
+      "Inform career advancement decisions",
+      "Improve overall teaching quality"
+    ],
+    "mechanisms": "Multi-instrument evaluation including portfolio, peer assessment, supervisor evaluation, and self-assessment. Four-level performance classification (Distinguished, Competent, Basic, Unsatisfactory). Links to professional development and career advancement. Mandatory for public school teachers.",
+    "coverage": "All public school teachers (approximately 180,000)",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The evaluation system provides systematic feedback and identifies teachers needing support. Research shows correlation between evaluation results and student outcomes. The system has been criticized for heavy documentation burden and limited support for struggling teachers.",
+    "keyOutcomes": [
+      {
+        "metric": "Evaluation coverage",
+        "effect": "Near-universal among public school teachers",
+        "source": "CPEIP 2020"
+      },
+      {
+        "metric": "Correlation with student outcomes",
+        "effect": "Evaluation results predict student achievement",
+        "source": "Taut et al. 2016"
+      },
+      {
+        "metric": "Teacher dismissal",
+        "effect": "Rare, most struggling teachers receive support",
+        "source": "MINEDUC 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Taut, Sandy et al.",
+        "year": 2016,
+        "title": "Teacher Performance and Student Learning: Evidence from Chile's Docentemás Program",
+        "methodology": "quasi-experimental",
+        "journal": "Assessment in Education",
+        "keyFinding": "Teacher evaluation results are correlated with student achievement gains."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "CPEIP",
+        "year": 2020,
+        "title": "Evaluación Docente: Marco para la Buena Enseñanza",
+        "source": "Centro de Perfeccionamiento, Experimentación e Investigaciones Pedagógicas"
+      }
+    ]
+  },
+  {
+    "id": "ecuador-teacher-reform",
+    "name": "Teacher Reform Law",
+    "nameLocal": "Ley Orgánica de Educación Intercultural",
+    "country": "ecuador",
+    "yearStart": 2009,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["teachers", "primary", "secondary"],
+    "summaryShort": "Ecuador's comprehensive education law that reformed teacher careers, introduced mandatory evaluations, and significantly changed the teaching workforce composition.",
+    "summaryLong": "Ecuador's 2009 education reform introduced major changes to the teaching profession through the Ley Orgánica de Educación Intercultural (LOEI). The reform established mandatory teacher evaluations, new career structure, and improved working conditions. However, the reform also triggered massive retirements (40,000 teachers) and resulted in a much younger, less experienced teaching workforce by 2016.",
+    "objectives": [
+      "Improve teacher quality through evaluation",
+      "Restructure teacher careers and compensation",
+      "Modernize teacher training and certification",
+      "Strengthen education system governance"
+    ],
+    "mechanisms": "Mandatory teacher evaluations with consequences. New career ladder structure. Changes to retirement benefits triggering early retirements. Updated teacher certification requirements. Salary adjustments linked to performance.",
+    "coverage": "All public school teachers (approximately 150,000)",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The reform significantly changed the teaching workforce, with 40,000 retirements and a shift to younger teachers. By 2016, 50% of teachers had fewer than 5 years of experience. Long-term effects on teaching quality and student outcomes are still being evaluated.",
+    "keyOutcomes": [
+      {
+        "metric": "Teacher retirements",
+        "effect": "40,000 teachers retired following reform",
+        "source": "Luna & Martinez 2021"
+      },
+      {
+        "metric": "Teacher experience",
+        "effect": "50% had <5 years experience by 2016",
+        "source": "Luna & Martinez 2021"
+      },
+      {
+        "metric": "Teacher salaries",
+        "effect": "Improved with career restructuring",
+        "source": "MINEDUC Ecuador 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Luna, Laura & Martinez, Santiago",
+        "year": 2021,
+        "title": "Teacher Workforce Changes Following Ecuador's Education Reform",
+        "methodology": "descriptive",
+        "journal": "Working Paper",
+        "keyFinding": "Reform caused dramatic workforce turnover, with 40,000 retirements and significant youth-ification of the teaching force."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MINEDUC Ecuador",
+        "year": 2018,
+        "title": "Carrera Educativa en Ecuador",
+        "source": "Ministerio de Educación del Ecuador"
+      }
+    ]
+  },
+  {
+    "id": "colombia-generacion-e",
+    "name": "Generación E",
+    "country": "colombia",
+    "yearStart": 2019,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income"],
+    "summaryShort": "Colombia's reformed higher education access program replacing Ser Pilo Paga with broader coverage and focus on public universities.",
+    "summaryLong": "Generación E replaced the Ser Pilo Paga program in 2019, shifting the model from full coverage at any accredited university (often private) to a program with three components: Equity (free tuition at public universities), Excellence (merit-based support for top students), and Equity in Access. The program aims to expand access while directing more funding to public institutions.",
+    "objectives": [
+      "Expand access to higher education",
+      "Strengthen public university system",
+      "Support merit-based advancement",
+      "Reduce student debt burden"
+    ],
+    "mechanisms": "Three-component structure: Equity (gratuity at public universities for lower-income students), Excellence (full support for top performers), Access (credit support). Shift in funding toward public universities. Living cost support for eligible students.",
+    "coverage": "Over 300,000 beneficiaries (as of 2022)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The program has expanded coverage significantly compared to Ser Pilo Paga but with different targeting. Early evidence on outcomes is still being collected. Debates continue about the trade-offs between the SPP and Generación E models.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "Over 300,000 beneficiaries",
+        "source": "MEN 2022"
+      },
+      {
+        "metric": "Public university focus",
+        "effect": "Increased funding to public institutions",
+        "source": "MEN 2022"
+      },
+      {
+        "metric": "Program design",
+        "effect": "Ongoing debate on equity vs. excellence trade-offs",
+        "source": "Sánchez 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "MEN Colombia",
+        "year": 2022,
+        "title": "Generación E: Balance de Implementación",
+        "methodology": "descriptive",
+        "journal": "MEN Report",
+        "keyFinding": "Program has expanded coverage but rigorous impact evaluation is pending."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Sánchez, Fabio",
+        "year": 2020,
+        "title": "Comparing Ser Pilo Paga and Generación E",
+        "source": "Universidad de los Andes Policy Brief"
+      }
+    ]
+  },
+  {
+    "id": "dr-teacher-wages",
+    "name": "Teacher Standards and Wage Reform",
+    "country": "dominican-republic",
+    "yearStart": 2014,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["teachers", "primary", "secondary"],
+    "summaryShort": "Dominican Republic's teacher reform raising entry standards and increasing real teacher wages by 31% from 2012-2016.",
+    "summaryLong": "As part of broader education reforms following the 4% of GDP education spending commitment, the Dominican Republic implemented significant teacher reforms. These included raising teacher certification standards, introducing new evaluations, and substantially increasing teacher salaries. Real teacher wages increased by 31% between 2012 and 2016, making teaching a more attractive profession.",
+    "objectives": [
+      "Attract higher-quality candidates to teaching",
+      "Improve teacher retention",
+      "Raise professional standards",
+      "Improve educational outcomes"
+    ],
+    "mechanisms": "Increased entry requirements for teacher certification. New evaluation processes. Significant salary increases (31% real wage increase 2012-2016). Professional development investments. Performance-linked compensation elements.",
+    "coverage": "All public school teachers (approximately 80,000)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The reforms significantly improved teacher compensation and raised entry standards. Early evidence suggests improved teacher quality indicators and increased attractiveness of the profession. Long-term effects on student learning are being monitored.",
+    "keyOutcomes": [
+      {
+        "metric": "Teacher wages",
+        "effect": "+31% real increase (2012-2016)",
+        "source": "World Bank 2018"
+      },
+      {
+        "metric": "Entry standards",
+        "effect": "Raised certification requirements",
+        "source": "MINERD 2018"
+      },
+      {
+        "metric": "Teacher applications",
+        "effect": "Increased interest in teaching profession",
+        "source": "INAFOCAM 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "World Bank",
+        "year": 2018,
+        "title": "Dominican Republic Education Sector Review",
+        "methodology": "descriptive",
+        "journal": "World Bank Report",
+        "keyFinding": "Teacher wage reforms have improved the attractiveness of teaching and raised professional standards."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MINERD",
+        "year": 2018,
+        "title": "Pacto Nacional para la Reforma Educativa - Informe de Avances",
+        "source": "Ministerio de Educación de la República Dominicana"
+      }
+    ]
+  },
+  {
+    "id": "peru-teacher-reform",
+    "name": "Ley de Reforma Magisterial",
+    "country": "peru",
+    "yearStart": 2012,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["teachers", "primary", "secondary"],
+    "summaryShort": "Peru's comprehensive teacher career reform establishing meritocratic evaluation systems and standardized career progression.",
+    "summaryLong": "Peru's Teacher Career Reform Law (Ley de Reforma Magisterial, Law 29944) established a unified meritocratic career system for teachers. The reform introduced standardized evaluations for hiring, permanence, and promotion. Teachers must pass evaluations to advance in the career ladder, with salary implications. The reform faced significant opposition from teachers' unions but was implemented with government support.",
+    "objectives": [
+      "Establish meritocratic teacher career system",
+      "Improve teacher quality through evaluation",
+      "Create standardized career progression",
+      "Link compensation to performance"
+    ],
+    "mechanisms": "Unified career ladder replacing multiple previous systems. Competitive examinations for hiring. Periodic performance evaluations. Salary scales linked to career level. Consequences for consistently poor performance.",
+    "coverage": "All public school teachers (approximately 400,000)",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The reform unified Peru's fragmented teacher career systems and introduced systematic evaluation. Implementation has been challenging, with union opposition and capacity constraints. Effects on teaching quality and student outcomes are still being assessed.",
+    "keyOutcomes": [
+      {
+        "metric": "Career unification",
+        "effect": "Single system replaced multiple previous structures",
+        "source": "MINEDU 2020"
+      },
+      {
+        "metric": "Evaluation implementation",
+        "effect": "Regular evaluations instituted",
+        "source": "MINEDU 2020"
+      },
+      {
+        "metric": "Union relations",
+        "effect": "Significant initial opposition, gradual acceptance",
+        "source": "Bertoni et al. 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Bertoni, Eleonora et al.",
+        "year": 2020,
+        "title": "Teacher Career Reforms in Latin America",
+        "methodology": "descriptive",
+        "journal": "IADB Working Paper",
+        "keyFinding": "Peru's reform successfully unified the career system but faces ongoing implementation challenges."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "MINEDU",
+        "year": 2020,
+        "title": "Ley de Reforma Magisterial - Balance de Implementación",
+        "source": "Ministerio de Educación del Perú"
+      }
+    ]
+  },
+  {
+    "id": "bolivia-indigenous-education",
+    "name": "Indigenous Education Reform",
+    "nameLocal": "Ley de la Educación Avelino Siñani - Elizardo Pérez",
+    "country": "bolivia",
+    "yearStart": 1994,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["indigenous-ed", "governance"],
+    "affectedPopulations": ["primary", "secondary", "indigenous"],
+    "summaryShort": "Bolivia's indigenous-centered education reform emphasizing community participation, bilingual instruction, and decolonization of education.",
+    "summaryLong": "Bolivia has undertaken significant education reforms centered on indigenous rights and intercultural education, beginning with the 1994 Education Reform and transformed under the 2010 Avelino Siñani - Elizardo Pérez Law. The current framework emphasizes intra-cultural, intercultural, and plurilingual education, with strong community and indigenous participation in educational governance. The reform is unique in Latin America for its emphasis on decolonization and indigenous epistemologies.",
+    "objectives": [
+      "Recognize and value indigenous knowledge systems",
+      "Provide education in indigenous languages",
+      "Enable community participation in education",
+      "Decolonize education content and practices"
+    ],
+    "mechanisms": "Mandatory instruction in indigenous languages. Community education councils (CEPOs) for indigenous participation. Curriculum incorporating indigenous knowledge. Training of indigenous and intercultural teachers. Decolonization as cross-cutting theme.",
+    "coverage": "All public schools, with special emphasis on indigenous communities",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The reforms have significantly expanded indigenous participation in educational governance and increased use of indigenous languages in schools. Implementation varies by region. Systematic evaluation of learning outcomes is limited.",
+    "keyOutcomes": [
+      {
+        "metric": "Indigenous language instruction",
+        "effect": "Expanded significantly",
+        "source": "UNESCO 2019"
+      },
+      {
+        "metric": "Community participation",
+        "effect": "CEPOs active in indigenous areas",
+        "source": "Nucinkis 2006"
+      },
+      {
+        "metric": "Teacher training",
+        "effect": "New programs for intercultural teachers",
+        "source": "López 2009"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Nucinkis, Nicole",
+        "year": 2006,
+        "title": "La EIB en Bolivia",
+        "methodology": "qualitative",
+        "journal": "PROEIB Andes",
+        "keyFinding": "Bolivia's bottom-up approach to indigenous education reform has achieved significant community engagement."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "López, Luis Enrique",
+        "year": 2009,
+        "title": "Interculturalidad, educación y política en América Latina",
+        "source": "PROEIB Andes / Plural Editores"
+      }
+    ]
+  },
+  {
+    "id": "ecuador-bilingual-education",
+    "name": "Bilingual Education System",
+    "nameLocal": "Sistema de Educación Intercultural Bilingüe",
+    "acronym": "SEIB",
+    "country": "ecuador",
+    "yearStart": 1988,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["indigenous-ed"],
+    "affectedPopulations": ["primary", "secondary", "indigenous"],
+    "summaryShort": "Ecuador's separate educational track providing instruction in indigenous languages for Kichwa, Shuar, and other indigenous nationalities.",
+    "summaryLong": "Ecuador established a parallel intercultural bilingual education system (SEIB) in 1988, providing a separate administrative structure for indigenous education. The system serves primarily Kichwa and Shuar-speaking communities but includes instruction in other indigenous languages. The SEIB has its own curriculum, teacher training, and governance structures, though coordination with the mainstream system has varied over time.",
+    "objectives": [
+      "Provide education in indigenous languages",
+      "Maintain separate indigenous education governance",
+      "Preserve indigenous cultures through education",
+      "Achieve educational quality for indigenous students"
+    ],
+    "mechanisms": "Separate administrative structure for indigenous education. Curriculum in indigenous languages (primarily Kichwa, Shuar). Teacher training specific to intercultural bilingual education. Community participation in school governance.",
+    "coverage": "Approximately 200,000 students in SEIB schools",
+    "evidenceQuality": "emerging",
+    "impactSummary": "The system has provided education in indigenous languages and maintained cultural transmission. However, quality indicators often lag behind the mainstream system. Debates continue about the benefits and drawbacks of a separate track versus integration.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "Approximately 200,000 students enrolled",
+        "source": "MINEDUC Ecuador 2019"
+      },
+      {
+        "metric": "Language preservation",
+        "effect": "Maintained instruction in indigenous languages",
+        "source": "UNESCO 2019"
+      },
+      {
+        "metric": "Learning outcomes",
+        "effect": "Gap with mainstream system persists",
+        "source": "INEVAL 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "INEVAL",
+        "year": 2018,
+        "title": "Resultados Educativos: Sistema de Educación Intercultural Bilingüe",
+        "methodology": "descriptive",
+        "journal": "INEVAL Report",
+        "keyFinding": "SEIB students show lower average test scores but the gap has narrowed in recent years."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "UNESCO",
+        "year": 2019,
+        "title": "La Educación Intercultural Bilingüe en Ecuador",
+        "source": "UNESCO Quito"
+      }
+    ]
+  },
+  {
+    "id": "brazil-novo-mais-educacao",
+    "name": "Novo Mais Educação",
+    "country": "brazil",
+    "yearStart": 2017,
+    "yearEnd": 2019,
+    "isActive": false,
+    "policyTypes": ["extended-day", "tutoring"],
+    "affectedPopulations": ["primary"],
+    "summaryShort": "Reformed version of Brazil's extended day program with greater focus on literacy and math tutoring in early grades.",
+    "summaryLong": "Novo Mais Educação was launched in 2017 to replace the original Mais Educação program with a greater focus on foundational literacy and math skills. The reformed program emphasized structured tutoring activities in Portuguese and mathematics rather than the broader menu of cultural and sports activities in the original version. Initial evaluations suggested more positive effects than the predecessor, particularly in early grades.",
+    "objectives": [
+      "Improve foundational literacy and numeracy",
+      "Provide structured academic support",
+      "Reduce learning deficits in early grades",
+      "More focused use of extended time"
+    ],
+    "mechanisms": "Extended school day focused on literacy and math tutoring. Structured pedagogical materials for tutoring activities. Training for tutors (mediadores and facilitadores). Priority to schools with lowest IDEB scores.",
+    "coverage": "Approximately 25,000 schools",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Early evaluations suggest more positive effects than the original Mais Educação, particularly for early-grade literacy. The program was discontinued in 2019 amid broader education policy changes. Limited time for comprehensive impact assessment.",
+    "keyOutcomes": [
+      {
+        "metric": "Early literacy",
+        "effect": "Positive effects in participating schools",
+        "source": "MEC 2019"
+      },
+      {
+        "metric": "Focus",
+        "effect": "Shifted from diverse activities to academic support",
+        "source": "Xerxenevsky 2017"
+      },
+      {
+        "metric": "Coverage",
+        "effect": "Approximately 25,000 schools before discontinuation",
+        "source": "MEC 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "MEC",
+        "year": 2019,
+        "title": "Novo Mais Educação - Relatório de Avaliação",
+        "methodology": "descriptive",
+        "journal": "MEC Report",
+        "keyFinding": "Program showed more promising results than predecessor, particularly in early-grade literacy."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Xerxenevsky, Lauren Lewis",
+        "year": 2017,
+        "title": "From Mais Educação to Novo Mais Educação: Lessons from Brazil's Extended Day Programs",
+        "source": "Policy Brief"
+      }
+    ]
+  },
+  {
+    "id": "chile-volunteer-tutoring",
+    "name": "Volunteer Literacy Tutoring",
+    "nameLocal": "Tutorías de Lectura",
+    "country": "chile",
+    "yearStart": 2000,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["tutoring"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "Chile's volunteer-based tutoring programs using trained community members to provide one-on-one reading support for struggling early-grade students.",
+    "summaryLong": "Various volunteer tutoring programs in Chile have provided one-on-one reading support to struggling students in early grades. These programs typically recruit and train university students, retirees, or other community volunteers to work with children identified as behind in reading. Research shows positive effects on literacy and secondary outcomes like school completion.",
+    "objectives": [
+      "Improve early-grade reading skills",
+      "Prevent reading failure",
+      "Reduce dropout through early support",
+      "Engage community in education"
+    ],
+    "mechanisms": "One-on-one tutoring sessions (typically 30-45 minutes, 2-3 times weekly). Trained volunteer tutors (often university students). Structured literacy activities and materials. Targeting students identified through school assessments.",
+    "coverage": "Multiple programs across different regions",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Studies show positive effects on reading achievement and downstream outcomes including reduced dropout and improved graduation rates. Volunteer tutoring provides cost-effective early intervention. Program quality depends on volunteer training and support.",
+    "keyOutcomes": [
+      {
+        "metric": "Reading achievement",
+        "effect": "Positive effects on literacy skills",
+        "source": "Rosas et al. 2011"
+      },
+      {
+        "metric": "Dropout",
+        "effect": "Reduced dropout rates for tutored students",
+        "source": "Cabezas et al. 2011"
+      },
+      {
+        "metric": "Graduation",
+        "effect": "Improved high school completion",
+        "source": "Cabezas et al. 2011"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Cabezas, Verónica et al.",
+        "year": 2011,
+        "title": "The Effect of a Tutoring Program on the School Outcomes of Chilean Students",
+        "methodology": "quasi-experimental",
+        "journal": "Working Paper",
+        "keyFinding": "Tutoring reduced dropout and improved high school graduation rates."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Rosas, Ricardo et al.",
+        "year": 2011,
+        "title": "Volunteer Tutoring for Reading: Evidence from Chile",
+        "source": "Pontificia Universidad Católica de Chile"
+      }
+    ]
+  },
+  {
+    "id": "paraguay-tekopora",
+    "name": "Tekoporã",
+    "nameLocal": "Tekoporã (Bienestar en Guaraní)",
+    "country": "paraguay",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "Paraguay's largest conditional cash transfer program targeting extreme poverty through education and health conditionalities.",
+    "summaryLong": "Tekoporã is Paraguay's flagship CCT program launched in 2005, targeting extreme poor households in the poorest districts. The program provides cash transfers conditional on school attendance, regular health center visits, and updated immunizations. It includes a family support initiative to increase productive potential and social participation. The program aims to break the intergenerational cycle of poverty through human capital investments.",
+    "objectives": [
+      "Reduce extreme poverty through direct cash transfers",
+      "Increase school attendance among poor children",
+      "Improve health outcomes through preventive care",
+      "Build productive capacity of households"
+    ],
+    "mechanisms": "Cash transfers to households in extreme poverty conditional on children's school attendance and regular health center visits. Includes family support services and social accountability mechanisms through Citizen Report Cards and Community Score Cards implemented 2015-2019.",
+    "coverage": "88,000 extreme poor households",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Impact evaluation found positive effects on income, consumption, poverty reduction, and school attendance (+5-8%). However, the program has not succeeded in reducing child labor or increasing immunization rates. Positive effects on agricultural investment and savings were observed.",
+    "keyOutcomes": [
+      {
+        "metric": "School attendance",
+        "effect": "+5-8 percentage points, especially for boys and older children",
+        "source": "IPC Evaluation 2008"
+      },
+      {
+        "metric": "Per capita consumption",
+        "effect": "Significant positive impact",
+        "source": "IPC Evaluation 2008"
+      },
+      {
+        "metric": "Child labor",
+        "effect": "No significant reduction (program limitation)",
+        "source": "IPC Evaluation 2008"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Soares, Fabio V. et al.",
+        "year": 2008,
+        "title": "Achievements and Shortfalls of Conditional Cash Transfers: Impact Evaluation of Paraguay's Tekoporã Programme",
+        "methodology": "quasi-experimental",
+        "journal": "International Poverty Centre Working Paper",
+        "keyFinding": "Positive impacts on school attendance and consumption, but no effect on child labor or immunization."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2020,
+        "title": "Supporting Social Accountability for Better Outcomes: Paraguay's Tekoporã CCT Program",
+        "source": "World Bank Results Brief"
+      }
+    ]
+  },
+  {
+    "id": "guatemala-alimentacion-escolar",
+    "name": "Programa de Alimentación Escolar",
+    "nameLocal": "Programa de Alimentación Escolar",
+    "country": "guatemala",
+    "yearStart": 1985,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["school-feeding"],
+    "affectedPopulations": ["primary", "low-income", "rural", "indigenous"],
+    "summaryShort": "Guatemala's national school feeding program providing meals based on the human right to food, with cultural and ethnic relevance.",
+    "summaryLong": "Guatemala's school feeding program provides nutritious meals to students in public schools, with emphasis on cultural, social, and ethnic relevance. The country has among the highest malnutrition rates in Latin America, with 74.5% literacy rate (lowest in Central America) and up to 60% illiteracy in indigenous populations. The program is part of the School Meals Coalition, sharing best practices internationally.",
+    "objectives": [
+      "Improve nutrition and health of schoolchildren",
+      "Increase school enrollment and attendance",
+      "Reduce dropout rates, especially among girls",
+      "Support local agricultural economies"
+    ],
+    "mechanisms": "Daily meals provided at public schools with emphasis on locally-sourced, culturally appropriate foods. Program linked to human right to food framework.",
+    "coverage": "Approximately 2.5 million students in public schools",
+    "evidenceQuality": "low",
+    "impactSummary": "Limited rigorous evaluation exists. International evidence suggests school meals can improve attendance and short-term cognitive outcomes, but Guatemala-specific impact studies are scarce. UNICEF recommends strengthening education management information systems to produce relevant data on program effectiveness.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage",
+        "effect": "Reaches majority of public primary schools",
+        "source": "School Meals Coalition 2023"
+      }
+    ],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "UNICEF",
+        "year": 2023,
+        "title": "All Children Learn in Guatemala",
+        "source": "UNICEF LAC"
+      },
+      {
+        "authors": "School Meals Coalition",
+        "year": 2023,
+        "title": "Guatemala Country Profile",
+        "source": "School Meals Coalition"
+      }
+    ]
+  },
+  {
+    "id": "guatemala-digital-transformation",
+    "name": "Digital Transformation Policy",
+    "nameLocal": "Política de Transformación Digital Educativa",
+    "country": "guatemala",
+    "yearStart": 2025,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["digital-inclusion", "infrastructure"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Guatemala's 2025-2035 strategic roadmap to modernize public education through connectivity, devices, and digital skills training.",
+    "summaryLong": "Launched in June 2025, Guatemala's Digital Transformation Policy aims to modernize the public education system serving 3.5 million students across 36,000 schools. The roadmap focuses on improving connectivity, distributing devices, upgrading technological infrastructure, and strengthening digital skills for teachers and students. By 2027, the government targets 80% coverage in secondary schools with connectivity and device provision.",
+    "objectives": [
+      "Bridge the digital divide in education by 2035",
+      "Achieve 80% connectivity in secondary schools by 2027",
+      "Strengthen digital skills for teachers and students",
+      "Modernize technological infrastructure in schools"
+    ],
+    "mechanisms": "Multi-year implementation of connectivity infrastructure, device distribution to students and teachers, digital literacy training programs, and technology integration in curriculum.",
+    "coverage": "3.5 million students, 36,000+ schools targeted",
+    "evidenceQuality": "none",
+    "impactSummary": "Program recently launched in 2025. No evaluation evidence yet available. Represents significant research opportunity to assess digital inclusion interventions in a high-poverty, multilingual context with large indigenous population.",
+    "keyOutcomes": [],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "MINEDUC Guatemala",
+        "year": 2025,
+        "title": "Digital Transformation Policy Launch",
+        "source": "Ministry of Education Guatemala"
+      }
+    ]
+  },
+  {
+    "id": "costa-rica-results-education",
+    "name": "Costa Rica Results in Education",
+    "nameLocal": "Resultados en Educación Costa Rica",
+    "country": "costa-rica",
+    "yearStart": 2024,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["digital-inclusion", "teacher-reform", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "early-childhood"],
+    "summaryShort": "World Bank-supported project to improve foundational learning, digital competencies, and employability skills for one million Costa Rican students.",
+    "summaryLong": "Approved in December 2024, this World Bank-funded project aims to transform Costa Rica's education system, which has faced challenges including declining PISA scores and learning losses from COVID-19. The project benefits one million students (51% girls) in preschool through secondary education, focusing on foundational learning, digital competencies, and employability skills. Costa Rica's education system, while historically strong, now faces quality challenges as economic demands change.",
+    "objectives": [
+      "Improve foundational learning outcomes",
+      "Develop digital competencies for students",
+      "Enhance employability skills",
+      "Address post-pandemic learning losses"
+    ],
+    "mechanisms": "Comprehensive education reform including curriculum updates, teacher training, digital infrastructure, and learning assessment improvements. Uses results-based financing tied to achievement of educational outcomes.",
+    "coverage": "1 million students (51% girls) in public preschool, primary, and secondary education",
+    "evidenceQuality": "none",
+    "impactSummary": "Project approved December 2024. No evaluation evidence yet. Costa Rica eliminated standardized national exams in 2018, creating data gaps on student achievement. New assessment tools being developed. Significant research opportunity for PhD students.",
+    "keyOutcomes": [],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2024,
+        "title": "World Bank Approves Funding to Transform Education in Costa Rica",
+        "source": "World Bank Press Release",
+        "url": "https://www.worldbank.org/en/news/press-release/2024/12/04/banco-mundial-transforma-educacion-costa-rica-reduce-brecha-digital"
+      }
+    ]
+  },
+  {
+    "id": "panama-beca-universal",
+    "name": "Beca Universal",
+    "nameLocal": "Programa Beca Universal",
+    "country": "panama",
+    "yearStart": 2010,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary"],
+    "summaryShort": "Panama's universal scholarship providing annual payments to primary and secondary students conditional on academic performance and attendance.",
+    "summaryLong": "Beca Universal is Panama's scholarship program providing financial support to students in primary, premedia, and media (secondary) education. Managed by IFARHU (Institute for Training and Development of Human Resources), the program provides between B/.270 and B/.450 annually to cover expenses like uniforms, books, school supplies, and transportation. Benefits are conditional on passing studies and maintaining adequate attendance and conduct.",
+    "objectives": [
+      "Reduce economic barriers to education",
+      "Improve school attendance and retention",
+      "Support families with education-related expenses",
+      "Encourage academic performance"
+    ],
+    "mechanisms": "Annual cash transfers paid in three installments, varying by education level: elementary students receive $270/year, middle school $360/year, high school $450/year. Payments conditional on passing grades and attendance. Recent reforms (2024) include digital payment via Clave Social card.",
+    "coverage": "Approximately 813,000 students",
+    "evidenceQuality": "none",
+    "impactSummary": "No rigorous impact evaluation identified. Program has broad coverage but lacks evidence on effects on attendance, retention, or learning outcomes. Represents significant research opportunity given scale and universal nature of the intervention.",
+    "keyOutcomes": [],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "Government of Panama",
+        "year": 2024,
+        "title": "Reform to Beca Universal Program",
+        "source": "Presidencia de Panamá"
+      }
+    ]
+  },
+  {
+    "id": "haiti-psugo",
+    "name": "PSUGO",
+    "nameLocal": "Programme de Scolarisation Universelle Gratuite et Obligatoire",
+    "acronym": "PSUGO",
+    "country": "haiti",
+    "yearStart": 2011,
+    "yearEnd": 2017,
+    "isActive": false,
+    "policyTypes": ["vouchers", "infrastructure"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "Haiti's universal free education program (2011-2017) that financed school fees for over 60% of primary students before being discontinued.",
+    "summaryLong": "PSUGO was Haiti's ambitious program to provide universal, free, and compulsory education following the 2010 earthquake. At its peak (2011-2014), PSUGO and related programs financed school fees for over 60% of all primary students. However, the program faced severe implementation challenges including corruption allegations, inadequate payments to schools, late payments, and undelivered supplies. When discontinued in 2017, an estimated 700,000 students were at risk of losing school access.",
+    "objectives": [
+      "Provide universal free primary education",
+      "Increase enrollment after earthquake devastation",
+      "Reduce barriers to school access"
+    ],
+    "mechanisms": "Government payments to schools (both public and private) to waive student fees. Private schools received six times the amount paid to public schools. Funded through National Education Fund (FNE).",
+    "coverage": "Over 60% of primary students at peak (approximately 1.4 million)",
+    "evidenceQuality": "low",
+    "impactSummary": "Program expansion increased access but implementation failures undermined effectiveness. Investigations revealed corruption, inadequate and delayed payments, and undelivered supplies. Discontinuation in 2017 left 700,000 students at risk. Haiti's education system remains 80% private, creating ongoing access barriers.",
+    "keyOutcomes": [
+      {
+        "metric": "Coverage at peak",
+        "effect": ">60% of primary students",
+        "source": "World Bank 2019"
+      },
+      {
+        "metric": "Students at risk after discontinuation",
+        "effect": "Nearly 700,000 students",
+        "source": "World Bank 2017"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Haiti Grassroots Watch",
+        "year": 2013,
+        "title": "Investigation of PSUGO Implementation",
+        "methodology": "qualitative",
+        "keyFinding": "Revealed corruption, inadequate payments, delayed disbursements, and undelivered school supplies."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2019,
+        "title": "Education for All in Haiti",
+        "source": "World Bank Results Brief"
+      }
+    ]
+  },
+  {
+    "id": "venezuela-misiones-educativas",
+    "name": "Misiones Educativas (Robinson, Ribas, Sucre)",
+    "nameLocal": "Misiones Robinson, Ribas y Sucre",
+    "country": "venezuela",
+    "yearStart": 2003,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["higher-ed-access", "tutoring"],
+    "affectedPopulations": ["secondary", "tertiary", "low-income"],
+    "summaryShort": "Venezuela's educational missions providing adult literacy (Robinson), secondary completion (Ribas), and higher education access (Sucre).",
+    "summaryLong": "The Bolivarian Educational Missions emerged under President Hugo Chávez in 2003 with Cuban support: Misión Robinson I and II for adult literacy, Misión Ribas for secondary education completion, and Misión Sucre for higher education access. The programs created a parallel educational system outside traditional institutions, with students progressing from Robinson to Ribas to Sucre or the Bolivarian University. While 79% of surveyed Venezuelans agreed the missions increased educational levels, efficiency studies found programs were 'close to inefficient.'",
+    "objectives": [
+      "Eliminate adult illiteracy (Robinson)",
+      "Enable adults to complete secondary education (Ribas)",
+      "Democratize access to higher education (Sucre)"
+    ],
+    "mechanisms": "Parallel educational system with Cuban pedagogical support. Scholarships provided to students. Community-based 'university villages' and learning environments established. Competency-based evaluation focused on knowing, doing, being, and coexisting.",
+    "coverage": "Millions of beneficiaries across three programs; 72 university villages constructed",
+    "evidenceQuality": "low",
+    "impactSummary": "Survey data shows high public approval (79% agreed missions increased educational levels). However, a 2013-2015 efficiency study found all three missions rated 'almost inefficient to close to inefficient' (efficiency scores 0.25-0.35). Critics note the missions created a closed educational circuit and parallel institutionality with ideological orientation.",
+    "keyOutcomes": [
+      {
+        "metric": "Public perception",
+        "effect": "79.3% agreed missions increased education levels",
+        "source": "IVAD Survey"
+      },
+      {
+        "metric": "Efficiency rating",
+        "effect": "0.25-0.35 (close to inefficient)",
+        "source": "Dialnet 2015"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Various authors",
+        "year": 2015,
+        "title": "Eficiencia de las Misiones Sociales de Venezuela",
+        "methodology": "descriptive",
+        "journal": "Dialnet",
+        "keyFinding": "Educational missions obtained efficiency thresholds classified as 'almost inefficient to close to inefficient.'"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "D'Elia, Yolanda & Cabezas, Luis",
+        "year": 2009,
+        "title": "Las misiones educativas: ¿política pública para la inclusión o estrategia para el clientelismo político?",
+        "source": "Revista Venezolana de Análisis de Coyuntura"
+      }
+    ]
+  },
+  {
+    "id": "mexico-becas-benito-juarez",
+    "name": "Becas Benito Juárez",
+    "nameLocal": "Becas para el Bienestar Benito Juárez",
+    "country": "mexico",
+    "yearStart": 2019,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "tertiary", "low-income", "indigenous"],
+    "summaryShort": "Mexico's flagship scholarship program replacing Prospera, providing cash transfers to over 13 million students from primary through higher education.",
+    "summaryLong": "The Benito Juárez Scholarships for Well-being replaced the educational components of the PROSPERA program in 2019. The program has three components: Primary Education Scholarships (9.2M beneficiaries), Universal Secondary Education Scholarships (3.6M beneficiaries), and Youth Writing the Future for higher education (380K beneficiaries). Unlike Prospera, payments are per family rather than per student, and health/nutrition conditionalities were removed.",
+    "objectives": [
+      "Strengthen inclusive and equitable education",
+      "Encourage school enrollment and graduation",
+      "Reduce economic barriers for vulnerable families",
+      "Prioritize indigenous and marginalized areas"
+    ],
+    "mechanisms": "Cash transfers to families with children in school. Geographic targeting based on Social Lag Index and Marginalization Index. Priority given to indigenous areas and high-marginalization zones. No health or nutrition conditionalities (unlike predecessor Prospera).",
+    "coverage": "Over 13 million beneficiaries across three program components",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Design evaluations conducted (2019-2020) but limited impact evidence. CONEVAL raised concerns that family-based (vs. per-student) payments may negatively affect attendance, particularly for girls. The removal of health conditionalities and shift in payment structure represent significant departures from the well-evaluated Prospera model that warrant investigation.",
+    "keyOutcomes": [
+      {
+        "metric": "Primary education coverage",
+        "effect": "9.2 million beneficiaries (2021)",
+        "source": "CEPAL 2021"
+      },
+      {
+        "metric": "Secondary education coverage",
+        "effect": "3.6 million beneficiaries (2021)",
+        "source": "CEPAL 2021"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "CONEVAL",
+        "year": 2020,
+        "title": "Evaluación de Diseño con Trabajo de Campo del Programa Becas Benito Juárez",
+        "methodology": "descriptive",
+        "keyFinding": "Per-family payments (vs. per-student) may have opposite effects on attendance for other household members."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "CEPAL",
+        "year": 2021,
+        "title": "Benito Juárez Scholarships Program Profile",
+        "source": "Non-contributory Social Protection Programmes Database"
+      }
+    ]
+  },
+  {
+    "id": "brazil-pe-de-meia",
+    "name": "Pé-de-Meia",
+    "nameLocal": "Programa Pé-de-Meia",
+    "country": "brazil",
+    "yearStart": 2024,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["secondary", "low-income"],
+    "summaryShort": "Brazil's 2024 high school scholarship program providing up to R$9,200 over three years to reduce dropout and encourage graduation.",
+    "summaryLong": "Pé-de-Meia was established by Law 14,818 in January 2024 to combat high school dropout in Brazil. The program provides monthly incentives plus annual bonuses to public high school students from low-income families (registered in CadÚnico and Bolsa Família). Students can receive up to R$5,600 during high school, with an additional R$3,000 locked savings released upon graduation. In 2024, the program reached 3.9 million students (54% of public secondary enrollment).",
+    "objectives": [
+      "Reduce high school dropout rates",
+      "Increase attendance and academic achievement",
+      "Encourage high school completion through savings incentive",
+      "Reduce educational inequality"
+    ],
+    "mechanisms": "Monthly payments conditional on 80% attendance and academic approval. Annual bonus of R$1,000 for passing to next grade. Locked savings account released only upon high school completion. Automatic enrollment for eligible CadÚnico/Bolsa Família families.",
+    "coverage": "3.9 million students in 2024 (54% of public secondary enrollment); target of 5 million by 2026",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Early Ministry of Education data (2024) indicates 15% reduction in dropout rates in served regions and 25% increase in attendance in some schools, particularly in the Northeast. Enem participation increased 18%. Program too new for rigorous evaluation. Significant research opportunity for PhD students.",
+    "keyOutcomes": [
+      {
+        "metric": "Dropout rate reduction",
+        "effect": "-15% in served regions (preliminary 2024)",
+        "source": "MEC 2024"
+      },
+      {
+        "metric": "Attendance increase",
+        "effect": "+25% in some Northeast schools",
+        "source": "MEC 2024"
+      }
+    ],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "CEPAL",
+        "year": 2024,
+        "title": "Pé-de-Meia Program Profile",
+        "source": "Non-contributory Social Protection Programmes Database",
+        "url": "https://dds.cepal.org/bpsnc/programme?id=261"
+      }
+    ]
+  },
+  {
+    "id": "peru-beca-18",
+    "name": "Beca 18",
+    "nameLocal": "Programa Nacional de Becas y Crédito Educativo - Beca 18",
+    "country": "peru",
+    "yearStart": 2011,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income", "indigenous", "rural"],
+    "summaryShort": "Peru's comprehensive higher education scholarship covering full tuition and living expenses for students from the poorest quintiles.",
+    "summaryLong": "Beca 18 is Peru's major public scholarship program targeting students from the bottom two poverty quintiles, where indigenous groups are overrepresented. The scholarship covers full tuition, living expenses, books, moving costs, laptop, health insurance, and academic tutoring. Up to 5,000 students per year access private education in major cities through the program. While increasing access, the program faces challenges with discrimination, retention, and integration of indigenous and rural students.",
+    "objectives": [
+      "Reduce socioeconomic gap in higher education access",
+      "Enable students from poorest quintiles to attend quality universities",
+      "Increase human capital in underserved regions",
+      "Break intergenerational poverty cycle"
+    ],
+    "mechanisms": "Comprehensive scholarship covering tuition plus full living expenses, targeting students from bottom two poverty quintiles. Includes academic support services and tutoring. Students can attend private universities in major cities.",
+    "coverage": "Up to 5,000 new students annually; thousands of continuing students",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Research shows positive effects on academic performance and salary returns. Studies find spillover effects on younger students' aspirations. However, 28% of recipients report discrimination (78% citing scholarship status as reason). Challenges include retention of indigenous students, language barriers, and integration difficulties.",
+    "keyOutcomes": [
+      {
+        "metric": "Academic performance",
+        "effect": "Scholarship recipients achieve higher grades than non-recipients",
+        "source": "Multiple studies"
+      },
+      {
+        "metric": "Discrimination reported",
+        "effect": "28% of recipients report discrimination on campus",
+        "source": "MEF 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Yamada, Gustavo et al.",
+        "year": 2022,
+        "title": "Salary Returns of Higher Education among Beca 18 Beneficiaries",
+        "methodology": "quasi-experimental",
+        "journal": "IntechOpen",
+        "keyFinding": "University completion leads to greater economic benefits, influenced by gender, location, and field of study."
+      },
+      {
+        "authors": "Sánchez, Alan & Favara, Marta",
+        "year": 2016,
+        "title": "Aspirations and Academic Achievement: The Spillover Effects of Beca 18",
+        "methodology": "quasi-experimental",
+        "journal": "BSE Working Paper",
+        "keyFinding": "Program has relevant spillover effects on educational aspirations of younger students."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Ministry of Finance Peru",
+        "year": 2019,
+        "title": "Beca 18 Beneficiary Survey",
+        "source": "MEF Peru"
+      }
+    ]
+  },
+  {
+    "id": "argentina-progresar",
+    "name": "Progresar",
+    "nameLocal": "Becas Progresar",
+    "country": "argentina",
+    "yearStart": 2014,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct", "higher-ed-access"],
+    "affectedPopulations": ["secondary", "tertiary", "low-income"],
+    "summaryShort": "Argentina's scholarship program supporting 1.4 million vulnerable young people to complete secondary and higher education.",
+    "summaryLong": "Progresar was created in 2014 to encourage educational completion among young Argentines facing employment deficits. The program provides scholarships at obligatory (secondary), superior (higher education), and vocational training levels. With World Bank support, Progresar reaches 1.4 million vulnerable young people. In Argentina, only half of students finish secondary on time (one-third for vulnerable students), and only 29% of higher education entrants graduate.",
+    "objectives": [
+      "Improve educational completion rates",
+      "Increase employability of vulnerable youth",
+      "Reduce secondary school dropout",
+      "Expand higher education access"
+    ],
+    "mechanisms": "Monthly scholarships to young people from vulnerable households, conditional on enrollment and academic progress. Different tracks for obligatory education, higher education (including nursing), and vocational training. Online application system.",
+    "coverage": "1.4 million vulnerable young people; 800,000+ accessed benefits in 2024",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Research using panel data with fixed effects found the program increases probability of transition to quality (formal) employment by 4.1 percentage points, mainly for those coming from inactivity. Effect stronger for women (6.2 pp for formal employment). Limited evidence on educational outcomes directly.",
+    "keyOutcomes": [
+      {
+        "metric": "Formal employment transition",
+        "effect": "+4.1 percentage points",
+        "source": "Ensayos de Economía 2019"
+      },
+      {
+        "metric": "Women's formal employment",
+        "effect": "+6.2 percentage points",
+        "source": "Ensayos de Economía 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Ferraris, Liliana & Ferraris, Marco",
+        "year": 2019,
+        "title": "Effects of Argentine Students' Support Program on Labor Transitions and Job Quality",
+        "methodology": "quasi-experimental",
+        "journal": "Ensayos de Economía",
+        "keyFinding": "Program increases probability of transition to formal employment, especially for women."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2023,
+        "title": "Argentina: Improving Inclusion in Secondary and Higher Education",
+        "source": "World Bank Project Brief"
+      }
+    ]
+  },
+  {
+    "id": "chile-nueva-educacion-publica",
+    "name": "Nueva Educación Pública",
+    "nameLocal": "Sistema de Educación Pública (Ley 21.040)",
+    "acronym": "NEP",
+    "country": "chile",
+    "yearStart": 2017,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["governance", "infrastructure"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Chile's comprehensive reform transferring public schools from municipalities to new Local Education Services (SLEP), the most significant education policy in 40 years.",
+    "summaryLong": "The Nueva Educación Pública (Law 21.040) represents Chile's most significant state education policy in 40 years, transferring public schools from municipal control to 70 new Servicios Locales de Educación Pública (SLEP). By 2024, 15 SLEP are fully operational and 21 in installation, covering 224,000 students and 1,000 schools. The reform responds to decades of educational inequality under the voucher system and demands from student movements culminating in the 2019 social uprising.",
+    "objectives": [
+      "Strengthen public education as a state priority",
+      "Reduce inequalities in educational quality",
+      "Improve infrastructure and teacher conditions",
+      "Create coherent governance structure for public schools"
+    ],
+    "mechanisms": "Transfer of schools from 345 municipalities to 70 new SLEP administered by Dirección de Educación Pública. Multi-year installation process with standards for anticipation, operation, transfer, and full regime phases.",
+    "coverage": "224,000+ students in 1,000+ establishments (as of 2024); ultimately all public schools",
+    "evidenceQuality": "emerging",
+    "impactSummary": "External evaluation by Universidad de Chile (2024) identified implementation challenges including financing tensions, weak inter-institutional collaboration, and limited DEP capacity. Dropout rates fell 20% (1.9% to 1.5%) between 2022-2024. Infrastructure investment of $26.6 billion CLP in 2024. Reform represents major research opportunity on education governance.",
+    "keyOutcomes": [
+      {
+        "metric": "Dropout rate",
+        "effect": "-20% (1.9% to 1.5%) 2022-2024",
+        "source": "MINEDUC 2024"
+      },
+      {
+        "metric": "Infrastructure investment",
+        "effect": "$26.6 billion CLP in SLEP (2024)",
+        "source": "MINEDUC 2024"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Universidad de Chile",
+        "year": 2024,
+        "title": "Evaluación externa de la política de Nueva Educación Pública",
+        "methodology": "qualitative",
+        "keyFinding": "Identified implementation challenges including financing tensions and weak institutional collaboration, with recommendations for improvement."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Friedrich Ebert Stiftung",
+        "year": 2024,
+        "title": "Análisis Nueva Educación Pública en Chile",
+        "source": "FES Chile",
+        "url": "https://library.fes.de/pdf-files/bueros/chile/21290.pdf"
+      }
+    ]
+  },
+  {
+    "id": "dr-republica-digital",
+    "name": "República Digital Educación",
+    "nameLocal": "República Digital Educación",
+    "country": "dominican-republic",
+    "yearStart": 2016,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["digital-inclusion", "infrastructure"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Dominican Republic's initiative to bridge the digital divide through technology access, infrastructure, and digital skills development.",
+    "summaryLong": "República Digital Educación, launched in 2016, aims to provide technology access for all citizens while ensuring gender equity and social inclusion. The program focuses on bridging the digital divide for vulnerable populations—low-income families, rural communities, and those with limited education—through technology infrastructure, internet access, and community technology centers. The initiative is part of broader education reforms under the National Pact for Education Reform 2014-2030.",
+    "objectives": [
+      "Bridge the digital divide in education",
+      "Provide technology access for vulnerable populations",
+      "Strengthen technological infrastructure in schools",
+      "Develop digital skills for teachers and students"
+    ],
+    "mechanisms": "Device distribution, internet connectivity expansion, teacher digital training, and community technology centers. Integrated with broader education assessment reforms including development of national learning assessments.",
+    "coverage": "Public primary and secondary schools nationwide",
+    "evidenceQuality": "low",
+    "impactSummary": "Limited rigorous evaluation available. COVID-19 revealed significant regional disparities in digital access despite program. World Bank technical support helped develop learning assessment systems. Research opportunity exists to evaluate digital inclusion effects, particularly given revealed inequalities during pandemic remote learning.",
+    "keyOutcomes": [
+      {
+        "metric": "Virtual platform access (COVID)",
+        "effect": "Only 35% of students had access (2021)",
+        "source": "MINERD 2021"
+      }
+    ],
+    "evaluations": [],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2023,
+        "title": "How to Reform Learning Assessment Systems: Lessons from the Dominican Republic",
+        "source": "World Bank Blog"
+      },
+      {
+        "authors": "Diaz, Victor",
+        "year": 2022,
+        "title": "COVID-19 Digital Learning Strategies in the Dominican Republic",
+        "source": "Teachers College Columbia University"
+      }
+    ]
+  },
+  {
+    "id": "nicaragua-yo-si-puedo",
+    "name": "Yo, Sí Puedo Literacy Campaign",
+    "nameLocal": "Campaña de Alfabetización Yo, Sí Puedo",
+    "country": "nicaragua",
+    "yearStart": 2007,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["tutoring"],
+    "affectedPopulations": ["low-income", "rural"],
+    "summaryShort": "Cuba-method literacy campaign launched in 2007 building on Nicaragua's 1980 Literacy Crusade tradition.",
+    "summaryLong": "In 2007, after Daniel Ortega's return to the presidency, Nicaragua launched a new literacy campaign based on Cuba's 'Yo, sí puedo' (Yes, I can) method. This builds on the legacy of the famous 1980 Nicaraguan Literacy Campaign, which reduced illiteracy from 50% to 23% using student volunteer teachers and won UNESCO's Literacy Award. However, follow-up studies found literacy gains eroded over time, particularly among women, and many 'graduates' who retained skills had prior formal schooling.",
+    "objectives": [
+      "Eliminate remaining adult illiteracy",
+      "Build on legacy of 1980 Literacy Crusade",
+      "Reach rural and marginalized populations"
+    ],
+    "mechanisms": "Cuban 'Yo, sí puedo' audiovisual literacy method. Community-based instruction. Historical context: 1980 campaign used 60,000 youth volunteers trained in two-week courses for five-month campaign.",
+    "coverage": "Nationwide adult literacy effort",
+    "evidenceQuality": "low",
+    "impactSummary": "The 1980 campaign achieved dramatic short-term results (illiteracy from 50% to 23%) but 1994 follow-up found significant skill erosion, especially among women. By end of Sandinista era, literacy rates had declined from 1980 levels. Limited rigorous evaluation of post-2007 campaign. Historical campaigns criticized for political/ideological content in materials.",
+    "keyOutcomes": [
+      {
+        "metric": "1980 campaign result",
+        "effect": "Illiteracy reduced from 50% to 23%",
+        "source": "UNESCO"
+      },
+      {
+        "metric": "Long-term retention (1994)",
+        "effect": "Significant literacy loss, especially among women without prior schooling",
+        "source": "Development in Practice 1994"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Various authors",
+        "year": 1994,
+        "title": "Follow-up Study of 1980 Literacy Campaign",
+        "methodology": "quasi-experimental",
+        "journal": "Development in Practice",
+        "keyFinding": "A decade later, significant portion of women graduates no longer able to read or write; those who could mostly had prior formal schooling."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "UNESCO",
+        "year": 2006,
+        "title": "Nicaragua's Literacy Campaign",
+        "source": "UNESCO Education Sector"
+      }
+    ]
+  },
+  {
+    "id": "cuba-education-system",
+    "name": "Cuban Universal Education System",
+    "nameLocal": "Sistema Nacional de Educación",
+    "country": "cuba",
+    "yearStart": 1961,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["teacher-reform", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "tertiary", "teachers", "all"],
+    "summaryShort": "Cuba's comprehensive public education system that achieved near-universal literacy and topped regional assessments, though facing recent challenges.",
+    "summaryLong": "Cuba's education system, transformed after the 1961 Literacy Campaign, achieved remarkable outcomes: universal enrollment, near-universal adult literacy, and top regional performance in mathematics and science. Cuba was the only LAC country to meet all UNESCO Education for All 2000-2015 goals. The system emphasizes teacher training as lifelong process, with 75-97% of teachers holding university degrees. However, recent challenges include teacher shortages, young people preferring tourism jobs, and declining university enrollment.",
+    "objectives": [
+      "Provide universal free education at all levels",
+      "Maintain high teacher quality through continuous training",
+      "Achieve educational equity across regions and populations"
+    ],
+    "mechanisms": "Centralized public education system with intensive pre-service and in-service teacher training. Fifteen pedagogical institutes provide formal teacher preparation. All teachers certified with majority holding university degrees. Continuous assessment and participatory teacher evaluation process.",
+    "coverage": "Universal coverage from primary through higher education",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Cuba achieved exceptional results in regional assessments (first in LAC for math/science at all grade levels) and met all UNESCO EFA goals. The 1961 literacy campaign reduced illiteracy from 23% to 3.9% in one year. However, recent data shows declining higher education enrollment (89,560 degrees in 2012-13 vs. 23,478 in 2016-17) and teacher shortages as economic incentives favor tourism sector.",
+    "keyOutcomes": [
+      {
+        "metric": "1961 literacy campaign",
+        "effect": "Illiteracy reduced from 23% to 3.9% in one year",
+        "source": "UNESCO"
+      },
+      {
+        "metric": "Regional assessment ranking",
+        "effect": "First in LAC for math and science at all grade levels",
+        "source": "UNESCO LLECE"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "World Bank",
+        "year": 2000,
+        "title": "The Cuban Education System: Lessons and Dilemmas",
+        "methodology": "descriptive",
+        "journal": "Country Studies Publication Series",
+        "keyFinding": "Universal enrollment, high literacy, and strong scientific training, but facing economic and ideological challenges."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Gasperini, Lavinia",
+        "year": 2000,
+        "title": "The Cuban Education System: Lessons and Dilemmas",
+        "source": "World Bank"
+      }
+    ]
+  }
+]
