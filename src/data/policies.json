@@ -3002,5 +3002,52 @@
         "source": "World Bank"
       }
     ]
+  },
+  {
+    "id": "jamaica-path",
+    "name": "Programme of Advancement Through Health and Education",
+    "acronym": "PATH",
+    "country": "jamaica",
+    "yearStart": 2001,
+    "yearEnd": null,
+    "isActive": true,
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Jamaica's conditional cash transfer program providing benefits to poor households contingent on children's school attendance and health check-ups.",
+    "summaryLong": "PATH is Jamaica's flagship social protection program, launched in 2001 to consolidate and reform several existing welfare programs. The program provides cash transfers to poor households conditional on children attending school regularly (at least 85% attendance) and obtaining preventive health care. PATH targets the poorest 15% of the population using a proxy means test. The program has been evaluated through a rigorous randomized controlled trial.",
+    "objectives": [
+      "Reduce poverty among vulnerable populations",
+      "Increase school attendance and enrollment",
+      "Improve health outcomes through preventive care",
+      "Break the intergenerational transmission of poverty"
+    ],
+    "mechanisms": "Bi-monthly cash transfers to eligible households, conditional on children ages 6-17 maintaining at least 85% school attendance and children ages 0-6 receiving scheduled health check-ups. Benefits vary by age and education level. A proxy means test is used to identify eligible households.",
+    "coverage": "Approximately 360,000 beneficiaries (poorest 15% of population)",
+    "evidenceQuality": "high",
+    "impactSummary": "A randomized controlled trial found that PATH increased school attendance by 0.5 days per month and had positive effects on preventive health care visits, particularly for younger children. Effects on attendance were concentrated among children with lower baseline attendance.",
+    "keyOutcomes": [
+      {
+        "metric": "School attendance",
+        "effect": "+0.5 days per month",
+        "source": "Levy & Ohls 2010"
+      },
+      {
+        "metric": "Preventive health visits (ages 0-6)",
+        "effect": "Significant increase",
+        "source": "Levy & Ohls 2010"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Levy, Dan & Ohls, Jim",
+        "year": 2010,
+        "title": "Evaluation of Jamaica's PATH conditional cash transfer programme",
+        "methodology": "rct",
+        "journal": "Journal of Development Effectiveness",
+        "doi": "10.1080/19439342.2010.519783",
+        "keyFinding": "PATH increased school attendance by 0.5 days per month and improved preventive health care visits for young children."
+      }
+    ],
+    "keyReferences": []
   }
 ]

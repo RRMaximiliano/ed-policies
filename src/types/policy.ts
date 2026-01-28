@@ -19,7 +19,8 @@ export type Country =
   | 'paraguay'
   | 'peru'
   | 'uruguay'
-  | 'venezuela';
+  | 'venezuela'
+  | 'jamaica';
 
 export const COUNTRY_LABELS: Record<Country, string> = {
   argentina: 'Argentina',
@@ -42,6 +43,7 @@ export const COUNTRY_LABELS: Record<Country, string> = {
   peru: 'Peru',
   uruguay: 'Uruguay',
   venezuela: 'Venezuela',
+  jamaica: 'Jamaica',
 };
 
 // Policy type categories
