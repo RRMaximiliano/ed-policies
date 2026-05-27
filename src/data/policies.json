@@ -3049,5 +3049,603 @@
       }
     ],
     "keyReferences": []
+  },
+  {
+    "id": "peru-mate-raymi",
+    "name": "Mate Raymi",
+    "nameLocal": "Mate Raymi",
+    "country": "peru",
+    "yearStart": 2021,
+    "yearEnd": 2025,
+    "isActive": false,
+    "policyTypes": ["early-childhood", "indigenous-ed", "curriculum"],
+    "affectedPopulations": ["early-childhood", "indigenous", "rural"],
+    "summaryShort": "Intercultural bilingual preschool mathematics program for Quechua Chanka schools in rural Peru, combining culturally grounded curriculum, radio lessons, and teacher support.",
+    "summaryLong": "Mate Raymi was designed to strengthen mathematics learning for preschool children in Quechua Chanka intercultural bilingual education schools in rural Peru. The program adapted early mathematics instruction to local language and cultural knowledge, using a mix of classroom materials, radio lessons, and teacher support. The evaluation evidence is especially relevant for comparing culturally responsive early childhood interventions in indigenous-language settings.",
+    "objectives": [
+      "Improve early mathematics skills among Quechua Chanka preschool children",
+      "Support intercultural bilingual education in rural preschool classrooms",
+      "Strengthen culturally relevant pedagogical materials and teacher practice"
+    ],
+    "mechanisms": "The intervention provided culturally grounded preschool mathematics lessons, bilingual and intercultural classroom materials, radio-based reinforcement, and teacher support aligned with Quechua Chanka communities and the national early childhood curriculum.",
+    "coverage": "RCT sample of rural Quechua Chanka intercultural bilingual education schools; later local scaling reported by implementation partners",
+    "evidenceQuality": "high",
+    "impactSummary": "A randomized controlled trial in rural Quechua Chanka schools found positive effects on early mathematics learning, showing that culturally grounded bilingual mathematics instruction can improve foundational skills without separating academic learning from local language and identity.",
+    "keyOutcomes": [
+      {
+        "metric": "Early mathematics learning",
+        "effect": "Positive impacts in an RCT of rural intercultural bilingual preschool schools",
+        "source": "Naslund-Hadley et al. 2026"
+      },
+      {
+        "metric": "Culturally responsive instruction",
+        "effect": "Program integrated Quechua Chanka language and cultural references into preschool mathematics pedagogy",
+        "source": "IDB 2026"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Naslund-Hadley, Emma; Hernandez Agramonte, Juan Manuel; Santos Morales, Humberto; Galindo Vivanco, Marcelino",
+        "year": 2026,
+        "title": "Intercultural Bilingual Education and Early Childhood Mathematics Learning: RCT Evidence from the Mate Raymi Program in Quechua Chanka Schools in Peru",
+        "methodology": "rct",
+        "journal": "IDB Working Paper Series",
+        "doi": "10.18235/0014005",
+        "url": "https://publications.iadb.org/en/intercultural-bilingual-education-and-early-childhood-mathematics-learning-rct-evidence-mate-raymi",
+        "keyFinding": "The RCT found positive effects on preschool mathematics learning in rural Quechua Chanka intercultural bilingual education schools."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Innovations for Poverty Action",
+        "year": 2024,
+        "title": "Strengthening Math Learning and Cultural Identity: The Mate Raymi Program in Rural Peru",
+        "source": "IPA project summary",
+        "url": "https://es.poverty-action.org/strengthening-math-learning-and-cultural-identity-mate-raymi-program-rural-peru"
+      }
+    ]
+  },
+  {
+    "id": "panama-jadenka",
+    "name": "JADENKÄ",
+    "nameLocal": "Ari Taen JADENKÄ",
+    "country": "panama",
+    "yearStart": 2018,
+    "yearEnd": 2019,
+    "isActive": false,
+    "policyTypes": ["early-childhood", "indigenous-ed", "curriculum"],
+    "affectedPopulations": ["early-childhood", "indigenous", "rural"],
+    "summaryShort": "Intercultural bilingual ethnomathematics program for Ngabe preschool students in Panama's Ngabe-Bugle comarca.",
+    "summaryLong": "JADENKÄ is an intercultural bilingual preschool mathematics program designed for Ngabe children in the Ngabe-Bugle comarca. The program integrates the national preschool mathematics curriculum with Ngabe ethnomathematical knowledge, language, and cultural identity. It was developed with support from the Organization of Ibero-American States, the Inter-American Development Bank, and Panama's Ministry of Education.",
+    "objectives": [
+      "Increase preschool children's mathematical skills",
+      "Develop ethnomathematical skills rooted in Ngabe culture",
+      "Strengthen cultural identity and culturally responsive teaching",
+      "Support teachers' knowledge of Ngabere language and culture"
+    ],
+    "mechanisms": "The program redesigned preschool mathematics lessons around intercultural bilingual and ethnomathematical content. It included teacher materials and classroom activities that connected counting, geometry, measurement, and operations to Ngabe language and cultural practices.",
+    "coverage": "Evaluation sample of 373 schools in the Ngabe-Bugle comarca",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found positive effects on mathematics skills, ethnomathematics, and cultural identity. Published results report mathematics gains of about 0.12-0.18 standard deviations and ethnomathematics gains around 0.23 standard deviations.",
+    "keyOutcomes": [
+      {
+        "metric": "Mathematics skills",
+        "effect": "+0.12 to +0.18 SD",
+        "source": "Naslund-Hadley et al. 2025"
+      },
+      {
+        "metric": "Ethnomathematics skills",
+        "effect": "About +0.23 SD",
+        "source": "Naslund-Hadley et al. 2025"
+      },
+      {
+        "metric": "Cultural identity",
+        "effect": "Positive effect on student cultural identity",
+        "source": "Naslund-Hadley et al. 2025"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Naslund-Hadley, Emma; Hernandez-Agramonte, Juan; Santos, Humberto; Albertos, Carmen; Grigera, Ana; Hobbs, Cynthia; Alvarez, Horacio",
+        "year": 2025,
+        "title": "The effects of ethnomathematics education on student outcomes: The JADENKÄ program in the Ngabe-Bugle comarca, Panama",
+        "methodology": "rct",
+        "journal": "International Journal of Bilingual Education and Bilingualism",
+        "doi": "10.1080/13670050.2024.2446987",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/13670050.2024.2446987",
+        "keyFinding": "JADENKÄ improved mathematics, ethnomathematics, student cultural identity, and teacher knowledge of Ngabere language and culture."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Inter-American Development Bank",
+        "year": 2022,
+        "title": "The effects of ethnomathematics education on student outcomes: The JADENKÄ Program in the Ngabe-Bugle Comarca, Panama",
+        "source": "IDB publication",
+        "doi": "10.18235/0004150",
+        "url": "https://publications.iadb.org/publications/english/document/The-effects-of-ethnomathematics-education-on-student-outcomes-The-JADENK%C3%84-Program-in-the-Ng%C3%A4be-Bugle-Comarca-Panama.pdf"
+      }
+    ]
+  },
+  {
+    "id": "costa-rica-preschool-sms-covid",
+    "name": "Preschool SMS Remote Learning Campaign",
+    "nameLocal": "Campaña de mensajes SMS para educación preescolar remota",
+    "country": "costa-rica",
+    "yearStart": 2020,
+    "yearEnd": 2020,
+    "isActive": false,
+    "policyTypes": ["early-childhood", "digital-inclusion"],
+    "affectedPopulations": ["early-childhood", "low-income"],
+    "summaryShort": "Costa Rica remote-learning intervention that sent parents of preschool students SMS messages with simple learning activities during COVID-19 school closures.",
+    "summaryLong": "During COVID-19 school closures, Costa Rica's Ministry of Public Education remote-learning strategy included regular SMS messages to parents of four- and five-year-old public preschool students. The messages offered simple activities and parenting guidance intended to increase parent engagement with children's learning at home. The intervention is useful for comparing low-cost remote early-childhood supports during emergency school closures.",
+    "objectives": [
+      "Support preschool learning during COVID-19 school closures",
+      "Increase parent engagement in home learning activities",
+      "Provide low-cost remote guidance to families with preschool children"
+    ],
+    "mechanisms": "Parents received regular SMS messages with short, actionable activities to support early numeracy, literacy, and cognitive development at home. Messages also addressed parenting style, time management, healthy habits, and routines conducive to learning.",
+    "coverage": "Randomized field experiment with 691 parent networks of public preschool students",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized field experiment found that after 15 weeks, children whose families received SMS messages scored 0.11-0.12 standard deviations higher on cognitive skills than the control group.",
+    "keyOutcomes": [
+      {
+        "metric": "Cognitive skills",
+        "effect": "+0.11 to +0.12 SD after 15 weeks",
+        "source": "Hernandez-Agramonte et al. 2024"
+      },
+      {
+        "metric": "Parent involvement",
+        "effect": "Suggestive evidence of increased parent engagement in proposed learning activities",
+        "source": "Hernandez-Agramonte et al. 2024"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Hernandez-Agramonte, Juan Manuel; Namen, Olga; Naslund-Hadley, Emma; Biehl, Maria Loreto",
+        "year": 2024,
+        "title": "Supporting early childhood development remotely: Experimental evidence from SMS messages",
+        "methodology": "rct",
+        "journal": "Journal of Development Economics",
+        "doi": "10.1016/j.jdeveco.2023.103201",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304387823001578",
+        "keyFinding": "Regular text messages to parents raised preschool children's cognitive skills by 0.11-0.12 standard deviations after 15 weeks."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Innovations for Poverty Action",
+        "year": 2023,
+        "title": "Supporting Early Childhood Development Remotely: Experimental Evidence from SMS Messages",
+        "source": "IPA publication",
+        "url": "https://poverty-action.org/sites/default/files/2023-11/1-s2.0-S0304387823001578-main.pdf"
+      }
+    ]
+  },
+  {
+    "id": "uruguay-preschool-attendance-nudges",
+    "name": "Preschool Attendance Nudges",
+    "nameLocal": "Nudges para aumentar la asistencia preescolar",
+    "country": "uruguay",
+    "yearStart": 2019,
+    "yearEnd": 2019,
+    "isActive": false,
+    "policyTypes": ["early-childhood", "digital-inclusion"],
+    "affectedPopulations": ["early-childhood", "rural", "low-income"],
+    "summaryShort": "Nationwide behavioral messaging intervention using a government mobile app to nudge parents to improve preschool attendance.",
+    "summaryLong": "Uruguay's preschool attendance nudging intervention used the government's mobile app to send behaviorally informed messages to parents of public preschool children. The intervention addressed high absenteeism despite near-universal enrollment among four- and five-year-olds. It is one of the first Latin American behavioral interventions to study both preschool attendance and child development outcomes through government digital delivery.",
+    "objectives": [
+      "Reduce preschool absenteeism",
+      "Increase parent attention to the importance of regular attendance",
+      "Improve early language and child development outcomes"
+    ],
+    "mechanisms": "Parents received low-cost, behaviorally informed messages through a government mobile app. Messages focused on the importance of preschool attendance and included personalized or salient information intended to reduce absenteeism.",
+    "coverage": "Parents of children ages 3-5 enrolled in public preschools nationwide",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found no average treatment effect on attendance overall, but attendance increased among children with moderate baseline absenteeism and in remote areas. The intervention increased language development by 0.10 standard deviations overall, with larger child-development effects in remote provinces.",
+    "keyOutcomes": [
+      {
+        "metric": "Attendance among moderately absent children",
+        "effect": "+0.32 to +0.68 days over 13 weeks",
+        "source": "Mateo-Berganza Diaz et al. 2020"
+      },
+      {
+        "metric": "Attendance in remote areas",
+        "effect": "+1.48 days",
+        "source": "Mateo-Berganza Diaz et al. 2020"
+      },
+      {
+        "metric": "Language development",
+        "effect": "+0.10 SD overall",
+        "source": "Mateo-Berganza Diaz et al. 2020"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Mateo-Berganza Diaz, Maria Mercedes; Becerra, Laura; Hernandez Agramonte, Juan Manuel; Lopez Boo, Florencia; Perez Alfaro, Marcelo; Vasquez Echeverria, Alejandro",
+        "year": 2020,
+        "title": "Nudging Parents to Increase Preschool Attendance in Uruguay",
+        "methodology": "rct",
+        "journal": "IDB Working Paper Series",
+        "doi": "10.18235/0002901",
+        "url": "https://publications.iadb.org/en/nudging-parents-increase-preschool-attendance-uruguay",
+        "keyFinding": "The app-based nudges improved attendance for some subgroups and increased language development by 0.10 standard deviations overall."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Ajzenman, Nicolas; Becerra Luna, Laura; Hernandez-Agramonte, Juan Manuel; Lopez Boo, Florencia; Vasquez-Echeverria, Alejandro; Mateo Diaz, Mercedes",
+        "year": 2021,
+        "title": "Nudging Parents to Increase Preschool Attendance in Uruguay",
+        "source": "IZA Discussion Paper No. 14921",
+        "url": "https://www.iza.org/en/publications/dp/14921"
+      }
+    ]
+  },
+  {
+    "id": "chile-papas-al-dia",
+    "name": "Papás al Día",
+    "nameLocal": "Papás al Día",
+    "country": "chile",
+    "yearStart": 2014,
+    "yearEnd": 2015,
+    "isActive": false,
+    "policyTypes": ["digital-inclusion", "governance"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Low-cost parent-school information intervention sending SMS updates on attendance, grades, and classroom behavior to parents in low-income Chilean schools.",
+    "summaryLong": "Papás al Día tested whether high-frequency SMS information could reduce parent-school information gaps and improve student outcomes in low-income schools in Chile. Parents received weekly messages on attendance and monthly information on classroom behavior and math performance. The intervention was deliberately light-touch: it provided timely school records without intensive parent training or additional student support.",
+    "objectives": [
+      "Reduce parent-school information gaps",
+      "Improve attendance, grades, and grade progression",
+      "Provide a low-cost early-warning communication model for at-risk students"
+    ],
+    "mechanisms": "Schools digitized existing attendance, grade, and behavior records. Parents in the treatment group received frequent SMS updates about their child's attendance, classroom behavior, and math scores, along with general school information.",
+    "coverage": "Approximately 1,000 students in grades 4-8 across seven low-income schools in a metropolitan area of Chile",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found positive effects on attendance, grades, and grade progression, especially for students at elevated but not extreme dropout risk. The intervention also reduced parent information gaps and showed evidence of positive classroom spillovers.",
+    "keyOutcomes": [
+      {
+        "metric": "Attendance above promotion threshold",
+        "effect": "+6.7 percentage points in probability of cumulative attendance above 85%",
+        "source": "IDB Behavioral Economics Group"
+      },
+      {
+        "metric": "Parent information gaps",
+        "effect": "Reduced gaps between parent reports and administrative records",
+        "source": "Berlinski et al. 2021"
+      },
+      {
+        "metric": "School outcomes",
+        "effect": "Positive effects on grades, attendance, and passing probability",
+        "source": "Berlinski et al. 2021"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Berlinski, Samuel; Busso, Matias; Dinkelman, Taryn; Martinez, Claudia",
+        "year": 2021,
+        "title": "Reducing Parent-School Information Gaps and Improving Education Outcomes: Evidence from High-Frequency Text Messages",
+        "methodology": "rct",
+        "journal": "NBER Working Paper Series",
+        "doi": "10.3386/w28581",
+        "url": "https://www.nber.org/papers/w28581",
+        "keyFinding": "High-frequency SMS updates improved several school outcomes and reduced parent information gaps."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Inter-American Development Bank",
+        "year": 2021,
+        "title": "Parents up to Date to Improve Children's School Performance",
+        "source": "IDB Behavioral Economics Group",
+        "url": "https://behavioral.iadb.org/en/our-projects/parents-date-improve-childrens-school-performance"
+      }
+    ]
+  },
+  {
+    "id": "brazil-pedagogical-innovation-project",
+    "name": "Pedagogical Innovation Project",
+    "nameLocal": "Projeto de Inovação Pedagógica",
+    "acronym": "PIP",
+    "country": "brazil",
+    "yearStart": 2016,
+    "yearEnd": 2019,
+    "isActive": false,
+    "policyTypes": ["teacher-reform", "governance", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Rio Grande do Norte program giving public school teachers technical assistance and earmarked funds to design locally adapted pedagogical innovations.",
+    "summaryLong": "The Pedagogical Innovation Project in Rio Grande do Norte empowered public school teachers to design and implement locally adapted pedagogical projects. The program combined technical assistance, mentoring, and earmarked funding for teacher-led innovations, creating a model of school-level autonomy paired with support. The evaluation is especially relevant for comparing autonomy-plus-support reforms against more standardized teacher professional development models.",
+    "objectives": [
+      "Improve learning through teacher-led pedagogical innovation",
+      "Increase teacher autonomy and motivation",
+      "Support locally adapted school improvement projects",
+      "Strengthen school progression during key transition grades"
+    ],
+    "mechanisms": "Teachers and schools received technical assistance and earmarked funding to design and implement pedagogical innovations suited to local needs. Mentoring and implementation support accompanied the grants.",
+    "coverage": "Public schools in Rio Grande do Norte, with evaluation evidence spanning grades 5, 6, and 10",
+    "evidenceQuality": "high",
+    "impactSummary": "The experimental evaluation found consistent and pronounced impacts on learning and school progression in grade 6, with effects concentrated in schools where teachers were most exposed and implementation rates were highest.",
+    "keyOutcomes": [
+      {
+        "metric": "Grade 6 learning",
+        "effect": "Positive and pronounced impacts",
+        "source": "Piza et al. 2024"
+      },
+      {
+        "metric": "School progression",
+        "effect": "Positive effects in the key transition grade",
+        "source": "Piza et al. 2024"
+      },
+      {
+        "metric": "Implementation heterogeneity",
+        "effect": "Effects concentrated where teachers were most affected and project implementation was highest",
+        "source": "Piza et al. 2024"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Piza, Caio; Zwager, Astrid; Ruzzante, Matteo; Dantas, Rafael; Loureiro, Andre",
+        "year": 2024,
+        "title": "Teacher-led innovations to improve education outcomes: Experimental evidence from Brazil",
+        "methodology": "rct",
+        "journal": "Journal of Public Economics",
+        "doi": "10.1016/j.jpubeco.2024.105123",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0047272724000598",
+        "keyFinding": "Teacher-led innovations with technical assistance and earmarked funding improved grade 6 learning and school progression, especially where implementation was strongest."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Piza, Caio; Zwager, Astrid; Ruzzante, Matteo; Dantas, Rafael; Loureiro, Andre",
+        "year": 2024,
+        "title": "Teacher-led innovations to improve education outcomes: Experimental evidence from Brazil",
+        "source": "Journal of Public Economics",
+        "doi": "10.1016/j.jpubeco.2024.105123",
+        "url": "https://econpapers.repec.org/RePEc:eee:pubeco:v:234:y:2024:i:c:s0047272724000598"
+      }
+    ]
+  },
+  {
+    "id": "mexico-puebla-school-grants",
+    "name": "Puebla School Grants",
+    "nameLocal": "Apoyos escolares en Puebla",
+    "country": "mexico",
+    "yearStart": 2015,
+    "yearEnd": 2017,
+    "isActive": false,
+    "policyTypes": ["governance", "infrastructure"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "Experimental school-grants program in Puebla providing public primary schools with cash grants and support for school improvement planning.",
+    "summaryLong": "The Puebla school-grants intervention tested whether additional flexible resources could improve learning in public primary schools. Treated schools received cash grants averaging about US$16 per student per year for two years, increasing non-salary public spending per child by about 20 percent. The intervention is useful because it provides rigorous evidence on the limits of cash grants when used as a school-improvement lever.",
+    "objectives": [
+      "Increase school-level resources for public primary schools",
+      "Support school improvement planning",
+      "Improve student test scores and school progression",
+      "Assess whether flexible grants can raise learning outcomes"
+    ],
+    "mechanisms": "Schools received cash grants over two years, alongside improvement-planning support. Funds were intended to address locally identified needs and increase resources available for student learning.",
+    "coverage": "Randomized experiment across 200 public primary schools in Puebla",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found no impact on student test scores, enrollment, grade repetition, or pass rates, despite grants increasing non-salary spending by approximately 20 percent per child. The null result does not appear to be driven by poor implementation or substitution away from other inputs.",
+    "keyOutcomes": [
+      {
+        "metric": "Student test scores",
+        "effect": "No detectable impact",
+        "source": "Romero et al. 2024"
+      },
+      {
+        "metric": "Enrollment, repetition, and pass rates",
+        "effect": "No detectable impact",
+        "source": "Romero et al. 2024"
+      },
+      {
+        "metric": "Public non-salary spending",
+        "effect": "Approximately +20% per child",
+        "source": "Romero et al. 2024"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Romero, Mauricio; Bedoya, Juan; Yanez-Pagans, Monica; Silveyra, Marcela; de Hoyos, Rafael",
+        "year": 2024,
+        "title": "The effect of school grants on test scores: experimental evidence from Mexico",
+        "methodology": "rct",
+        "journal": "Economica",
+        "doi": "10.1111/ecca.12523",
+        "url": "https://econpapers.repec.org/RePEc:bla:econom:v:91:y:2024:i:363:p:980-995",
+        "keyFinding": "Cash grants increased non-salary spending but had no detectable effects on test scores, enrollment, repetition, or pass rates."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "J-PAL",
+        "year": 2023,
+        "title": "The Effect of School Grants on Test Scores: Experimental Evidence from Mexico",
+        "source": "Research paper",
+        "url": "https://www.povertyactionlab.org/sites/default/files/research-paper/Grants_Test_Scores_Mexico.pdf"
+      }
+    ]
+  },
+  {
+    "id": "argentina-salta-diagnostic-feedback-performance-management",
+    "name": "Diagnostic Feedback and Performance Management in Salta",
+    "nameLocal": "Retroalimentación diagnóstica y gestión del desempeño en Salta",
+    "country": "argentina",
+    "yearStart": 2018,
+    "yearEnd": 2020,
+    "isActive": false,
+    "policyTypes": ["governance", "teacher-reform"],
+    "affectedPopulations": ["primary", "teachers"],
+    "summaryShort": "Salta experiment combining student diagnostic feedback for schools with management tools and training for principals and supervisors.",
+    "summaryLong": "The Salta diagnostic feedback and performance-management intervention tested whether assessment information alone, or information plus management capacity, could improve public primary school outcomes. Schools received reports on students' math and reading performance; a second treatment group also received online tools and training to help principals and supervisors create and monitor school improvement plans.",
+    "objectives": [
+      "Help principals use student assessment information",
+      "Strengthen school-management capacity",
+      "Reduce grade repetition and overage",
+      "Improve instruction and school climate"
+    ],
+    "mechanisms": "The diagnostic-feedback group received math and reading assessment reports. The performance-management group received those reports plus tools and training for principals and supervisors to develop and monitor progress against school improvement plans.",
+    "coverage": "Experiment in 396 public primary schools in Salta, Argentina",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found that diagnostic feedback alone had null or adverse effects on student performance in school, while feedback combined with performance-management tools and training reduced grade repetition, especially among cohorts with greater exposure.",
+    "keyOutcomes": [
+      {
+        "metric": "Grade repetition",
+        "effect": "Performance-management treatment reduced repetition by 1.5 percentage points relative to control and 3.5 percentage points relative to diagnostic feedback alone",
+        "source": "de Hoyos et al. 2024"
+      },
+      {
+        "metric": "Diagnostic feedback alone",
+        "effect": "Higher repetition and overage rates than control after two years",
+        "source": "de Hoyos et al. 2024"
+      },
+      {
+        "metric": "Achievement",
+        "effect": "No statistically significant achievement effects, though small-to-moderate effects could not be ruled out",
+        "source": "de Hoyos et al. 2024"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "de Hoyos, Rafael; Djaker, Sharnic; Ganimian, Alejandro J.; Holland, Peter A.",
+        "year": 2024,
+        "title": "The impact of combining performance-management tools and training with diagnostic feedback in public schools: Experimental evidence from Argentina",
+        "methodology": "rct",
+        "journal": "Economics of Education Review",
+        "doi": "10.1016/j.econedurev.2024.102518",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0272775724000128",
+        "keyFinding": "Diagnostic feedback alone did not improve outcomes, but combining feedback with performance-management tools and training reduced grade repetition."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2024,
+        "title": "Operationalizing Impact: Education-Focused Impact Evaluations Funded by the World Bank",
+        "source": "World Bank compendium",
+        "url": "https://www.worldbank.org/en/topic/education/publication/impact-evaluations"
+      }
+    ]
+  },
+  {
+    "id": "mexico-poder-dropout-prevention",
+    "name": "PODER Dropout Prevention Pilot",
+    "nameLocal": "Programa de Oportunidades y Desarrollo para Evitar Riesgos",
+    "acronym": "PODER",
+    "country": "mexico",
+    "yearStart": 2016,
+    "yearEnd": 2017,
+    "isActive": false,
+    "policyTypes": ["tutoring", "curriculum"],
+    "affectedPopulations": ["secondary", "low-income"],
+    "summaryShort": "Mexico City upper-secondary dropout-prevention pilot combining cognitive behavioral therapy workshops with math tutoring for at-risk students.",
+    "summaryLong": "PODER was designed by Mexico's Secretariat of Public Education with the World Bank to reduce upper-secondary dropout. The pilot targeted first-year upper-secondary students at risk of dropping out and combined cognitive behavioral therapy-based socioemotional workshops with math tutoring. The program is important for the database because the rigorous evaluation documents both implementation limits and heterogeneous effects.",
+    "objectives": [
+      "Reduce upper-secondary dropout",
+      "Improve socioemotional skills",
+      "Strengthen math readiness for at-risk students",
+      "Test a scalable school-based dropout-prevention model"
+    ],
+    "mechanisms": "The intervention offered voluntary CBT-based workshops focused on decision-making, emotion management, and future orientation, complemented by math tutoring for students with accumulated academic gaps.",
+    "coverage": "More than 5,000 youth in 20 public upper-secondary schools in Mexico City",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The randomized field experiment found some evidence of improved socioemotional skills, but no intention-to-treat effects on math outcomes or future attendance. Low take-up and implementation constraints appear to have limited impacts; exploratory analyses suggest heterogeneous effects by participation.",
+    "keyOutcomes": [
+      {
+        "metric": "Socioemotional skills",
+        "effect": "Some positive evidence",
+        "source": "Avitabile et al. 2019"
+      },
+      {
+        "metric": "Math outcomes",
+        "effect": "No intention-to-treat effect",
+        "source": "Avitabile et al. 2019"
+      },
+      {
+        "metric": "Future attendance",
+        "effect": "No intention-to-treat effect",
+        "source": "Avitabile et al. 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Avitabile, Ciro; Cuevas, Janina; de Hoyos Navarro, Rafael E.; Jamison, Julian C.",
+        "year": 2019,
+        "title": "Addressing High School Dropouts with a Scalable Intervention: The Case of PODER",
+        "methodology": "rct",
+        "journal": "World Bank Policy Research Working Paper",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3507833",
+        "keyFinding": "The pilot improved some socioemotional outcomes but did not improve math outcomes or future attendance in intention-to-treat estimates."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "J-PAL",
+        "year": 2024,
+        "title": "The Impact of School-based Cognitive Behavioral Therapy on High School Dropout Rates in Mexico",
+        "source": "J-PAL evaluation summary",
+        "url": "https://www.povertyactionlab.org/evaluation/impact-school-based-cognitive-behavioral-therapy-high-school-dropout-rates-mexico"
+      }
+    ]
+  },
+  {
+    "id": "brazil-ceara-classroom-observation-coaching",
+    "name": "Classroom Observation and Coaching in Ceara",
+    "nameLocal": "Observação de sala de aula e coaching no Ceará",
+    "country": "brazil",
+    "yearStart": 2015,
+    "yearEnd": 2015,
+    "isActive": false,
+    "policyTypes": ["teacher-reform"],
+    "affectedPopulations": ["secondary", "teachers"],
+    "summaryShort": "Ceara secondary-school program using classroom observation feedback and expert coaching to improve teacher practice and student learning.",
+    "summaryLong": "The Ceara classroom observation and coaching program tested whether teachers could improve practice through benchmarked classroom-observation feedback and access to expert coaching. The state implemented the intervention over one school year in secondary schools, using pedagogical coordinators and remote coaching support. The evaluation is a major Latin American example of teacher professional development with direct measures of classroom practice and student learning.",
+    "objectives": [
+      "Improve teacher effectiveness",
+      "Increase instructional time and student engagement",
+      "Use observation feedback to guide teacher professional development",
+      "Raise student learning in secondary schools"
+    ],
+    "mechanisms": "Teachers received benchmarked feedback from classroom observations and access to expert coaching. Pedagogical coordinators supported school-level implementation, with some coaching delivered remotely to keep costs low.",
+    "coverage": "Randomized evaluation in 350 secondary schools, with 175 treatment schools",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized evaluation found that the program increased instructional time and student engagement, and improved student learning on state and national assessments. Effects were larger in schools with stronger implementation fidelity.",
+    "keyOutcomes": [
+      {
+        "metric": "State assessment scores",
+        "effect": "+0.05 to +0.09 SD overall; +0.13 to +0.23 SD in highest-fidelity schools",
+        "source": "Bruns et al. 2018"
+      },
+      {
+        "metric": "National secondary exit exam",
+        "effect": "+0.04 to +0.06 SD overall; +0.13 to +0.17 SD in highest-fidelity schools",
+        "source": "Bruns et al. 2018"
+      },
+      {
+        "metric": "Implementation cost",
+        "effect": "About US$2.40 per student",
+        "source": "Bruns et al. 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Bruns, Barbara; Costa, Leandro; Cunha, Nina; Menezes, Ildo",
+        "year": 2018,
+        "title": "Through the looking glass: can classroom observation and coaching improve teacher performance in Brazil?",
+        "methodology": "rct",
+        "journal": "Economics of Education Review",
+        "url": "https://lemanncenter.stanford.edu/node/387",
+        "keyFinding": "Classroom observation feedback and coaching improved teacher practice and raised student test scores, especially in high-fidelity schools."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "OECD",
+        "year": 2021,
+        "title": "Education in Brazil: An International Perspective",
+        "source": "OECD",
+        "url": "https://www.oecd.org/en/publications/education-in-brazil_60a667f7-en/full-report/component-9.html"
+      }
+    ]
   }
 ]
