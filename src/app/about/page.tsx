@@ -2,8 +2,13 @@ import {
   EVIDENCE_QUALITY_LABELS,
   EVIDENCE_QUALITY_DESCRIPTIONS,
   EvidenceQuality,
+  Policy,
 } from '@/types/policy';
 import { CheckCircle, ArrowUpRight } from 'lucide-react';
+import policiesData from '@/data/policies.json';
+
+const allPolicies = policiesData as Policy[];
+const countryCount = new Set(allPolicies.map((policy) => policy.country)).size;
 
 export const metadata = {
   title: 'About & Methodology | Latin America Education Policy Database',
@@ -23,24 +28,19 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#faf8f5]">
       {/* Hero */}
-      <div className="relative bg-[#1a2744] text-white overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          }} />
-        </div>
-        <div className="container max-w-4xl px-4 md:px-8 py-16 md:py-24 relative">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-[2px] bg-[#c4654a]" />
-            <span className="text-xs uppercase tracking-[0.2em] text-white/60">Methodology</span>
+      <div className="border-b border-[#e5e0d8] bg-[#1a2744] text-white">
+        <div className="container max-w-4xl px-4 md:px-8 py-12 md:py-16">
+          <div className="flex items-center gap-3 mb-5">
+            <div className="h-px w-10 bg-[#c4654a]" />
+            <span className="text-xs uppercase text-white/60">Methodology</span>
           </div>
-          <h1 className="font-serif text-4xl md:text-5xl leading-tight mb-6">
+          <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-5">
             About This <em className="text-[#c4654a]">Database</em>
           </h1>
           <p className="text-lg text-white/80 leading-relaxed max-w-2xl">
-            A comprehensive, searchable resource cataloging education policies implemented across
-            20 Latin American countries, designed for researchers, policymakers, and students
-            seeking evidence-based insights.
+            A comprehensive, searchable resource cataloging education policies implemented across{' '}
+            {countryCount} countries in Latin America and the Caribbean, designed for researchers,
+            policymakers, and students seeking evidence-based insights.
           </p>
         </div>
       </div>
@@ -189,16 +189,6 @@ export default function AboutPage() {
               ratings are our assessment and may differ from others. Impact findings should be
               interpreted in context—effects may vary by implementation quality, target population, and
               local conditions.
-            </p>
-          </div>
-        </section>
-
-        {/* Citation */}
-        <section>
-          <SectionHeader>Citation</SectionHeader>
-          <div className="bg-[#1a2744] text-white p-6">
-            <p className="font-mono text-sm leading-relaxed">
-              Latin America Education Policy Database. (2024). Retrieved from [URL]
             </p>
           </div>
         </section>

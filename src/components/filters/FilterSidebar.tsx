@@ -11,7 +11,6 @@ import {
   AffectedPopulation,
   EvidenceQuality,
 } from '@/types/policy';
-import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
@@ -224,7 +223,6 @@ function FilterCheckbox({
 
 // Mobile filter sheet wrapper
 export function MobileFilterSheet({
-  children,
   ...props
 }: FilterSidebarProps & { children?: React.ReactNode }) {
   const { getActiveFilterCount } = useFilterStore();

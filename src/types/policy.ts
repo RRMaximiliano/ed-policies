@@ -1,4 +1,4 @@
-// Country type - 20 Latin American countries
+// Country type - countries represented in the current policy dataset
 export type Country =
   | 'argentina'
   | 'bolivia'
@@ -225,4 +225,17 @@ export const DEFAULT_FILTERS: FilterState = {
   evidenceQuality: [],
   activeOnly: false,
   yearRange: [1950, new Date().getFullYear()],
+};
+
+export type PolicySortKey = 'relevance' | 'name' | 'country' | 'year' | 'evidence' | 'studies';
+export type SortDirection = 'asc' | 'desc';
+
+export interface PolicySortState {
+  key: PolicySortKey;
+  direction: SortDirection;
+}
+
+export const DEFAULT_POLICY_SORT: PolicySortState = {
+  key: 'evidence',
+  direction: 'desc',
 };
