@@ -11,7 +11,7 @@ import {
   CommandList,
   CommandSeparator,
 } from '@/components/ui/command';
-import { Policy, COUNTRY_LABELS, POLICY_TYPE_LABELS } from '@/types/policy';
+import { Policy, COUNTRY_LABELS } from '@/types/policy';
 import { useFilterStore } from '@/store/filterStore';
 import { MapPin, Calendar, FileText, Filter, RotateCcw } from 'lucide-react';
 

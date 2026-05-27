@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo } from 'react';
-import { Policy, FilterState, DEFAULT_FILTERS } from '@/types/policy';
+import { Policy, FilterState } from '@/types/policy';
 import { useSearch } from './useSearch';
 
 function filterPolicies(policies: Policy[], filters: FilterState): Policy[] {
@@ -67,6 +67,7 @@ export function usePolicies(
     countryCount: number;
     activeCount: number;
     highEvidenceCount: number;
+    highOrModerateEvidenceCount: number;
   };
 } {
   // First apply filters (excluding search)
@@ -82,7 +83,8 @@ export function usePolicies(
   const stats = useMemo(() => {
     const countries = new Set(allPolicies.map((p) => p.country));
     const activeCount = allPolicies.filter((p) => p.isActive).length;
-    const highEvidenceCount = allPolicies.filter(
+    const highEvidenceCount = allPolicies.filter((p) => p.evidenceQuality === 'high').length;
+    const highOrModerateEvidenceCount = allPolicies.filter(
       (p) => p.evidenceQuality === 'high' || p.evidenceQuality === 'moderate'
     ).length;
 
@@ -90,6 +92,7 @@ export function usePolicies(
       countryCount: countries.size,
       activeCount,
       highEvidenceCount,
+      highOrModerateEvidenceCount,
     };
   }, [allPolicies]);
 

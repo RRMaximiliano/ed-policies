@@ -26,7 +26,6 @@ import {
   ExternalLink,
   CheckCircle,
   Info,
-  X,
 } from 'lucide-react';
 
 interface PolicyDetailProps {

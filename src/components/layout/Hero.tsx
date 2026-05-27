@@ -1,86 +1,75 @@
 'use client';
 
-import { BookOpen, Globe, TrendingUp, Command } from 'lucide-react';
+import { BarChart3, BookOpen, Command, Globe, ShieldCheck } from 'lucide-react';
 
 interface HeroProps {
   totalPolicies: number;
   countryCount: number;
   highEvidenceCount: number;
+  highOrModerateEvidenceCount: number;
 }
 
-export function Hero({ totalPolicies, countryCount, highEvidenceCount }: HeroProps) {
+export function Hero({
+  totalPolicies,
+  countryCount,
+  highEvidenceCount,
+  highOrModerateEvidenceCount,
+}: HeroProps) {
   return (
-    <section className="relative overflow-hidden bg-[#1a2744] text-white">
-      {/* Decorative background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
-      </div>
+    <section className="border-b border-[#e5e0d8] bg-[#fbfaf7]">
+      <div className="container max-w-screen-2xl px-4 md:px-8 py-8 md:py-10">
+        <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(420px,0.72fr)] lg:items-end">
+          <div className="max-w-3xl">
+            <div className="mb-4 flex items-center gap-3">
+              <div className="h-px w-10 bg-[#c4654a]" />
+              <span className="text-xs uppercase text-[#5c6578]">
+                Research Database
+              </span>
+            </div>
 
-      {/* Decorative circles */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] -translate-y-1/2 translate-x-1/3 pointer-events-none">
-        <div className="absolute inset-0 border border-white/10 rounded-full" />
-        <div className="absolute inset-12 border border-white/10 rounded-full" />
-        <div className="absolute inset-24 border border-white/10 rounded-full" />
-      </div>
+            <h1 className="mb-4 font-serif text-3xl leading-tight text-[#1a2744] md:text-5xl">
+              Latin America Education Policy Database
+            </h1>
 
-      <div className="relative container max-w-screen-2xl px-4 md:px-8 py-16 md:py-24">
-        <div className="max-w-3xl">
-          {/* Eyebrow */}
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-12 h-[2px] bg-[#c4654a]" />
-            <span className="text-xs uppercase tracking-[0.2em] text-white/60">
-              Research Database
-            </span>
+            <p className="max-w-2xl text-base leading-relaxed text-[#5c6578] md:text-lg">
+              Compare {totalPolicies} education policy records across {countryCount} countries,
+              spanning Latin America and the Caribbean, with evidence ratings, evaluation studies,
+              and implementation details for researchers and policy evaluators.
+            </p>
           </div>
 
-          {/* Main title */}
-          <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white leading-[1.1] mb-6">
-            Latin America
-            <br />
-            <em className="text-[#c4654a]">Education Policy</em>
-          </h1>
+          <div className="lg:justify-self-end">
+            <div className="mb-3 inline-flex items-center gap-2 border border-[#e5e0d8] bg-white px-3 py-2 text-sm text-[#5c6578]">
+              <Command className="h-3.5 w-3.5 text-[#c4654a]" />
+              <span>Press</span>
+              <kbd className="border border-[#e5e0d8] bg-[#f5f2ed] px-1.5 py-0.5 font-mono text-[10px] text-[#1a2744]">
+                Ctrl or Cmd K
+              </kbd>
+              <span>to search</span>
+            </div>
 
-          {/* Subtitle */}
-          <p className="text-lg md:text-xl text-white/70 leading-relaxed max-w-2xl mb-10">
-            A curated collection of evidence-based education policies across
-            20 countries. Explore interventions, examine rigorous evaluations,
-            and discover what works.
-          </p>
-
-          {/* Search hint */}
-          <div className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/10 border border-white/20 text-sm text-white/80">
-            <Command className="h-3.5 w-3.5" />
-            <span>Press</span>
-            <kbd className="px-1.5 py-0.5 bg-white/10 border border-white/20 text-xs font-mono">Ctrl K</kbd>
-            <span>to search</span>
-          </div>
-        </div>
-
-        {/* Stats row */}
-        <div className="mt-16 pt-10 border-t border-white/10">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
-            <Stat
-              value={totalPolicies}
-              label="Policies Catalogued"
-              icon={<BookOpen className="h-4 w-4" />}
-            />
-            <Stat
-              value={countryCount}
-              label="Countries Covered"
-              icon={<Globe className="h-4 w-4" />}
-            />
-            <Stat
-              value={highEvidenceCount}
-              label="Strong Evidence"
-              icon={<TrendingUp className="h-4 w-4" />}
-            />
-            <Stat
-              value="1955"
-              label="Earliest Policy"
-              suffix="–Present"
-            />
+            <div className="grid grid-cols-2 border border-[#e5e0d8] bg-white md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
+              <Stat
+                value={totalPolicies}
+                label="Policies"
+                icon={<BookOpen className="h-4 w-4" />}
+              />
+              <Stat
+                value={countryCount}
+                label="Countries"
+                icon={<Globe className="h-4 w-4" />}
+              />
+              <Stat
+                value={highEvidenceCount}
+                label="High evidence"
+                icon={<ShieldCheck className="h-4 w-4" />}
+              />
+              <Stat
+                value={highOrModerateEvidenceCount}
+                label="High or moderate"
+                icon={<BarChart3 className="h-4 w-4" />}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -92,24 +81,19 @@ function Stat({
   value,
   label,
   icon,
-  suffix
 }: {
   value: number | string;
   label: string;
   icon?: React.ReactNode;
-  suffix?: string;
 }) {
   return (
-    <div className="group">
-      <div className="flex items-baseline gap-1 mb-2">
-        <span className="font-serif text-3xl md:text-4xl text-white tabular-nums">
+    <div className="border-b border-r border-[#e5e0d8] p-4 last:border-r-0 md:border-b-0 lg:border-b xl:border-b-0 [&:nth-child(2n)]:border-r-0 md:[&:nth-child(2n)]:border-r lg:[&:nth-child(2n)]:border-r-0 xl:[&:nth-child(2n)]:border-r xl:[&:nth-child(4)]:border-r-0">
+      <div className="mb-2 flex items-baseline gap-1">
+        <span className="font-serif text-3xl text-[#1a2744] tabular-nums">
           {value}
         </span>
-        {suffix && (
-          <span className="text-sm text-white/50">{suffix}</span>
-        )}
       </div>
-      <div className="flex items-center gap-2 text-sm text-white/60">
+      <div className="flex items-center gap-2 text-sm text-[#5c6578]">
         {icon && (
           <span className="text-[#c4654a]">
             {icon}

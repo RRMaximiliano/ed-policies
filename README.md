@@ -4,7 +4,7 @@
 [![Deploy to GitHub Pages](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml/badge.svg)](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml)
 <!-- badges: end -->
 
-A curated collection of evidence-based education policies implemented across 20 Latin American countries. Designed for researchers, policymakers, and PhD students seeking policy information, evaluation evidence, and impact findings.
+A curated collection of evidence-based education policies implemented across Latin America and the Caribbean. Designed for researchers, policymakers, and PhD students seeking policy information, evaluation evidence, and impact findings.
 
 **Live site**: https://www.rrmaximiliano.com/ed-policies/
 
