@@ -1,0 +1,564 @@
+[
+  {
+    "id": "el-salvador-educo",
+    "name": "Education with Community Participation",
+    "nameLocal": "Programa de Educación con Participación de la Comunidad",
+    "acronym": "EDUCO",
+    "country": "el-salvador",
+    "yearStart": 1991,
+    "yearEnd": 2011,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["early-childhood", "primary", "rural", "low-income"],
+    "summaryShort": "A post civil war program that expanded preschool and basic education in rural El Salvador by transferring school management, including teacher hiring and firing, to elected parent associations (ACEs). It became one of the most internationally cited community-managed schooling models before being phased out after 2009.",
+    "summaryLong": "EDUCO was launched in 1991, as El Salvador emerged from civil war, with World Bank support, to rapidly expand education in poor rural areas where the state had little presence. Communities formed legally recognized Community Education Associations (Asociaciones Comunales para la Educación, ACEs), groups of five volunteer parents with legal status and financial authority, which signed agreements with the Ministry of Education, received public funds, and hired, paid, and could dismiss teachers on annual contracts. Initially limited to preschool and grades 1 to 3, the program was extended to grade 6 in 1994 and to grade 9 in 1997.\n\nBy 2010, around 55 percent of rural public schools, equivalent to roughly a third of all schools in El Salvador, operated under EDUCO. The program attracted intense international attention as a model of school-based management, but it was also criticized for relying on precarious teacher contracts. After the FMLN government took office in 2009 the program was wound down, and in 2011 some 8,472 EDUCO teachers were absorbed into regular Ministry of Education positions.",
+    "objectives": [
+      "Rapidly expand access to preschool and basic education in poor rural communities after the civil war",
+      "Decentralize school management to parent associations to increase accountability of teachers to communities",
+      "Reduce student absenteeism and teacher absenteeism through local monitoring",
+      "Strengthen community participation in public service delivery"
+    ],
+    "mechanisms": "The Ministry of Education transferred public funds directly to elected, legally constituted parent associations (ACEs) in each community. The ACE hired teachers on renewable one-year contracts, paid salaries, purchased materials, and monitored attendance, while the ministry set the curriculum, provided training, and supervised the agreements. Teacher accountability to parents, rather than to the central ministry, was the core incentive mechanism.",
+    "coverage": "By 2010 about 55 percent of rural public schools (roughly one third of all schools in El Salvador) operated under EDUCO; 8,472 EDUCO teachers were transferred to ministry payroll positions in 2011 when the program closed.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "The best known evaluation, by Jimenez and Sawada (1999), used selection-corrected models on standardized tests and found that EDUCO schools improved students' language scores and reduced student absences relative to traditional schools, with no deficit in math. Later panel work by the same authors suggested community management helped retain students. However, subsequent academic critiques argued the measured achievement advantages were small and sensitive to specification, so the evidence is best read as moderate rather than definitive.",
+    "keyOutcomes": [
+      {
+        "metric": "Standardized language test scores",
+        "effect": "Higher in EDUCO schools than in comparable traditional schools after controlling for student, school, and classroom characteristics and selection",
+        "source": "Jimenez and Sawada 1999"
+      },
+      {
+        "metric": "Student absences",
+        "effect": "Reduced in EDUCO schools, attributed to enhanced community and parental involvement",
+        "source": "Jimenez and Sawada 1999"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Emmanuel Jimenez and Yasuyuki Sawada",
+        "year": 1999,
+        "title": "Do Community-Managed Schools Work? An Evaluation of El Salvador's EDUCO Program",
+        "methodology": "quasi-experimental",
+        "journal": "The World Bank Economic Review",
+        "url": "https://academic.oup.com/wber/article-abstract/13/3/415/1664645",
+        "keyFinding": "Community management improved students' language skills and diminished student absences relative to traditional schools, controlling for selection and school inputs."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2004,
+        "title": "EDUCO: A Community-Managed Education Program in Rural El Salvador (1991-2003)",
+        "source": "World Bank",
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/152771468746340775/educo-a-community-managed-education-program-in-rural-el-salvador-1991-2003"
+      },
+      {
+        "authors": "Emanuela Di Gropello",
+        "year": 2006,
+        "title": "A Comparative Analysis of School-Based Management in Central America",
+        "source": "World Bank",
+        "url": "https://ideas.repec.org/b/wbk/wbpubs/6978.html"
+      }
+    ]
+  },
+  {
+    "id": "guatemala-pronade",
+    "name": "National Program of Self-Management for Educational Development",
+    "nameLocal": "Programa Nacional de Autogestión para el Desarrollo Educativo",
+    "acronym": "PRONADE",
+    "country": "guatemala",
+    "yearStart": 1996,
+    "yearEnd": 2008,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["early-childhood", "primary", "rural", "indigenous", "low-income"],
+    "summaryShort": "Guatemala's community-managed schools program, formalized in 1996 after the Peace Accords, funded parent committees (COEDUCAs) to run schools in remote, mostly indigenous communities. It grew to more than 4,600 schools and over 445,000 children before being dismantled from 2008.",
+    "summaryLong": "PRONADE grew out of pilot efforts begun in the early 1990s and was formally established by Governmental Agreement 457-96 in 1996, the year Guatemala signed its Peace Accords, which committed the state to expanding rural education. Communities at least three kilometers from the nearest government school, with at least 25 primary-age children and no teachers already on the public payroll, formed Education Committees (Comités Educativos, COEDUCAs) that received funds directly from the Ministry of Education to hire, pay, and dismiss teachers, set the school calendar, and buy materials and school snacks. Contracted NGOs (ISEs) supported and monitored the committees instead of the regular ministry bureaucracy.\n\nThe program expanded from 19 pilot communities in Chimaltenango to more than 4,631 schools serving over 445,000 pre-primary and primary children, concentrated in rural indigenous areas. Primary enrollment in Guatemala rose about 26 percent between 1996 and 2000, and roughly half of that increase came through PRONADE. The model was praised for expanding access cheaply but criticized by teacher unions over precarious contracts and by researchers over quality. Following a campaign promise by President Álvaro Colom, the government dismantled PRONADE starting in 2008 and transferred its teachers into the regular system.",
+    "objectives": [
+      "Expand education coverage in remote rural and indigenous communities not reached by the traditional system",
+      "Transfer school management and teacher hiring to organized parent committees",
+      "Increase enrollment quickly and at low cost in line with the 1996 Peace Accords",
+      "Foster community participation and local accountability in education"
+    ],
+    "mechanisms": "The Ministry of Education transferred public funds directly to legally constituted community education committees (COEDUCAs), which hired and paid teachers, set calendars, and purchased materials and school snacks. Contracted NGOs, called Instituciones de Servicios Educativos, organized and trained the committees and handled administration. Eligibility rules targeted communities far from existing schools, ensuring the program reached previously unserved populations.",
+    "coverage": "More than 4,631 community schools and over 445,000 pre-primary and primary students by the mid 2000s; about half of Guatemala's 26 percent primary enrollment increase between 1996 and 2000 came through PRONADE.",
+    "evidenceQuality": "low",
+    "impactSummary": "PRONADE clearly expanded access in hard-to-reach communities, and World Bank comparative work on Central American school-based management found its schools maximized community participation while operating with less experienced teachers and fewer inputs. However, the program never received a rigorous experimental or strong quasi-experimental impact evaluation of learning outcomes, so evidence on quality effects is limited to descriptive and comparative studies.",
+    "keyOutcomes": [
+      {
+        "metric": "Primary enrollment growth 1996-2000",
+        "effect": "Approximately half of the 26 percent national increase in primary enrollment was attributable to PRONADE enrollment",
+        "source": "EPDC case study, citing World Bank and MINEDUC"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Emanuela Di Gropello",
+        "year": 2006,
+        "title": "A Comparative Analysis of School-Based Management in Central America",
+        "methodology": "descriptive",
+        "journal": "World Bank Working Paper No. 72",
+        "url": "https://ideas.repec.org/b/wbk/wbpubs/6978.html",
+        "keyFinding": "PRONADE was among the most administratively and financially decentralized school-based management programs in Latin America, expanding access in isolated communities while relying on less experienced teachers and modest inputs."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Education Policy and Data Center",
+        "year": 2008,
+        "title": "Meeting EFA: Guatemala PRONADE",
+        "source": "EPDC / FHI 360",
+        "url": "https://www.epdc.org/sites/default/files/documents/Guatemala%20PRONADE.pdf"
+      },
+      {
+        "authors": "World Bank",
+        "year": 2005,
+        "title": "Descentralización de la educación en Guatemala: gestión escolar comunitaria",
+        "source": "World Bank",
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/334761468046776826/decentralizacion-de-la-educacion-en-guatemala-gestion-escolar-comunitaria"
+      }
+    ]
+  },
+  {
+    "id": "honduras-proheco",
+    "name": "Honduran Community Education Program",
+    "nameLocal": "Programa Hondureño de Educación Comunitaria",
+    "acronym": "PROHECO",
+    "country": "honduras",
+    "yearStart": 1999,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["early-childhood", "primary", "rural", "indigenous", "low-income"],
+    "summaryShort": "Community-managed schools program created in 1999 after Hurricane Mitch to bring pre-basic and basic education to isolated rural Honduran communities, with parent associations hiring and supervising teachers. It still operates under the Secretariat of Education.",
+    "summaryLong": "PROHECO was created in 1999, in the aftermath of Hurricane Mitch, to expand schooling in isolated rural areas where roughly a quarter of rural school-age children lacked access to primary education in the late 1990s. Modeled on El Salvador's EDUCO, it channels public funds to community education associations (AECOs) made up of parents, which hire, pay, and monitor teachers and manage day-to-day school operations, while the Secretariat of Education provides curriculum, training, and oversight.\n\nBy the mid 2000s the program had created more than 3,000 schools accounting for roughly 8 percent of total primary enrollment. PROHECO teachers work on community contracts outside the teacher unions, which insulated the schools from strikes but also drew criticism over job security and teacher qualifications. The program continues to operate as the Secretariat of Education's alternative delivery model for remote communities, including indigenous and Afro-Honduran populations.",
+    "objectives": [
+      "Expand access to pre-basic and basic education in isolated rural communities",
+      "Involve parents directly in school management and teacher supervision",
+      "Rebuild and extend education services in areas affected by Hurricane Mitch",
+      "Reach indigenous and Afro-Honduran communities underserved by the traditional system"
+    ],
+    "mechanisms": "Communities form legally recognized parent associations (AECOs) that receive government transfers to hire and pay teachers on annual contracts, manage small budgets, and oversee attendance and school upkeep. The Secretariat of Education sets the curriculum, trains teachers and associations, and supervises through departmental promoters. Teacher accountability to the local association, rather than to the central ministry or unions, is the core design feature.",
+    "coverage": "More than 3,000 community schools and roughly 8 percent of total primary enrollment by the mid 2000s; the program continues to operate nationally in rural areas (Secretariat of Education).",
+    "evidenceQuality": "moderate",
+    "impactSummary": "A quasi-experimental study by Di Gropello and Marshall using standardized tests in 120 rural schools found PROHECO schools achieved higher science scores than comparable traditional rural schools, with no significant differences in math or language. The study found PROHECO increased teacher effort and parental involvement, but these advantages were partly offset by less experienced, less trained teachers and smaller classes. There is no experimental evidence, and effects on enrollment have not been rigorously isolated.",
+    "keyOutcomes": [
+      {
+        "metric": "Science test scores",
+        "effect": "Positive and significant relative to comparable traditional rural schools",
+        "source": "Di Gropello and Marshall 2011"
+      },
+      {
+        "metric": "Math and language test scores",
+        "effect": "No significant differences relative to traditional rural schools",
+        "source": "Di Gropello and Marshall 2011"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Emanuela Di Gropello and Jeffery H. Marshall",
+        "year": 2011,
+        "title": "Decentralization and educational performance: evidence from the PROHECO Community School Program in rural Honduras",
+        "methodology": "quasi-experimental",
+        "journal": "Education Economics",
+        "doi": "10.1080/09645290902992816",
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/09645290902992816",
+        "keyFinding": "PROHECO schools maximize teacher effort and parental involvement, translating into higher science achievement, though advantages are partly offset by lower teacher experience and training."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Secretaría de Educación de Honduras",
+        "year": 2022,
+        "title": "Programa Hondureño de Educación Comunitaria (PROHECO): Perfil",
+        "source": "Secretaría de Educación de Honduras",
+        "url": "https://www.se.gob.hn/proheco-perfil/"
+      },
+      {
+        "authors": "Emanuela Di Gropello",
+        "year": 2006,
+        "title": "A Comparative Analysis of School-Based Management in Central America",
+        "source": "World Bank",
+        "url": "https://ideas.repec.org/b/wbk/wbpubs/6978.html"
+      }
+    ]
+  },
+  {
+    "id": "nicaragua-school-autonomy",
+    "name": "School Autonomy Reform (Autonomous Schools Program)",
+    "nameLocal": "Régimen de Autonomía Escolar",
+    "country": "nicaragua",
+    "yearStart": 1993,
+    "yearEnd": 2007,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["primary", "secondary", "all"],
+    "summaryShort": "One of the most radical school-based management experiments in the world: from 1993 Nicaragua transferred budget and personnel decisions to school councils with parent majorities, partly financed by fees charged to families. The model was abolished in January 2007 when the incoming government decreed education free.",
+    "summaryLong": "Beginning in 1993, Nicaragua's Ministry of Education converted public schools into autonomous schools governed by local school councils (consejos directivos) in which parents held a voting majority. Councils could hire and dismiss directors and teachers, manage budgets based on per-student transfers, and raise additional revenue, in part through fees charged to parents. The reform expanded quickly: within three years about 100 secondary schools and more than 200 primary schools had entered the regime, and the model continued to spread through the late 1990s and early 2000s with support from the World Bank and other donors, becoming the country's dominant school governance model.\n\nThe reform was studied intensively by World Bank researchers, who distinguished between de jure autonomy (formal status) and de facto autonomy (actual local decision-making). The fee component proved controversial because it shifted costs to poor families. In January 2007, immediately after taking office, the Ortega government declared public education free again and abolished the autonomy regime, recentralizing school management.",
+    "objectives": [
+      "Decentralize school management decisions to councils dominated by parents",
+      "Increase school-level accountability for personnel and budget decisions",
+      "Mobilize local resources for schools through per-student transfers and fees",
+      "Improve learning outcomes through local decision-making"
+    ],
+    "mechanisms": "Participating schools signed contracts with the Ministry of Education creating directive councils with parent majorities. Councils received monthly per-student fiscal transfers, controlled school budgets, could hire and fire the school director and teachers, and could charge and retain fees from families. The ministry retained curriculum and standards while shifting operational authority to schools.",
+    "coverage": "About 100 secondary schools and more than 200 primary schools entered the regime within the first three years (King et al. 1996); the model continued expanding through the late 1990s and early 2000s to cover a large share of public schools before being abolished in January 2007.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "World Bank evaluations by King and Ozler found that formal (de jure) autonomy by itself had no clear effect on achievement, but greater de facto autonomy, that is, actual local influence over staffing and pedagogy, was associated with better student test performance. Later case study work documented wide variation in how councils functioned and raised equity concerns about fees. No experimental evidence exists, and the reform was abolished for political and equity reasons rather than on the basis of evaluation results.",
+    "keyOutcomes": [
+      {
+        "metric": "Student achievement",
+        "effect": "Greater de facto school-level decision-making was associated with higher student test scores; formal autonomous status alone showed no clear effect",
+        "source": "King and Ozler 1998"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Elizabeth M. King and Berk Ozler",
+        "year": 1998,
+        "title": "What's Decentralization Got To Do with Learning? The Case of Nicaragua's School Autonomy Reform",
+        "methodology": "quasi-experimental",
+        "journal": "World Bank, Working Paper Series on Impact Evaluation of Education Reforms",
+        "keyFinding": "De facto autonomy in personnel and pedagogical decisions was positively associated with student achievement, while de jure autonomous status alone was not."
+      },
+      {
+        "authors": "Elizabeth M. King, Berk Ozler and Laura B. Rawlings",
+        "year": 1996,
+        "title": "Nicaragua's School Autonomy Reform: A First Look",
+        "methodology": "descriptive",
+        "journal": "World Bank, Working Paper Series on Impact Evaluation of Education Reforms",
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/617741492717110648/nicaraguas-school-autonomy-reform-a-first-look",
+        "keyFinding": "Documented rapid early expansion of the reform and large variation in the degree of real decision-making authority exercised by school councils."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Alec Ian Gershberg",
+        "year": 2002,
+        "title": "Empowering Parents While Making Them Pay: Autonomous Schools and Education Reform Processes in Nicaragua",
+        "source": "Woodrow Wilson International Center for Scholars",
+        "url": "https://www.wilsoncenter.org/sites/default/files/media/documents/publication/Gershberg_Paper.pdf"
+      }
+    ]
+  },
+  {
+    "id": "nicaragua-red-proteccion-social",
+    "name": "Social Protection Network",
+    "nameLocal": "Red de Protección Social",
+    "acronym": "RPS",
+    "country": "nicaragua",
+    "yearStart": 2000,
+    "yearEnd": 2006,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "rural", "low-income", "early-childhood"],
+    "summaryShort": "Nicaragua's PROGRESA-style conditional cash transfer (2000-2006), randomized at the community level, paid poor rural households cash conditional on primary school enrollment and health checkups. One of the most rigorously evaluated CCTs in the world, it ended in 2006 despite strong results.",
+    "summaryLong": "Launched in 2000 with Inter-American Development Bank financing and modeled on Mexico's PROGRESA, the Red de Protección Social gave poor rural households bimonthly cash transfers conditional on enrolling children aged 7 to 13 who had not completed fourth grade in primary school, maintaining attendance, and taking young children to preventive health appointments. A pilot phase (2000-2002) covered around 10,000 households and a second phase (2002-2006) covered about 30,000 households.\n\nBecause the pilot was randomized across 42 rural comarcas, RPS produced some of the strongest evidence in the CCT literature. IFPRI's evaluation found large gains in enrollment, attendance, and grade progression, concentrated among the poorest households, alongside improved child nutrition. Follow-up studies a decade later found lasting gains in schooling, learning, and earnings for boys who were exposed at the right ages. Despite this record, the program was discontinued in 2006 amid weak domestic political support, making RPS a frequently cited case of an effective but short-lived program.",
+    "objectives": [
+      "Increase primary school enrollment, attendance, and grade progression among poor rural children",
+      "Reduce child labor among school-age children",
+      "Improve health and nutrition of children under five",
+      "Supplement income of extremely poor rural households to reduce current and future poverty"
+    ],
+    "mechanisms": "Eligible households in targeted poor rural communities received a food security transfer plus a school attendance transfer and a per-child school supplies transfer, paid every two months to the female caregiver. Education transfers were conditional on enrollment and regular attendance of children aged 7 to 13 who had not completed fourth grade; health transfers were conditional on preventive checkups for young children. Noncompliance led to suspension of payments.",
+    "coverage": "About 10,000 households in the randomized pilot phase (2000-2002) and roughly 30,000 households in the expanded second phase (2002-2006) in poor rural areas of central and northern Nicaragua (CEPAL program database; Moore 2009).",
+    "evidenceQuality": "high",
+    "impactSummary": "The randomized IFPRI evaluation found large positive double-difference effects on school enrollment, attendance, and grade advancement, with the biggest gains among the extremely poor, plus reductions in child labor and improvements in child nutrition. Ten-year follow-up studies exploiting the randomized phase-in found persistent gains of roughly half a grade of completed schooling and significant learning and earnings gains for young men exposed at primary school age, demonstrating that CCT effects can outlast the program itself.",
+    "keyOutcomes": [
+      {
+        "metric": "Primary school enrollment",
+        "effect": "Large positive double-difference effects among targeted children, with strongest gains for the extremely poor",
+        "source": "Maluccio and Flores 2005"
+      },
+      {
+        "metric": "Completed schooling and learning after 10 years",
+        "effect": "Boys in early-treatment communities completed about half a grade more schooling, with significantly higher achievement test scores and earnings as young adults",
+        "source": "Barham, Macours and Maluccio 2017"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "John A. Maluccio and Rafael Flores",
+        "year": 2005,
+        "title": "Impact Evaluation of a Conditional Cash Transfer Program: The Nicaraguan Red de Protección Social",
+        "methodology": "rct",
+        "journal": "IFPRI Research Report 141",
+        "url": "https://ebrary.ifpri.org/digital/collection/p15738coll2/id/47924",
+        "keyFinding": "The randomized community-level evaluation found positive and significant effects on school enrollment, attendance, grade advancement, child nutrition, and household expenditure, largest among the poorest households."
+      },
+      {
+        "authors": "Tania Barham, Karen Macours and John A. Maluccio",
+        "year": 2017,
+        "title": "Are Conditional Cash Transfers Fulfilling Their Promise? Schooling, Learning, and Earnings After 10 Years",
+        "methodology": "rct",
+        "journal": "CEPR Discussion Paper / working paper",
+        "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2941523",
+        "keyFinding": "Ten years after the program began, boys exposed at primary school age had more completed schooling, higher learning outcomes, and higher earnings, showing durable human capital gains."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Charity Moore",
+        "year": 2009,
+        "title": "Nicaragua's Red de Protección Social: An Exemplary but Short-Lived Conditional Cash Transfer Programme",
+        "source": "International Policy Centre for Inclusive Growth (IPC-IG)",
+        "url": "https://ideas.repec.org/p/ipc/cstudy/17.html"
+      },
+      {
+        "authors": "CEPAL",
+        "year": 2019,
+        "title": "Red de Protección Social (2000-2006), Nicaragua: Conditional Cash Transfer Programmes database",
+        "source": "CEPAL",
+        "url": "https://dds.cepal.org/bpsnc/programme?id=23"
+      }
+    ]
+  },
+  {
+    "id": "honduras-praf",
+    "name": "Family Allowance Program",
+    "nameLocal": "Programa de Asignación Familiar",
+    "acronym": "PRAF",
+    "country": "honduras",
+    "yearStart": 1990,
+    "yearEnd": 2010,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "rural", "low-income", "early-childhood"],
+    "summaryShort": "Honduras' first large cash transfer program (1990) whose second phase, PRAF-II (2000-2005), gave education and health vouchers to poor rural households conditional on primary enrollment and health visits, evaluated through a municipality-level randomized experiment. It was succeeded by Bono 10,000 in 2010.",
+    "summaryLong": "PRAF was created in 1990 as a compensatory social program. Its internationally known phase, PRAF-II, ran from 2000 to 2005 with Inter-American Development Bank support and delivered two kinds of transfers in poor rural municipalities: demand-side cash vouchers to households, conditional on enrolling children aged 6 to 12 who had not completed fourth grade and on regular health center visits for young children, and supply-side transfers to parent associations and local health teams to strengthen schools and clinics.\n\nIn October 1999, before rollout, researchers randomly assigned 70 of the poorest municipalities, ranked by child height-for-age, into demand-side, supply-side, combined, and control groups, with 40 municipalities receiving the household transfers. This design made PRAF one of the few CCTs in the world evaluated through a true randomized experiment at scale. Evaluations found significant enrollment gains and reductions in child labor, though transfer values were small relative to other CCTs. PRAF transfers were replaced in 2010 by the larger Bono 10,000 program.",
+    "objectives": [
+      "Increase primary school enrollment and attendance among poor rural children aged 6 to 12",
+      "Reduce child labor",
+      "Increase use of preventive maternal and child health services",
+      "Strengthen local school and health service supply through transfers to parent associations and health teams"
+    ],
+    "mechanisms": "Eligible households in randomly selected poor municipalities received education vouchers for each child aged 6 to 12 who had not completed fourth grade, conditional on enrollment and attendance, plus health vouchers conditional on health center visits for young children and pregnant women. A parallel supply-side arm transferred resources to parent associations and primary health teams. Payments were modest and delivered semiannually.",
+    "coverage": "PRAF-II operated in 50 of the 70 poorest municipalities of western Honduras under the experimental design (40 with household transfers), reaching tens of thousands of poor rural households between 2000 and 2005.",
+    "evidenceQuality": "high",
+    "impactSummary": "Randomized evaluations found that the demand-side transfers increased primary school enrollment, with Glewwe and Olinto (2004) estimating enrollment about 7 percentage points higher in treated municipalities in 2001, and J-PAL summaries of Galiani and McEwan's analysis reporting enrollment gains of about 12 percent and reductions of roughly 30 percent in child work outside the home among eligible children. Galiani and McEwan (2013) showed effects were strongly concentrated in the poorest municipalities and households. Long-term follow-up by Molina Millán and coauthors found lasting effects on secondary completion and higher education among exposed cohorts. Supply-side transfers showed weaker effects, partly due to implementation problems.",
+    "keyOutcomes": [
+      {
+        "metric": "Primary school enrollment",
+        "effect": "About 7 percentage points higher in CCT municipalities in 2001",
+        "source": "Glewwe and Olinto 2004"
+      },
+      {
+        "metric": "Enrollment and child labor among eligible children",
+        "effect": "Enrollment increased by about 12 percent; work outside the home fell by about 30 percent, with effects concentrated in the poorest municipalities",
+        "source": "Galiani and McEwan 2013"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Paul Glewwe and Pedro Olinto",
+        "year": 2004,
+        "title": "Evaluating the Impact of Conditional Cash Transfers on Schooling: An Experimental Analysis of Honduras' PRAF Program",
+        "methodology": "rct",
+        "journal": "Final report for USAID, IFPRI",
+        "keyFinding": "The randomized education transfers raised school enrollment by roughly 7 percentage points and increased attendance among poor rural children."
+      },
+      {
+        "authors": "Sebastian Galiani and Patrick J. McEwan",
+        "year": 2013,
+        "title": "The heterogeneous impact of conditional cash transfers",
+        "methodology": "rct",
+        "journal": "Journal of Public Economics",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0047272713000789",
+        "keyFinding": "PRAF-II transfers increased enrollment and reduced child labor, with much larger effects in the poorest municipalities and households."
+      },
+      {
+        "authors": "Teresa Molina Millán, Karen Macours, John A. Maluccio and Marco Stampini",
+        "year": 2020,
+        "title": "The Long-Term Impacts of Honduras' CCT Program: Higher Education and International Migration",
+        "methodology": "rct",
+        "journal": "Inter-American Development Bank",
+        "url": "https://publications.iadb.org/publications/english/document/The_long-term_impacts_of_Honduras%E2%80%99_CCT_program_higher_education_and_international_migration_en_en.pdf",
+        "keyFinding": "Exposure to PRAF-II in childhood had long-term positive effects on educational attainment, including higher education, and increased international migration among some cohorts."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Abdul Latif Jameel Poverty Action Lab (J-PAL)",
+        "year": 2013,
+        "title": "Conditional Cash Transfers in Honduras",
+        "source": "J-PAL evaluation summary",
+        "url": "https://www.povertyactionlab.org/evaluation/conditional-cash-transfers-honduras"
+      }
+    ]
+  },
+  {
+    "id": "costa-rica-avancemos",
+    "name": "Avancemos Conditional Cash Transfer Program",
+    "nameLocal": "Programa Avancemos",
+    "country": "costa-rica",
+    "yearStart": 2006,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["secondary", "primary", "low-income"],
+    "summaryShort": "Costa Rica's national conditional cash transfer, created in 2006, pays monthly subsidies to poor families so adolescents stay in school instead of working. Administered by IMAS, it reached about 274,000 students in 2023 and was given a permanent legal basis by Law 9617.",
+    "summaryLong": "Avancemos was established on 8 May 2006 to reduce secondary school dropout among adolescents from families in poverty, on the premise that a monetary subsidy conditional on school attendance offsets the opportunity cost of adolescent work. The program is administered by the Instituto Mixto de Ayuda Social (IMAS), with beneficiaries selected through the national social registry (SINIRUBE), and is coordinated with the Ministry of Public Education and the Ministry of Labor. Law No. 9617 of 2018 strengthened the program's legal foundation.\n\nTransfers are paid monthly to families conditional on enrollment and permanence in the education system. In 2023 amounts were 18,000 colones per month for primary students and 30,000 to 40,000 colones for secondary students depending on grade, and the government programmed transfers for about 274,000 students. Originally focused on secondary students, the conditional transfer scheme now also covers students in primary education under the IMAS benefit structure. Several quasi-experimental evaluations have found positive effects on attendance, permanence, and reinsertion of dropouts.",
+    "objectives": [
+      "Reduce dropout and promote permanence in secondary education among adolescents in poverty",
+      "Offset the opportunity cost of adolescent labor through a monthly cash subsidy",
+      "Promote reinsertion of out-of-school youth into the education system",
+      "Link poor families to the social protection system through the national beneficiary registry"
+    ],
+    "mechanisms": "IMAS pays a monthly cash transfer to eligible families identified through the SINIRUBE social registry, conditional on the student's enrollment, attendance, and permanence in primary or secondary education. Amounts increase with education level (18,000 colones for primary, 30,000 for lower secondary, 40,000 for upper secondary per month in 2023). Noncompliance with study conditions leads to suspension of the benefit.",
+    "coverage": "About 274,000 students programmed to receive transfers in 2023 (Government of Costa Rica / IMAS); the program operates nationwide and is targeted to households in poverty or extreme poverty.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Quasi-experimental evaluations using propensity score matching and difference-in-differences designs have found that Avancemos reduced dropout and promoted reinsertion, with estimates that 10 to 16 percent of beneficiary students who stayed in school did so because of the program, and analyses of national household survey data finding higher attendance and educational attainment along with a lower probability of adolescent work. There is no experimental evidence, and estimates vary across methods and periods.",
+    "keyOutcomes": [
+      {
+        "metric": "School permanence (avoided dropout)",
+        "effect": "Between 10 and 16 percent of beneficiary students who did not leave high school stayed only because of Avancemos, per quasi-experimental estimates",
+        "source": "Meza-Cordero and Gulemetova 2023"
+      },
+      {
+        "metric": "Attendance and attainment",
+        "effect": "Higher school attendance and additional years of attainment, with a lower probability of adolescent work, in household survey analyses for 2006-2014",
+        "source": "Meza-Cordero and Gulemetova 2023"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Jaime A. Meza-Cordero and Michaela Gulemetova",
+        "year": 2023,
+        "title": "Re-evaluating the behavioral change from conditional cash transfers: Evidence from the Avancemos National Program in Costa Rica",
+        "methodology": "quasi-experimental",
+        "journal": "Poverty & Public Policy",
+        "doi": "10.1002/pop4.359",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pop4.359",
+        "keyFinding": "Using national household survey data, the study finds Avancemos increased school attendance and permanence among poor adolescents, supporting the program's behavioral design."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Instituto Mixto de Ayuda Social (IMAS)",
+        "year": 2024,
+        "title": "Avancemos: descripción del beneficio",
+        "source": "IMAS, Government of Costa Rica",
+        "url": "https://www.imas.go.cr/es/beneficios/avancemos-0"
+      },
+      {
+        "authors": "Ministerio de Trabajo y Seguridad Social",
+        "year": 2023,
+        "title": "Gobierno de la República beneficiará a 274.000 estudiantes del programa Avancemos",
+        "source": "Government of Costa Rica",
+        "url": "https://www.mtss.go.cr/prensa/comunicados/2023/enero/cp_24_01_2023_imas.html"
+      }
+    ]
+  },
+  {
+    "id": "guatemala-bilingual-intercultural",
+    "name": "National Bilingual Education Program (now Bilingual Intercultural Education)",
+    "nameLocal": "Programa Nacional de Educación Bilingüe",
+    "acronym": "PRONEBI",
+    "country": "guatemala",
+    "yearStart": 1984,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["indigenous-ed", "curriculum"],
+    "affectedPopulations": ["primary", "early-childhood", "indigenous", "rural"],
+    "summaryShort": "Guatemala's flagship Mayan-Spanish bilingual education policy, created as PRONEBI in 1984 and later institutionalized in the Ministry of Education as the Directorate General of Bilingual Intercultural Education (DIGEBI), delivering early primary instruction in Mayan languages alongside Spanish.",
+    "summaryLong": "PRONEBI was established by Government Accord No. 1093-84 in 1984, building on a 1980-1984 USAID-supported pilot project, to provide bilingual preschool and early primary education to rural indigenous children. Its first five years were financed by a USAID loan of 10.2 million dollars and a 3.3 million dollar grant plus 25 million dollars from the Guatemalan government. The program initially targeted 800 schools, 400 complete schools offering a preschool through fourth grade bilingual curriculum and 400 incomplete schools offering bilingual preschool, in the four largest Mayan language communities: K'iche', Kaqchikel, Q'eqchi' and Mam.\n\nIn the mid 1990s the program was institutionalized inside the Ministry of Education as the Directorate General of Bilingual Intercultural Education (DIGEBI), and after the 1996 Peace Accords bilingual intercultural education became a formal state commitment. By 2005 bilingual programs had expanded to cover 12 language communities, including Garifuna and Xinka. Coverage and quality remain uneven relative to the size of Guatemala's indigenous school-age population, and the policy has been analyzed mainly through non-experimental studies.",
+    "objectives": [
+      "Provide initial literacy and early primary instruction in children's Mayan mother tongue alongside Spanish",
+      "Reduce grade repetition and dropout among rural indigenous students",
+      "Improve learning outcomes including Spanish acquisition",
+      "Preserve and promote Mayan languages and cultures within the public school system"
+    ],
+    "mechanisms": "The ministry develops bilingual curricula and teaching materials in Mayan languages, recruits and trains bilingual indigenous teachers, and designates bilingual schools in indigenous municipalities. Instruction begins in the mother tongue in preschool and early grades with Spanish introduced progressively, transitioning toward bilingual instruction by the end of early primary. Since the mid 1990s DIGEBI administers the model nationally.",
+    "coverage": "Initial target of 800 rural schools in the four major Mayan language groups (K'iche', Kaqchikel, Q'eqchi', Mam) in the 1980s; expanded to programs in 12 language communities by 2005 under DIGEBI.",
+    "evidenceQuality": "low",
+    "impactSummary": "Non-experimental analyses using 1986-1991 program data found that students in PRONEBI bilingual schools had higher attendance and promotion rates, lower repetition and dropout, and higher test scores across subjects including Spanish, and World Bank simulations suggested the program could pay for itself through reduced repetition costs. However, the evidence base rests on descriptive comparisons rather than rigorous causal designs, and no experimental evaluation of the policy exists.",
+    "keyOutcomes": [
+      {
+        "metric": "Repetition and dropout",
+        "effect": "Bilingual school students showed lower grade repetition and dropout rates than comparable indigenous students in Spanish-only schools, with simulated cost savings from reduced repetition",
+        "source": "Patrinos and Velez 2009"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Harry Anthony Patrinos and Eduardo Velez",
+        "year": 2009,
+        "title": "Costs and benefits of bilingual education in Guatemala: A partial analysis",
+        "methodology": "descriptive",
+        "journal": "International Journal of Educational Development",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0738059309000182",
+        "keyFinding": "Students in bilingual schools had higher attendance and promotion and lower repetition and dropout, and projected savings from reduced repetition exceeded program costs."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank (Patrinos and Velez)",
+        "year": 1996,
+        "title": "Costs and Benefits of Bilingual Education in Guatemala: A Partial Analysis (Human Capital Development Working Paper)",
+        "source": "World Bank",
+        "url": "https://documents1.worldbank.org/curated/en/963701468771062355/pdf/multi-page.pdf"
+      }
+    ]
+  },
+  {
+    "id": "panama-bilingue",
+    "name": "Bilingual Panama Program",
+    "nameLocal": "Programa Panamá Bilingüe",
+    "country": "panama",
+    "yearStart": 2014,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["teacher-reform", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "teachers"],
+    "summaryShort": "Panama's national English teaching initiative, launched in 2014 and made law in 2017, that trains public school English teachers, including immersion stays abroad, and expands English instruction for primary and secondary students in official schools.",
+    "summaryLong": "Panamá Bilingüe was launched in 2014 by the incoming Varela administration as an emergency effort to improve English teaching in public schools, motivated by Panama's weak English proficiency rankings despite its service-oriented economy. The program, run centrally by the Ministry of Education (MEDUCA), combines in-country teacher training, immersion scholarships that send public school teachers to universities in the United States, the United Kingdom and other English-speaking countries (with an initial goal of about 500 teachers per year), and expanded English instruction for primary (Kids) and secondary (After School) students. Government targets called for reaching about 285,000 students and training 25,000 teachers, at a pace of roughly 2,000 teachers per year.\n\nLaw 18 of 10 May 2017 gave the program permanent legal status and created the National Directorate of Foreign Language Teaching within MEDUCA to plan, coordinate, and evaluate bilingual education nationwide. The program has continued under subsequent administrations as the basis of Panama's state English policy. No rigorous impact evaluation of its effects on student learning has been published; available studies are qualitative analyses of the teacher training components.",
+    "objectives": [
+      "Improve English proficiency of students in official public schools",
+      "Train and certify Panamanian English teachers, including through immersion programs abroad",
+      "Institutionalize English as a second language teaching in the public system through a permanent national directorate",
+      "Strengthen graduates' competitiveness and labor market insertion in Panama's service economy"
+    ],
+    "mechanisms": "MEDUCA selects in-service and pre-service English teachers for training, including eight-week or longer immersion stays at partner universities abroad and in-country professional development, and deploys expanded English instruction blocks for primary students (Kids component) and secondary students (After School component). Law 18 of 2017 created the National Directorate of Foreign Language Teaching to coordinate, supervise, and evaluate the program and required teacher certification.",
+    "coverage": "Design targets of about 285,000 students reached and 25,000 teachers trained over five years, with roughly 2,000 teachers trained per year and about 500 teachers per year sent abroad during the initial phase (MEDUCA and partner university reports).",
+    "evidenceQuality": "low",
+    "impactSummary": "The program has not been rigorously evaluated. No experimental or quasi-experimental study of its effects on student English proficiency or other learning outcomes has been published. Available evidence consists of qualitative studies of the study-abroad teacher training component, which report that teachers valued immersion and learned new techniques but found the training imperfectly matched to Panamanian classroom conditions, where low primary teacher proficiency and inadequate facilities remain obstacles.",
+    "keyOutcomes": [],
+    "evaluations": [
+      {
+        "authors": "Dalys Vargas",
+        "year": 2017,
+        "title": "Bilingual Panama: EFL Teacher Perceptions, Study Abroad in an Immersion Environment",
+        "methodology": "qualitative",
+        "journal": "Journal of Language Teaching and Research",
+        "url": "https://www.academypublication.com/issues2/jltr/vol08/04/05.pdf",
+        "keyFinding": "Teachers who studied abroad under the program valued immersion and new techniques but felt the ESL approach of host universities did not match Panamanian public school conditions."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Asamblea Nacional de Panamá",
+        "year": 2017,
+        "title": "Ley 18 de 10 de mayo de 2017, que crea el programa Panamá Bilingüe y dicta otra disposición",
+        "source": "Gaceta Oficial de Panamá",
+        "url": "https://www.gacetaoficial.gob.pa/pdfTemp/28275_B/GacetaNo_28275b_20170510.pdf"
+      },
+      {
+        "authors": "SITEAL / IIEP UNESCO",
+        "year": 2019,
+        "title": "Programa Panamá Bilingüe (Ley 18/2017)",
+        "source": "UNESCO SITEAL policy database",
+        "url": "https://siteal.iiep.unesco.org/bdnp/3447/programa-panama-bilingue-ley-182017"
+      }
+    ]
+  }
+]

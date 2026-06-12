@@ -4,28 +4,31 @@
 [![Deploy to GitHub Pages](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml/badge.svg)](https://github.com/RRMaximiliano/ed-policies/actions/workflows/deploy.yml)
 <!-- badges: end -->
 
-A curated collection of evidence-based education policies implemented across Latin America and the Caribbean. Designed for researchers, policymakers, and PhD students seeking policy information, evaluation evidence, and impact findings.
+A catalog of education policies implemented across Latin America and the Caribbean. The goal is to document **every education policy that happened in the region, whether or not it has been evaluated**, with evidence ratings and evaluation studies where research exists. Designed for researchers, policymakers, and PhD students.
 
 **Live site**: https://www.rrmaximiliano.com/ed-policies/
 
 ## Overview
 
-This database catalogs 54 education policies with detailed information on:
+This database catalogs 100+ education policies (as of June 2026) with detailed information on:
 
 - Policy mechanisms and objectives
+- Implementation status (pilot, regional, national, scaled-down, ended)
 - Target populations and coverage
-- Evidence quality ratings (high, moderate, emerging, low, none)
+- Evidence quality ratings (high, moderate, emerging, low, not yet evaluated)
 - Evaluation studies and key findings
 - Academic references
+
+Every policy gets its own citable page (`/policies/<id>`), and every country gets a landing page (`/countries/<country>`).
 
 ### Coverage
 
 | Category | Count |
 |----------|-------|
-| Policies | 54 |
-| Countries | 15+ |
+| Policies | 100+ |
+| Countries | 21 |
 | Policy types | 13 |
-| With rigorous evidence | 20+ |
+| With evaluation studies | 90+ |
 
 ### Policy Types
 
@@ -77,8 +80,8 @@ Output is generated in the `out/` directory.
 
 | Component | Technology |
 |-----------|------------|
-| Framework | Next.js 14+ |
-| Styling | Tailwind CSS |
+| Framework | Next.js 16 (static export) |
+| Styling | Tailwind CSS 4 |
 | UI Components | shadcn/ui |
 | State Management | Zustand |
 | Search | Fuse.js |
@@ -94,8 +97,9 @@ interface Policy {
   name: string;
   country: Country;
   yearStart: number;
-  yearEnd?: number;
+  yearEnd?: number | null;
   isActive: boolean;
+  implementationStatus: 'pilot' | 'regional' | 'national' | 'scaled-down' | 'ended';
   policyTypes: PolicyType[];
   affectedPopulations: AffectedPopulation[];
   summaryShort: string;
@@ -106,9 +110,18 @@ interface Policy {
   evidenceQuality: 'high' | 'moderate' | 'emerging' | 'low' | 'none';
   impactSummary: string;
   keyOutcomes: Outcome[];
-  evaluations: EvaluationStudy[];
-  keyReferences: Reference[];
+  evaluations?: EvaluationStudy[];   // optional: unevaluated policies are first-class
+  keyReferences?: Reference[];       // optional
 }
+```
+
+Policies **without research are first-class entries**: set `evidenceQuality: "none"` and omit `evaluations`/`keyReferences`.
+
+Validate the dataset any time with:
+
+```bash
+npm run validate   # schema check for src/data/policies.json
+npm run verify     # validate + typecheck + lint (also runs in CI)
 ```
 
 ## Contributing

@@ -3,29 +3,15 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Custom fonts */
+/* Custom fonts.
+   Display: Archivo (variable), a grotesque by Omnibus-Type, Buenos Aires.
+   Text: Source Sans 3. */
 @font-face {
-  font-family: 'Libre Baskerville';
+  font-family: 'Archivo';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400 800;
   font-display: swap;
-  src: url('https://fonts.gstatic.com/s/librebaskerville/v14/kmKnZrc3Hgbbcjq75U4uslyuy4kn0qNZaxM.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('https://fonts.gstatic.com/s/librebaskerville/v14/kmKiZrc3Hgbbcjq75U4uslyuy4kn0qviTjYwI8Gcw6Oi.woff2') format('woff2');
-}
-
-@font-face {
-  font-family: 'Libre Baskerville';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url('https://fonts.gstatic.com/s/librebaskerville/v14/kmKhZrc3Hgbbcjq75U4uslyuy4kn0qNcaxYaDc2V2ro.woff2') format('woff2');
+  src: url('https://fonts.gstatic.com/s/archivo/v25/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLydOxKsv4Rn.woff2') format('woff2');
 }
 
 @font-face {
@@ -40,7 +26,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
-  --font-serif: 'Libre Baskerville', ui-serif, Georgia, serif;
+  --font-display: 'Archivo', ui-sans-serif, system-ui, sans-serif;
   --font-mono: ui-monospace, 'SF Mono', Monaco, monospace;
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -81,62 +67,59 @@
 }
 
 :root {
-  --radius: 0.25rem;
+  --radius: 0rem;
 
-  /* Warm paper cream background */
-  --background: #faf8f5;
-  --foreground: #1a2744;
+  /* Neutral paper background, near-black ink */
+  --background: #fafafa;
+  --foreground: #18181b;
 
-  /* Cards slightly warmer */
   --card: #ffffff;
-  --card-foreground: #1a2744;
+  --card-foreground: #18181b;
 
   --popover: #ffffff;
-  --popover-foreground: #1a2744;
+  --popover-foreground: #18181b;
 
-  /* Deep navy ink primary */
-  --primary: #1a2744;
-  --primary-foreground: #faf8f5;
+  /* Ink primary */
+  --primary: #18181b;
+  --primary-foreground: #fafafa;
 
-  /* Warm stone secondary */
-  --secondary: #f0ebe4;
-  --secondary-foreground: #1a2744;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #18181b;
 
-  --muted: #f5f2ed;
-  --muted-foreground: #5c6578;
+  --muted: #f4f4f5;
+  --muted-foreground: #52525b;
 
-  /* Terracotta accent */
-  --accent: #c4654a;
+  /* Single cobalt accent */
+  --accent: #1e43c8;
   --accent-foreground: #ffffff;
 
-  --destructive: #b84c3a;
+  --destructive: #b3261e;
 
-  --border: #e5e0d8;
-  --input: #e5e0d8;
-  --ring: #c4654a;
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #1e43c8;
 
-  /* Evidence quality colors */
-  --evidence-high: #2d6a4f;
-  --evidence-moderate: #457b9d;
-  --evidence-emerging: #bc6c25;
-  --evidence-low: #9d4e15;
-  --evidence-none: #6c757d;
+  /* Evidence quality colors (text-only labels) */
+  --evidence-high: #166534;
+  --evidence-moderate: #1e40af;
+  --evidence-emerging: #854d0e;
+  --evidence-low: #9a3412;
+  --evidence-none: #52525b;
 
-  /* Chart colors - earth tones */
-  --chart-1: #c4654a;
-  --chart-2: #2d6a4f;
-  --chart-3: #457b9d;
-  --chart-4: #bc6c25;
-  --chart-5: #7c5e4a;
+  --chart-1: #1e43c8;
+  --chart-2: #166534;
+  --chart-3: #854d0e;
+  --chart-4: #9a3412;
+  --chart-5: #52525b;
 
-  --sidebar: #faf8f5;
-  --sidebar-foreground: #1a2744;
-  --sidebar-primary: #1a2744;
-  --sidebar-primary-foreground: #faf8f5;
-  --sidebar-accent: #f0ebe4;
-  --sidebar-accent-foreground: #1a2744;
-  --sidebar-border: #e5e0d8;
-  --sidebar-ring: #c4654a;
+  --sidebar: #fafafa;
+  --sidebar-foreground: #18181b;
+  --sidebar-primary: #18181b;
+  --sidebar-primary-foreground: #fafafa;
+  --sidebar-accent: #f4f4f5;
+  --sidebar-accent-foreground: #18181b;
+  --sidebar-border: #e4e4e7;
+  --sidebar-ring: #1e43c8;
 }
 
 @layer base {
@@ -158,12 +141,12 @@
     letter-spacing: -0.011em;
   }
 
-  /* Elegant serif headings */
+  /* Grotesque display headings */
   h1, h2, h3 {
-    font-family: var(--font-serif);
-    font-weight: 400;
+    font-family: var(--font-display);
+    font-weight: 600;
     letter-spacing: -0.02em;
-    line-height: 1.2;
+    line-height: 1.15;
   }
 
   h1 {
@@ -171,11 +154,11 @@
   }
 
   h2 {
-    font-size: 1.75rem;
+    font-size: 1.625rem;
   }
 
   h3 {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   /* Refined body text */
@@ -185,8 +168,8 @@
 
   /* Selection color */
   ::selection {
-    background: rgba(196, 101, 74, 0.2);
-    color: #1a2744;
+    background: rgba(30, 67, 200, 0.15);
+    color: #18181b;
   }
 }
 
@@ -225,115 +208,42 @@
   overflow: hidden;
 }
 
+/* Page shells - the only two content widths in the app.
+   shell-wide: working surfaces (browser, compare) and chrome (header/footer).
+   shell-article: reading surfaces (records, country/topic, about, contribute). */
+@layer utilities {
+  .shell-wide,
+  .shell-article {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+
+  .shell-wide {
+    max-width: 80rem; /* 1280px */
+  }
+
+  .shell-article {
+    max-width: 56rem; /* 896px */
+  }
+
+  @media (min-width: 768px) {
+    .shell-wide,
+    .shell-article {
+      padding-inline: 2rem;
+    }
+  }
+}
+
 /* Font utilities */
-.font-serif {
-  font-family: var(--font-serif);
+.font-display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .font-sans {
   font-family: var(--font-sans);
-}
-
-/* Decorative map pattern */
-.map-pattern {
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0L30 60M0 30L60 30M15 0L15 60M45 0L45 60M0 15L60 15M0 45L60 45' stroke='%23e5e0d8' stroke-width='0.5' fill='none'/%3E%3C/svg%3E");
-  background-size: 60px 60px;
-}
-
-/* Subtle grain texture overlay */
-.grain-overlay::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  opacity: 0.03;
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* Elegant horizontal rule */
-.elegant-hr {
-  border: none;
-  height: 1px;
-  background: linear-gradient(
-    to right,
-    transparent,
-    var(--border) 20%,
-    var(--border) 80%,
-    transparent
-  );
-  margin: 2rem 0;
-}
-
-/* Evidence badge colors */
-.evidence-high {
-  background-color: #e8f5e9;
-  color: #1b5e20;
-  border-color: #c8e6c9;
-}
-
-.evidence-moderate {
-  background-color: #e3f2fd;
-  color: #1565c0;
-  border-color: #bbdefb;
-}
-
-.evidence-emerging {
-  background-color: #fff8e1;
-  color: #e65100;
-  border-color: #ffecb3;
-}
-
-.evidence-low {
-  background-color: #fff3e0;
-  color: #bf360c;
-  border-color: #ffe0b2;
-}
-
-.evidence-none {
-  background-color: #f5f5f5;
-  color: #616161;
-  border-color: #e0e0e0;
-}
-
-/* Card hover effects */
-.policy-card {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-              border-color 0.3s ease;
-}
-
-.policy-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 40px -12px rgba(26, 39, 68, 0.15);
-  border-color: var(--accent);
-}
-
-/* Staggered animation for cards */
-@keyframes fadeSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-slide-in {
-  animation: fadeSlideIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  opacity: 0;
-}
-
-/* Hero decorative elements */
-.hero-decoration {
-  position: absolute;
-  width: 400px;
-  height: 400px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
-  opacity: 0.3;
 }
 
 /* Checkbox styling */
@@ -346,27 +256,6 @@
 *:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
-}
-
-/* Badge refinements */
-.badge-tag {
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  padding: 0.25rem 0.625rem;
-}
-
-/* Smooth page transitions */
-.page-transition-enter {
-  opacity: 0;
-  transform: translateY(10px);
-}
-
-.page-transition-enter-active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.3s, transform 0.3s;
 }
 
 /* Print styles */

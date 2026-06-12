@@ -1,0 +1,430 @@
+[
+  {
+    "id": "mexico-escuelas-tiempo-completo",
+    "name": "Full-Time Schools Program",
+    "nameLocal": "Programa Escuelas de Tiempo Completo",
+    "acronym": "PETC",
+    "country": "mexico",
+    "yearStart": 2007,
+    "yearEnd": 2022,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["extended-day", "school-feeding"],
+    "affectedPopulations": ["primary", "low-income", "rural"],
+    "summaryShort": "Federal program that extended the school day in public basic education schools from 4.5 to 6 or 8 hours, with food services in the most marginalized communities. It operated from 2007 until its cancellation in February 2022.",
+    "summaryLong": "The Programa Escuelas de Tiempo Completo was launched by Mexico's Secretariat of Public Education in 2007 to lengthen the school day in public basic education schools, adding time for academics, arts, physical activity, and, in marginalized areas, school meals. By the late 2010s more than 25,000 schools had joined and the program reached roughly 3.6 million students, with priority given to schools in high-poverty and indigenous communities. On February 28, 2022 the federal government eliminated the program when it published the 2022 operating rules of La Escuela es Nuestra, a decision widely criticized because rigorous studies had documented learning gains and benefits for working mothers.",
+    "objectives": [
+      "Extend instructional time in public primary and basic education schools",
+      "Improve learning outcomes in math and reading, especially in marginalized communities",
+      "Provide food services in schools serving high-poverty populations",
+      "Support working parents, particularly mothers, by lengthening the time children spend in school"
+    ],
+    "mechanisms": "Participating public schools extended their daily schedule from 4.5 hours to 6 or 8 hours. The federal government transferred resources to states to pay salary supplements to teachers and principals for the additional hours, fund pedagogical materials, and, in schools in high-marginalization areas, finance food services. Schools entered the program gradually, and the staggered adoption across schools and years is what later allowed quasi-experimental evaluation.",
+    "coverage": "More than 25,000 public basic education schools and roughly 3.6 million students at its peak before cancellation in 2022, up from fewer than 500 schools in 2007.",
+    "evidenceQuality": "high",
+    "impactSummary": "Multiple published quasi-experimental studies find positive effects. Extending the school day improved math and reading test scores, with effects growing over time and larger gains in high-poverty schools, and it had long-lasting effects on high-stakes high school admission scores, especially for girls. It also increased mothers' labor force participation and reduced child labor.",
+    "keyOutcomes": [
+      {"metric": "High school admission exam scores", "effect": "Exposure to full-time elementary schools increased high-stakes admission test scores by 4.8 percent of a standard deviation, with larger effects for girls", "source": "Cabrera-Hernandez, Padilla-Romo and Peluffo 2023"},
+      {"metric": "Mothers' labor force participation", "effect": "Increased by 5.5 percentage points, with weekly hours worked rising by 1.8", "source": "Padilla-Romo and Cabrera-Hernandez 2019"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Cabrera-Hernandez, F., Padilla-Romo, M. and Peluffo, C.",
+        "year": 2023,
+        "title": "Full-time schools and educational trajectories: Evidence from high-stakes exams",
+        "methodology": "difference-in-differences",
+        "journal": "Economics of Education Review",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775723000900",
+        "keyFinding": "Full-time elementary schools in the Mexico City metropolitan area had positive and long-lasting effects on students' performance, raising high school admission test scores by 4.8 percent of a standard deviation, with larger effects for females."
+      },
+      {
+        "authors": "Padilla-Romo, M. and Cabrera-Hernandez, F.",
+        "year": 2019,
+        "title": "Easing the Constraints of Motherhood: The Effects of All-Day Schools on Mothers' Labor Supply",
+        "methodology": "difference-in-differences",
+        "journal": "Economic Inquiry",
+        "url": "https://ideas.repec.org/a/bla/ecinqu/v57y2019i2p890-909.html",
+        "keyFinding": "Extending the elementary school day increased mothers' labor force participation by 5.5 percentage points and weekly hours worked by 1.8."
+      },
+      {
+        "authors": "Cabrera-Hernandez, F. and Padilla-Romo, M.",
+        "year": 2022,
+        "title": "School attendance and child labor: Evidence from Mexico's Full-Time School program",
+        "methodology": "difference-in-differences",
+        "journal": "Economics of Education Review",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775722000681",
+        "keyFinding": "Longer school days under the program affected children's time allocation, increasing school attendance and reducing child labor."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Cabrera-Hernandez, F., Padilla-Romo, M. and Peluffo, C.", "year": 2023, "title": "Full-time schools and educational trajectories: Evidence from high-stakes exams", "source": "Economics of Education Review", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775723000900"},
+      {"authors": "Padilla-Romo, M. and Cabrera-Hernandez, F.", "year": 2019, "title": "Easing the Constraints of Motherhood: The Effects of All-Day Schools on Mothers' Labor Supply", "source": "Economic Inquiry", "url": "https://ideas.repec.org/a/bla/ecinqu/v57y2019i2p890-909.html"}
+    ]
+  },
+  {
+    "id": "mexico-la-escuela-es-nuestra",
+    "name": "The School is Ours",
+    "nameLocal": "La Escuela es Nuestra",
+    "acronym": "LEEN",
+    "country": "mexico",
+    "yearStart": 2019,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["infrastructure", "governance"],
+    "affectedPopulations": ["primary", "secondary", "rural", "indigenous", "low-income"],
+    "summaryShort": "Flagship federal program since 2019 that transfers cash grants directly to parent-led school committees to fund infrastructure, maintenance, and equipment in public basic education schools, prioritizing marginalized and indigenous communities.",
+    "summaryLong": "La Escuela es Nuestra was launched in October 2019 by the government of President Andres Manuel Lopez Obrador as its main school infrastructure program. It delivers grants directly to school assemblies and committees of parents (Comites Escolares de Administracion Participativa), bypassing intermediaries, so that communities themselves decide and execute spending on construction, maintenance, and equipment. After the 2022 cancellation of the Full-Time Schools Program, LEEN absorbed components for extended hours and food services in some schools. Federal audits by the Auditoria Superior de la Federacion have criticized weak documentation, monitoring, and evaluation mechanisms, and the program has no rigorous impact evaluation.",
+    "objectives": [
+      "Improve the physical infrastructure and equipment of public basic education schools",
+      "Channel federal resources directly to school communities without intermediaries",
+      "Prioritize schools in highly marginalized, rural, and indigenous localities",
+      "Strengthen parent and community participation in school management"
+    ],
+    "mechanisms": "Schools form a participatory administration committee composed of parents and community members. The federal government deposits a grant, originally at least 150,000 pesos per school depending on enrollment size, directly into a committee account. The committee decides spending priorities, contracts works, and reports back to the school assembly. Since 2022 some schools can also use funds for extended schedules and food services, components inherited from the cancelled Full-Time Schools Program.",
+    "coverage": "Since 2019 the program has provided 404,588 grants to more than 187,000 public schools according to Education Ministry data reported in 2026, with a planned investment of 113 billion pesos for the 2025-2026 fiscal year.",
+    "evidenceQuality": "low",
+    "impactSummary": "No rigorous impact evaluation exists. Evidence is limited to government diagnostics and federal audit reports. The Auditoria Superior de la Federacion found that the education ministry could not document works completed in most beneficiary schools in 2021, and observers note the operating rules lack monitoring and evaluation mechanisms, so effects on learning or infrastructure quality are unknown.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {"authors": "Secretaria de Educacion Publica", "year": 2023, "title": "Diagnostico del Programa La Escuela Es Nuestra", "source": "SEP, Government of Mexico", "url": "https://laescuelaesnuestra.sep.gob.mx/storage/recursos/NORMATIVIDAD/MIR/6A1Vdpn9h0-Diagn%C3%B3stico%20PLEEN_2023-2024.pdf"},
+      {"authors": "Mexico News Daily", "year": 2026, "title": "Sheinbaum pledges 350 billion pesos for school construction by 2030", "source": "Mexico News Daily", "url": "https://mexiconewsdaily.com/news/sheinbaum-education-infrastructure/"}
+    ]
+  },
+  {
+    "id": "mexico-2013-education-reform",
+    "name": "2013 Education Reform and Professional Teacher Service",
+    "nameLocal": "Reforma Educativa de 2013 y Servicio Profesional Docente",
+    "acronym": "SPD",
+    "country": "mexico",
+    "yearStart": 2013,
+    "yearEnd": 2019,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["teacher-reform", "governance"],
+    "affectedPopulations": ["teachers", "all"],
+    "summaryShort": "Constitutional reform that created a merit-based teacher career system (Servicio Profesional Docente) with compulsory evaluations and gave constitutional autonomy to the evaluation institute INEE. It was repealed in 2019.",
+    "summaryLong": "The 2013 education reform under President Enrique Pena Nieto amended the constitution to establish that teacher hiring, promotion, and permanence in public basic and upper secondary education would be governed by competitive, exam-based processes under the new Servicio Profesional Docente, ending discretionary and union-mediated allocation of teaching posts. The reform granted constitutional autonomy to the Instituto Nacional para la Evaluacion de la Educacion (INEE), which designed and oversaw mandatory teacher performance evaluations; incumbent teachers who failed the evaluation three times could be removed from classroom duties. The reform faced intense opposition from dissident teacher unions. In 2019 the government of President Andres Manuel Lopez Obrador repealed it, eliminated the INEE, replaced it with the commission MEJOREDU, and removed performance evaluation as a condition for job permanence, with the new legal framework in effect from September 2019.",
+    "objectives": [
+      "Establish merit-based, exam-driven rules for teacher hiring, promotion, and permanence",
+      "Reduce union and political discretion in the allocation of teaching posts",
+      "Create an autonomous national institute (INEE) to evaluate teachers, schools, and the education system",
+      "Improve teaching quality and student learning in basic and upper secondary education"
+    ],
+    "mechanisms": "The reform amended Article 3 of the constitution and created secondary legislation (Ley General del Servicio Profesional Docente and Ley del INEE). New teachers had to win posts through national competitive examinations, promotions to leadership positions required exams, and incumbent teachers underwent compulsory performance evaluations designed by the INEE, with training support and consequences for repeated failure. A national coordination office of the SPD organized hiring pools with states.",
+    "coverage": "Applied nationwide to public basic and upper secondary education; over its six years of operation the SPD subjected hundreds of thousands of teaching post assignments and promotions to competitive examination across all 32 states.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Quasi-experimental evidence indicates that exam-based, rule-driven teacher hiring of the kind universalized by the reform selected more effective teachers than discretionary hiring. A World Bank study of the 2013 reform finds that rule-based recruitment improved the quality of new hires as measured by student learning. System-wide effects are harder to attribute because the reform was repealed after six years.",
+    "keyOutcomes": [
+      {"metric": "Teacher value added of exam-hired vs discretionary hires", "effect": "Teachers hired at the union's discretion performed considerably worse in value added to student achievement than rule-based hires selected through the competitive exam", "source": "Estrada 2019"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Estrada, R.",
+        "year": 2019,
+        "title": "Rules versus Discretion in Public Service: Teacher Hiring in Mexico",
+        "methodology": "difference-in-differences",
+        "journal": "Journal of Labor Economics",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/700192",
+        "keyFinding": "Teachers hired through Mexico's national competitive examination outperform discretionary union hires in value added to student achievement, supporting the rule-based hiring model that the 2013 reform made universal."
+      },
+      {
+        "authors": "Bedoya, J., de Hoyos, R. and Estrada, R.",
+        "year": 2023,
+        "title": "Rule-Based Civil Service: Evidence from a Nationwide Teacher Reform in Mexico",
+        "methodology": "quasi-experimental",
+        "journal": "World Bank Policy Research Working Paper 10540",
+        "url": "https://documents1.worldbank.org/curated/en/099354508072332378/pdf/IDU00398a50408dcd04a9b0a76a09eb52058468f.pdf",
+        "keyFinding": "The 2013 nationwide shift from discretionary to rule-based teacher recruitment improved the effectiveness of newly hired teachers as measured by student learning outcomes."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Estrada, R.", "year": 2019, "title": "Rules versus Discretion in Public Service: Teacher Hiring in Mexico", "source": "Journal of Labor Economics", "url": "https://www.journals.uchicago.edu/doi/10.1086/700192"},
+      {"authors": "Bedoya, J., de Hoyos, R. and Estrada, R.", "year": 2023, "title": "Rule-Based Civil Service: Evidence from a Nationwide Teacher Reform in Mexico", "source": "World Bank", "url": "https://documents1.worldbank.org/curated/en/099354508072332378/pdf/IDU00398a50408dcd04a9b0a76a09eb52058468f.pdf"}
+    ]
+  },
+  {
+    "id": "mexico-telesecundaria",
+    "name": "Telesecundaria Televised Lower Secondary Schools",
+    "nameLocal": "Telesecundaria",
+    "country": "mexico",
+    "yearStart": 1968,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["digital-inclusion", "curriculum"],
+    "affectedPopulations": ["secondary", "rural", "low-income"],
+    "summaryShort": "A nationwide system of lower secondary schools, created in 1968, in which lessons are delivered through televised broadcasts supported by a single classroom teacher, allowing junior secondary education to reach small rural communities.",
+    "summaryLong": "Telesecundaria was created by the Mexican government in 1968 to expand access to lower secondary education in rural communities that could not attract subject-specialist teachers. In a telesecundaria, students in each grade receive lessons across all subjects through televised programs produced centrally, while one generalist teacher per grade facilitates learning, with the same instructional hours (30 per week, 200 days per year) as conventional schools. The model expanded massively from the 1990s with satellite delivery and remains a core part of the Mexican system, serving about 1.5 million students, roughly a fifth of total lower secondary enrollment. It is one of the world's largest and longest-running distance education programs and has inspired similar models in Central America.",
+    "objectives": [
+      "Expand access to lower secondary education in small rural localities",
+      "Overcome the shortage of subject-specialist teachers outside cities",
+      "Reduce urban-rural gaps in educational attainment",
+      "Deliver a standardized national curriculum at low cost through television"
+    ],
+    "mechanisms": "Centrally produced televised lessons, originally broadcast live and later distributed by satellite (EDUSAT) and digital media, cover the full lower secondary curriculum. Each school operates with one teacher per grade who guides students through the televised segments, accompanying workbooks, and assessments. Because a telesecundaria requires fewer specialized staff, schools can operate in localities too small for conventional secondary schools.",
+    "coverage": "About 1.5 million students, roughly 20 percent of Mexico's lower secondary enrollment, across more than 18,000 schools concentrated in rural areas (late 2010s and early 2020s).",
+    "evidenceQuality": "high",
+    "impactSummary": "Several rigorous studies find large positive effects. Expansion of telesecundarias increased junior secondary enrollment and years of schooling, raised adult incomes, and shifted workers out of agriculture and informality. Recent structural and quasi-experimental work finds students gain significantly in math and Spanish relative to traditional schools, with effects strongest for students in remote areas.",
+    "keyOutcomes": [
+      {"metric": "Junior secondary enrollment", "effect": "For every 50 children, an additional telesecundaria led about 10 students to enroll in junior secondary education and 2 to continue further", "source": "Navarro-Sola 2021"},
+      {"metric": "Adult income", "effect": "Each additional year of education induced by telesecundaria access increased average income by 17.6 percent", "source": "Navarro-Sola 2021"},
+      {"metric": "Educational attainment and fertility", "effect": "An additional telesecundaria per 1,000 adolescents increased education by about 0.2 years for men and women and reduced fertility among women", "source": "Fabregas 2020"},
+      {"metric": "Math and Spanish learning", "effect": "The average student improves significantly in math and Spanish after one year of attendance relative to traditional secondary schools", "source": "Borghesan and Vasey 2024"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Borghesan, E. and Vasey, G.",
+        "year": 2024,
+        "title": "The Marginal Returns to Distance Education: Evidence from Mexico's Telesecundarias",
+        "methodology": "instrumental-variables",
+        "journal": "American Economic Journal: Applied Economics",
+        "doi": "10.1257/app.20220065",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/app.20220065",
+        "keyFinding": "Using a marginal treatment effects framework, the average student gains significantly in math and Spanish after one year in a telesecundaria, and expanding telesecundarias to currently unserved areas would generate further learning gains."
+      },
+      {
+        "authors": "Navarro-Sola, L.",
+        "year": 2021,
+        "title": "Secondary Schools with Televised Lessons: The Labor Market Returns of the Mexican Telesecundaria",
+        "methodology": "quasi-experimental",
+        "journal": "HCEO Working Paper 2021-053",
+        "url": "https://ideas.repec.org/p/hka/wpaper/2021-053.html",
+        "keyFinding": "The expansion of telesecundarias increased junior secondary enrollment and raised incomes by 17.6 percent per additional year of induced education, partly through increased labor force participation and movement out of agriculture and informality."
+      },
+      {
+        "authors": "Fabregas, R.",
+        "year": 2020,
+        "title": "Broadcasting Education: The Long-Term Effects of Mexico's Telesecundarias",
+        "methodology": "difference-in-differences",
+        "url": "https://cega.berkeley.edu/wp-content/uploads/2020/03/Fabregas_PacDev2020.pdf",
+        "keyFinding": "An additional telesecundaria per 1,000 adolescents increased average educational attainment by about 0.2 years and reduced women's fertility."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Borghesan, E. and Vasey, G.", "year": 2024, "title": "The Marginal Returns to Distance Education: Evidence from Mexico's Telesecundarias", "source": "American Economic Journal: Applied Economics", "url": "https://www.aeaweb.org/articles?id=10.1257/app.20220065"},
+      {"authors": "Navarro-Sola, L.", "year": 2021, "title": "Secondary Schools with Televised Lessons: The Labor Market Returns of the Mexican Telesecundaria", "source": "HCEO Working Paper Series, University of Chicago", "url": "https://ideas.repec.org/p/hka/wpaper/2021-053.html"}
+    ]
+  },
+  {
+    "id": "brazil-fundef-fundeb",
+    "name": "Basic Education Financing Funds (FUNDEF and FUNDEB)",
+    "nameLocal": "Fundo de Manutencao e Desenvolvimento da Educacao Basica e de Valorizacao dos Profissionais da Educacao",
+    "acronym": "FUNDEB",
+    "country": "brazil",
+    "yearStart": 1996,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["governance", "teacher-reform"],
+    "affectedPopulations": ["all", "teachers", "low-income"],
+    "summaryShort": "Brazil's constitutional education financing mechanism, created as FUNDEF in 1996, expanded into FUNDEB in 2006-2007, and made permanent in 2020, which pools state and municipal tax revenue and redistributes it per student, with federal top-ups for the poorest networks.",
+    "summaryLong": "FUNDEF (Fundo de Manutencao e Desenvolvimento do Ensino Fundamental e de Valorizacao do Magisterio) was created by constitutional amendment in 1996 and implemented nationally in 1998. It earmarked a share of state and municipal tax revenues into state-level funds redistributed in proportion to primary school enrollment, with a federal complement where per-student values fell below a national minimum, and required that at least 60 percent of resources pay teacher salaries. In 2006-2007 it was replaced by FUNDEB, which extended the mechanism to all of basic education from early childhood to upper secondary. Constitutional Amendment 108 of August 2020 made FUNDEB permanent and raised the federal complement gradually from 10 percent to 23 percent of the funds by 2026, with new equity-based distribution criteria (VAAF, VAAT, and VAAR) and priority resources for early childhood education.",
+    "objectives": [
+      "Equalize per-student spending across states and municipalities",
+      "Guarantee a national minimum level of funding for every basic education student",
+      "Raise and protect teacher pay, with a fixed share of resources earmarked for educators",
+      "Increase enrollment and completion in basic education, especially in poor regions"
+    ],
+    "mechanisms": "A constitutionally fixed share (20 percent under FUNDEB) of designated state and municipal taxes is pooled into a fund within each state and redistributed to state and municipal school networks in proportion to enrollment, weighted by education level and modality. The federal government tops up funds in states that cannot reach the national minimum per-student value; under the 2020 reform, additional federal complements reward networks that reduce inequality and improve learning. At least 70 percent of FUNDEB resources must be spent on the remuneration of education professionals.",
+    "coverage": "Covers essentially all of Brazil's public basic education, roughly 47 million students across more than 5,500 municipalities; FUNDEF raised per-student spending by about 40 percent between 1996 and 2000, with enrollment growth of 61 percent in the Northeast and 32 percent in the North during 1997-2002.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Studies credit FUNDEF with large enrollment increases in poor regions and substantial equalization of per-student spending, and quasi-experimental work finds that the exogenous teacher wage increases it generated improved student proficiency. Attribution for FUNDEB's later phases relies more on descriptive and policy analyses, and some research documents leakage and corruption in fund use in some municipalities.",
+    "keyOutcomes": [
+      {"metric": "Per-student spending", "effect": "Increased by approximately 40 percent between 1996 and 2000, with the largest gains in poor northern and northeastern municipalities", "source": "Gordon and Vegas 2005"},
+      {"metric": "Primary enrollment", "effect": "Enrollment rose sharply during 1997-2002, including increases of 61 percent in the Northeast and 32 percent in the North", "source": "Gordon and Vegas 2005"},
+      {"metric": "Student proficiency", "effect": "Municipalities where FUNDEF exogenously raised teacher wages saw improvements in grade 8 student performance", "source": "Menezes-Filho and Pazello 2007"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Menezes-Filho, N. and Pazello, E.",
+        "year": 2007,
+        "title": "Do teachers' wages matter for proficiency? Evidence from a funding reform in Brazil",
+        "methodology": "quasi-experimental",
+        "journal": "Economics of Education Review",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0272775707000660",
+        "keyFinding": "Exploiting exogenous wage changes induced by FUNDEF across municipalities, higher teacher wages in public schools improved grade 8 student proficiency between 1997 and 1999."
+      },
+      {
+        "authors": "Gordon, N. and Vegas, E.",
+        "year": 2005,
+        "title": "Educational Finance Equalization, Spending, Teacher Quality, and Student Outcomes: The Case of Brazil's FUNDEF",
+        "methodology": "quasi-experimental",
+        "journal": "World Bank",
+        "url": "https://register.rti.org/EducationFinance/background/Equity/gordon_vegas_06_01_04%20(4).pdf",
+        "keyFinding": "FUNDEF substantially equalized per-student spending across municipalities and contributed to enrollment growth, with the largest funding gains concentrated in Brazil's poorest regions."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Gordon, N. and Vegas, E.", "year": 2005, "title": "Educational Finance Equalization, Spending, Teacher Quality, and Student Outcomes: The Case of Brazil's FUNDEF", "source": "World Bank", "url": "https://register.rti.org/EducationFinance/background/Equity/gordon_vegas_06_01_04%20(4).pdf"},
+      {"authors": "Senado Federal do Brasil", "year": 2020, "title": "Congresso promulga a Emenda Constitucional 108, que torna o Fundeb permanente", "source": "Senado Noticias", "url": "https://www12.senado.leg.br/noticias/materias/2020/08/25/congresso-promulga-nesta-quarta-a-emenda-constitucional-108-que-torna-o-fundeb-permanente"},
+      {"authors": "Camara dos Deputados", "year": 2020, "title": "A Emenda Constitucional 108/2020, Fundeb Permanente", "source": "Camara dos Deputados, Consultoria Legislativa", "url": "https://www2.camara.leg.br/atividade-legislativa/estudos-e-notas-tecnicas/publicacoes-da-consultoria-legislativa/arquivos-pdf/infografico-fundeb-permanente-emenda-constitucional-no-108-2020"}
+    ]
+  },
+  {
+    "id": "brazil-prouni",
+    "name": "University for All Program",
+    "nameLocal": "Programa Universidade para Todos",
+    "acronym": "ProUni",
+    "country": "brazil",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["higher-ed-access"],
+    "affectedPopulations": ["tertiary", "low-income"],
+    "summaryShort": "Federal program created by Law 11.096 of January 2005 that grants full and partial scholarships to low-income students at private higher education institutions, in exchange for tax exemptions for participating institutions.",
+    "summaryLong": "ProUni was created by the government of President Luiz Inacio Lula da Silva through Law No. 11.096 of January 13, 2005. It offers full scholarships to students with per capita family income up to 1.5 minimum wages and partial (50 percent) scholarships to students with income up to 3 minimum wages, to study at private universities and colleges. Candidates must have attended public high school or held a full scholarship at a private school, and are selected based on their scores in the national secondary exam ENEM; quotas apply for Afro-Brazilian, indigenous, and disabled candidates. Participating private institutions receive exemptions from several federal taxes. Between 2005 and 2024 the program awarded more than 3.5 million scholarships, and around half of beneficiaries have been Black or mixed-race Brazilians.",
+    "objectives": [
+      "Expand access to higher education for low-income graduates of public high schools",
+      "Use idle capacity in private higher education through tax-exemption incentives",
+      "Promote racial and social inclusion in higher education through reserved scholarships",
+      "Raise tertiary attainment among historically underrepresented groups"
+    ],
+    "mechanisms": "Private higher education institutions that join ProUni are exempted from four federal taxes in exchange for offering a set number of scholarships. Students apply through a centralized system using their ENEM scores, with eligibility based on family income and public school attendance. Full scholarships cover all tuition; partial scholarships cover half and can be combined with the FIES student loan program. Scholarships reserved for self-declared Black, mixed-race, and indigenous candidates mirror their share in each state's population.",
+    "coverage": "More than 3.5 million scholarships awarded between 2005 and 2024 at over 1,000 private higher education institutions; by 2013 about 1.2 million young people had already benefited.",
+    "evidenceQuality": "low",
+    "impactSummary": "Despite its scale, ProUni has no published rigorous counterfactual impact evaluation. Available evidence is descriptive and survey-based, indicating high beneficiary satisfaction, labor market insertion of graduates, and a strong racial inclusion profile, with about half of scholarship holders identifying as Black or mixed race. Causal effects on attainment, earnings, or equity remain unquantified.",
+    "keyOutcomes": [],
+    "evaluations": [
+      {
+        "authors": "Felicetti, V. L.",
+        "year": 2017,
+        "title": "University for All Programs (ProUni): Engagement, Satisfaction, and Employability",
+        "methodology": "descriptive",
+        "journal": "International Education Studies",
+        "url": "https://ccsenet.org/journal/index.php/ies/article/view/66435",
+        "keyFinding": "In a survey of ProUni graduates, the large majority were employed and reported satisfaction with their training, suggesting the program supported labor market insertion, though without a counterfactual design."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Agencia Brasil", "year": 2014, "title": "Half of govt university scholarship beneficiaries are blacks", "source": "Agencia Brasil / EBC", "url": "https://agenciabrasil.ebc.com.br/en/educacao/noticia/2014-05/govt-scholarships-paid-university-help-promote-racial-inclusion"},
+      {"authors": "Felicetti, V. L.", "year": 2017, "title": "University for All Programs (ProUni): Engagement, Satisfaction, and Employability", "source": "International Education Studies", "url": "https://ccsenet.org/journal/index.php/ies/article/view/66435"}
+    ]
+  },
+  {
+    "id": "brazil-ideb",
+    "name": "Basic Education Development Index",
+    "nameLocal": "Indice de Desenvolvimento da Educacao Basica",
+    "acronym": "IDEB",
+    "country": "brazil",
+    "yearStart": 2007,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["all"],
+    "summaryShort": "National accountability indicator created by INEP in 2007 that combines standardized test performance (Saeb/Prova Brasil) with grade approval rates into a 0-10 score for every school, municipality, and state, with biennial targets set by the Ministry of Education.",
+    "summaryLong": "The Indice de Desenvolvimento da Educacao Basica (Ideb) was created in 2007 by Brazil's national education statistics institute INEP, under the Ministry of Education's Plano de Desenvolvimento da Educacao. It synthesizes two dimensions of quality, average student performance in Portuguese and mathematics on the Saeb and Prova Brasil assessments, and school flow measured by approval rates from the School Census, into a single 0-10 indicator calculated every two years for schools, municipalities, states, and the country. The federal government set improvement targets through 2021 for every network, anchored to an aspiration of reaching the average performance of developed countries, and Ideb results are published openly and used to direct federal technical and financial support to low-performing networks. Ideb became the central accountability instrument of Brazilian basic education and a model discussed across Latin America.",
+    "objectives": [
+      "Measure the quality of basic education in every school and network with a single transparent indicator",
+      "Combine learning outcomes with grade progression so schools cannot improve one at the expense of the other",
+      "Set public biennial improvement targets for schools, municipalities, and states",
+      "Guide federal support and local policy toward low-performing networks"
+    ],
+    "mechanisms": "Every two years INEP calculates Ideb as the product of average standardized test performance (normalized from Saeb and Prova Brasil) and the approval rate from the School Census. Results and targets for each school and network are published online. Targets set in 2007 ran through 2021, and federal programs use Ideb to prioritize technical assistance and resources. Some states have layered their own bonus and support policies on top of Ideb results.",
+    "coverage": "Calculated for essentially all public and private basic education in Brazil, covering tens of thousands of schools and all 26 states, the Federal District, and more than 5,500 municipalities since 2007. In 2007-2009, over 70 percent of municipalities met or exceeded their early-primary targets.",
+    "evidenceQuality": "low",
+    "impactSummary": "Ideb is a measurement and accountability instrument rather than an intervention, and there is no consensus causal estimate of its system-wide effect. National early-primary Ideb scores rose steadily after 2007, and most municipalities met early targets, but attribution is contested. Research notes both its value as a transparent quality measure and risks of gaming through retention, exclusion, or teaching to the test.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {"authors": "Fernandes, R.", "year": 2007, "title": "Indice de Desenvolvimento da Educacao Basica (Ideb)", "source": "INEP, Serie Documental, Textos para Discussao 26", "url": "https://www2.unifap.br/gpcem/files/2011/09/IDEB-_Texto_para_discuss%C3%A3o26.pdf"},
+      {"authors": "Bruns, B., Evans, D. and Luque, J.", "year": 2012, "title": "Achieving World-Class Education in Brazil: The Next Agenda", "source": "World Bank", "url": "https://documents1.worldbank.org/curated/en/993851468014439962/pdf/656590REPLACEM0hieving0World0Class0.pdf"}
+    ]
+  },
+  {
+    "id": "dr-jornada-escolar-extendida",
+    "name": "Extended School Day Program",
+    "nameLocal": "Jornada Escolar Extendida",
+    "acronym": "JEE",
+    "country": "dominican-republic",
+    "yearStart": 2011,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["extended-day", "school-feeding"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "Policy that doubled the public school day from 4 to 8 hours with school meals included, piloted in 2011 and massively expanded after the country began allocating 4 percent of GDP to pre-university education in 2013. It now covers most public school students.",
+    "summaryLong": "The Jornada Escolar Extendida began as a pilot in the 2011-2012 school year with under 9,000 students and became the flagship education policy of President Danilo Medina's government. Its rapid expansion was financed by the historic decision, won by a sustained civil society campaign (the Yellow Movement), to allocate 4 percent of GDP to pre-university education starting with the 2013 budget, as already mandated by the 1997 education law but never fulfilled; the National Pact for Education Reform signed on April 1, 2014 consolidated the commitment. Under JEE, public schools move from half-day shifts to a single 8-hour day from roughly 8am to 4pm, with breakfast, lunch, and a snack provided, additional instructional time in core subjects, and extracurricular workshops. Enrollment under the modality grew from 8,969 students in 2011-2012 to over 1.3 million students in more than 5,500 schools by 2025, about 72 percent of the public school population, supported by one of Latin America's largest school construction drives.",
+    "objectives": [
+      "Extend daily instructional time in public schools from 4 to 8 hours",
+      "Improve learning outcomes in language and mathematics",
+      "Provide students with full daily nutrition through school meals",
+      "Support working families and reduce children's exposure to risks outside school"
+    ],
+    "mechanisms": "Schools converting to JEE abandon the traditional double-shift system and operate a single extended day of about 8 hours. The additional time is allocated to core academic subjects, tutoring, and arts, sports, and technology workshops. The school feeding institute INABIE provides breakfast, lunch, and a snack to all JEE students. Conversion required a large school construction and rehabilitation program to eliminate shared shifts, financed by the 4 percent of GDP allocation in force since 2013.",
+    "coverage": "From 8,969 students in the 2011-2012 pilot to 1,346,455 students in 5,527 schools by 2025, around 72 percent of public pre-university enrollment.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "IDB quasi-experimental studies exploiting the staggered rollout find that greater exposure to JEE reduced teenage pregnancy, while average effects on secondary test scores are small and unstable, with relevant changes in learning gender gaps. Descriptive national studies report improvements in school climate, family time organization, and nutrition. Effects on overall learning remain modest relative to the program's cost.",
+    "keyOutcomes": [
+      {"metric": "Teenage fertility", "effect": "Higher municipal exposure to JEE reduced the likelihood of early pregnancy among adolescent girls", "source": "Garganta and Pinto 2022"},
+      {"metric": "Secondary test scores", "effect": "Low and unstable average impacts on national test scores during 2010-2019, but a narrowing of learning gender gaps, favoring girls in low-stakes tests and boys in high-stakes exams", "source": "Garganta, Pinto and Zentner 2024"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Garganta, S. and Pinto, M. F.",
+        "year": 2022,
+        "title": "Extended School Day and Teenage Fertility in Dominican Republic",
+        "methodology": "quasi-experimental",
+        "journal": "IDB Working Paper",
+        "url": "https://publications.iadb.org/publications/english/document/Extended-School-Day-and-Teenage-Fertility-in-Dominican-Republic.pdf",
+        "keyFinding": "Exploiting differential exposure to the JEE expansion across municipalities and cohorts, greater exposure to extended school days significantly reduced the probability of teenage pregnancy."
+      },
+      {
+        "authors": "Garganta, S., Pinto, M. F. and Zentner, J.",
+        "year": 2024,
+        "title": "Do Longer School Days Improve Learning? The Case of the Dominican Republic",
+        "methodology": "difference-in-differences",
+        "journal": "Inter-American Development Bank",
+        "doi": "10.18235/0013303",
+        "url": "https://publications.iadb.org/en/do-longer-school-days-improve-learning-case-dominican-republic",
+        "keyFinding": "An event study of the gradual rollout using 2010-2019 national test scores finds low and unstable average impacts on secondary learning, but meaningful changes in gender gaps, with girls gaining in low-stakes tests and boys improving relative scores in high-stakes exams."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Inter-American Dialogue", "year": 2015, "title": "Teacher Policy in the Dominican Republic", "source": "Inter-American Dialogue", "url": "https://thedialogue.org/blogs/2015/05/teacher-policy-in-the-dominican-republic/"},
+      {"authors": "Garganta, S., Pinto, M. F. and Zentner, J.", "year": 2024, "title": "Do Longer School Days Improve Learning? The Case of the Dominican Republic", "source": "IADB", "url": "https://publications.iadb.org/en/do-longer-school-days-improve-learning-case-dominican-republic"}
+    ]
+  },
+  {
+    "id": "cuba-literacy-campaign",
+    "name": "Cuban National Literacy Campaign",
+    "nameLocal": "Campana Nacional de Alfabetizacion en Cuba",
+    "country": "cuba",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["curriculum", "tutoring"],
+    "affectedPopulations": ["all", "rural", "low-income", "women-girls"],
+    "summaryShort": "A one-year national mobilization in 1961 in which more than 250,000 volunteer teachers, many of them urban students, taught reading and writing to over 700,000 adults, cutting Cuba's illiteracy rate from roughly 23 percent to under 4 percent.",
+    "summaryLong": "Declared by the revolutionary government as the 'Year of Education,' the 1961 Cuban National Literacy Campaign ran from January to December 1961, with the most intensive phase between April and December. Around 268,000 volunteers, including some 100,000 student brigadistas of the Conrado Benitez brigades, many of them teenagers and a majority young women, moved to the countryside, lived with illiterate families, and taught basic reading and writing using the standardized primers Venceremos and Alfabeticemos, which combined phonics instruction with revolutionary themes. The campaign reported teaching 707,212 adults to read and write, lowering the national illiteracy rate from about 23 percent in the 1953 census (over 40 percent in rural areas) to 3.9 percent. A UNESCO mission that visited Cuba in 1964 endorsed the results and described the campaign's scale and organization as exceptional, and the model later influenced literacy campaigns in other countries.",
+    "objectives": [
+      "Eliminate adult illiteracy across Cuba within one year",
+      "Extend basic education to rural and marginalized populations excluded from schooling",
+      "Mobilize urban youth as volunteer literacy teachers in the countryside",
+      "Consolidate a mass base for the subsequent expansion of the national education system"
+    ],
+    "mechanisms": "The government closed schools for several months in 1961 and recruited student volunteers, alongside professional teachers and adult worker volunteers, into literacy brigades. Brigadistas were given short training, a uniform, a lantern, and standardized teaching materials, then assigned to live with rural families while teaching them nightly. A national census located illiterate adults, progress was tracked through letters that new readers wrote to Fidel Castro, and the campaign concluded in December 1961 with Cuba declared a 'territory free of illiteracy.'",
+    "coverage": "707,212 adults reported taught to read and write during 1961 by roughly 268,000 volunteer teachers, including about 100,000 youth brigadistas; national illiteracy fell from about 23 percent to 3.9 percent.",
+    "evidenceQuality": "low",
+    "impactSummary": "No counterfactual evaluation exists; evidence is historical and descriptive. The headline outcome, a drop in measured illiteracy from roughly 23 percent to 3.9 percent in one year, was reviewed by a UNESCO mission in 1964 that endorsed the campaign's methods and results, while historians note the literacy standard achieved was basic, around a first-grade level, and that the campaign also served political mobilization goals.",
+    "keyOutcomes": [
+      {"metric": "National illiteracy rate", "effect": "Fell from about 23 percent (1953 census) to 3.9 percent by December 1961", "source": "Lorenzetto and Neys 1965"}
+    ],
+    "evaluations": [
+      {
+        "authors": "Lorenzetto, A. and Neys, K.",
+        "year": 1965,
+        "title": "Methods and Means Utilized in Cuba to Eliminate Illiteracy: Report of a UNESCO Mission",
+        "methodology": "descriptive",
+        "journal": "UNESCO",
+        "url": "https://search.worldcat.org/title/methods-and-means-utilized-in-cuba-to-eliminate-illiteracy-study-done-by-a-unesco-mission-in-march-1964/oclc/221926394",
+        "keyFinding": "The UNESCO mission that visited Cuba in March 1964 verified the campaign's organization and outcomes, accepting the post-campaign illiteracy estimate of 3.9 percent and praising the mobilization model."
+      }
+    ],
+    "keyReferences": [
+      {"authors": "Lorenzetto, A. and Neys, K.", "year": 1965, "title": "Methods and Means Utilized in Cuba to Eliminate Illiteracy", "source": "UNESCO", "url": "https://search.worldcat.org/title/methods-and-means-utilized-in-cuba-to-eliminate-illiteracy-study-done-by-a-unesco-mission-in-march-1964/oclc/221926394"}
+    ]
+  }
+]

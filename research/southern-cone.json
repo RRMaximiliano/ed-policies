@@ -1,0 +1,538 @@
+[
+  {
+    "id": "argentina-ley-financiamiento-educativo",
+    "name": "Education Financing Law",
+    "nameLocal": "Ley de Financiamiento Educativo (Ley 26.075)",
+    "country": "argentina",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["governance"],
+    "affectedPopulations": ["all"],
+    "summaryShort": "A 2005 law that committed Argentina's national and provincial governments to raise consolidated spending on education, science and technology to 6 percent of GDP by 2010, with annual intermediate targets and a 60-40 split of the effort between provinces and the nation.",
+    "summaryLong": "Law 26.075, sanctioned in December 2005, established a binding schedule for increasing consolidated public investment in education, science and technology from roughly 4 percent of GDP to 6 percent by 2010, with intermediate targets of 4.7 percent in 2006, 5.0 percent in 2007, 5.3 percent in 2008 and 5.6 percent in 2009. It assigned 60 percent of the additional effort to the provinces and the City of Buenos Aires and 40 percent to the national government, and created a specific earmarked allocation within federal tax co-participation to fund the provincial share. The 2006 National Education Law (Ley 26.206) later consolidated the 6 percent floor for education. Monitoring by civil society organizations shows the targets were broadly met during 2006-2010 in a favorable macroeconomic context, but the 6 percent goal was first reached only in 2013 and spending has oscillated below the target in many subsequent years.",
+    "objectives": [
+      "Raise consolidated education, science and technology spending to 6 percent of GDP by 2010",
+      "Define co-responsibility between the national government and the provinces for financing education",
+      "Fund priorities such as universal initial education for 5 year olds, extended school days and teacher salary improvements",
+      "Reduce salary and investment inequalities across provinces"
+    ],
+    "mechanisms": "The law set annual spending targets as shares of GDP, allocated the incremental effort 40 percent to the nation and 60 percent to subnational governments, and created an earmarked education allocation (afectacion especifica) within the federal tax co-participation regime so that provincial increases were partly automatic. It also created the Programa Nacional de Compensacion Salarial Docente to reduce teacher pay gaps across provinces, and required bilateral agreements between the national ministry and each province setting goals for coverage and investment.",
+    "coverage": "Economy-wide financing rule covering the entire education system. Consolidated education spending rose from about 4 percent of GDP in 2005 to around 5.5 to 6 percent of GDP by the early 2010s, with the 6 percent target first met in 2013.",
+    "evidenceQuality": "low",
+    "impactSummary": "There is no rigorous causal evaluation of the law. Descriptive monitoring by CIPPEC and Argentinos por la Educacion documents that spending targets were largely met between 2006 and 2010, that the 6 percent of GDP goal was reached for the first time in 2013, and that compliance weakened afterward, accumulating a sizable educational financing shortfall relative to the legal targets.",
+    "keyOutcomes": [
+      {
+        "metric": "Consolidated education, science and technology spending as a share of GDP",
+        "effect": "Increased from roughly 4 percent in 2005 toward the 6 percent target, which was first met in 2013; spending later fell below target in several years",
+        "source": "Argentinos por la Educacion 2023"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Argentinos por la Educacion",
+        "year": 2023,
+        "title": "Lo prometido es deuda (educativa): la impotencia para alcanzar el 6 por ciento del PBI para educacion",
+        "source": "Observatorio Argentinos por la Educacion",
+        "url": "https://argentinosporlaeducacion.org/wp-content/uploads/2023/02/Lo-prometido-es-deuda-educativa.-La-impotencia-para-alcanzar-el-6-por-ciento-del-PBI-para-educacion..pdf"
+      },
+      {
+        "authors": "CIPPEC",
+        "year": 2012,
+        "title": "Se cumplio la Ley de Financiamiento Educativo?",
+        "source": "CIPPEC",
+        "url": "https://www.cippec.org/publicacion/se-cumplio-la-ley-de-financiamiento-educativo/"
+      },
+      {
+        "authors": "Congreso de la Nacion Argentina",
+        "year": 2005,
+        "title": "Ley 26.075 de Financiamiento Educativo",
+        "source": "Argentina.gob.ar",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26075-112976"
+      }
+    ]
+  },
+  {
+    "id": "argentina-preschool-expansion",
+    "name": "Pre-Primary School Construction Program",
+    "nameLocal": "Expansión de la educación inicial mediante construcción de aulas de preescolar",
+    "country": "argentina",
+    "yearStart": 1993,
+    "yearEnd": 1999,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["early-childhood", "infrastructure"],
+    "affectedPopulations": ["early-childhood", "low-income"],
+    "summaryShort": "A federal infrastructure program that built preschool classrooms across Argentina between 1993 and 1999, creating roughly 186,000 new pre-primary places, prioritizing departments with low baseline enrollment and high poverty. It underpins some of the most cited evidence worldwide on preschool effects.",
+    "summaryLong": "Following the 1993 Federal Education Law, which made one year of pre-primary education compulsory, the federal government financed a large construction program of preschool classrooms between 1993 and 1999. Construction was targeted toward departments with low initial preschool enrollment and higher poverty, generating about 186,000 additional pre-primary places. The rollout's variation across regions and cohorts allowed researchers to credibly estimate the causal effects of preschool attendance.",
+    "objectives": [
+      "Expand the supply of pre-primary classrooms to meet the new compulsory preschool year",
+      "Prioritize underserved departments with low enrollment and high poverty",
+      "Raise preschool attendance among 3 to 5 year olds",
+      "Improve school readiness for primary education"
+    ],
+    "mechanisms": "The national government financed the construction of preschool classrooms and facilities, allocating new rooms disproportionately to departments with low baseline pre-primary enrollment rates and higher poverty. The expanded supply increased preschool attendance, which researchers exploited through differences across cohorts and regions to estimate impacts on later schooling outcomes and maternal labor supply.",
+    "coverage": "Approximately 186,000 new pre-primary school places created between 1993 and 1999 across Argentine provinces.",
+    "evidenceQuality": "high",
+    "impactSummary": "Multiple quasi-experimental studies published in leading journals find substantial positive effects. One year of pre-primary school increased third grade test scores by about 0.23 standard deviations and improved measures of attention, effort, participation and discipline. The classroom expansion also raised preschool attendance and maternal employment. Recent NBER work documents positive long-run effects of the expansion.",
+    "keyOutcomes": [
+      {
+        "metric": "Third grade test scores",
+        "effect": "One year of pre-primary attendance increased average scores by 8 percent of the mean, about 0.23 standard deviations",
+        "source": "Berlinski, Galiani and Gertler 2009"
+      },
+      {
+        "metric": "Non-cognitive behaviors in third grade (attention, effort, participation, discipline)",
+        "effect": "Positive effects of preschool attendance on student self-control measures",
+        "source": "Berlinski, Galiani and Gertler 2009"
+      },
+      {
+        "metric": "Preschool attendance and maternal employment",
+        "effect": "Classroom construction raised pre-primary attendance and increased maternal labor supply",
+        "source": "Berlinski and Galiani 2007"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Samuel Berlinski, Sebastian Galiani, Paul Gertler",
+        "year": 2009,
+        "title": "The effect of pre-primary education on primary school performance",
+        "methodology": "quasi-experimental",
+        "journal": "Journal of Public Economics",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0047272708001308",
+        "keyFinding": "One year of pre-primary school increased third grade test scores by about 0.23 standard deviations and improved behavioral outcomes"
+      },
+      {
+        "authors": "Samuel Berlinski, Sebastian Galiani",
+        "year": 2007,
+        "title": "The effect of a large expansion of pre-primary school facilities on preschool attendance and maternal employment",
+        "methodology": "quasi-experimental",
+        "journal": "Labour Economics",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S092753710700005X",
+        "keyFinding": "The construction program increased preschool attendance and raised maternal employment"
+      },
+      {
+        "authors": "Sebastian Galiani, Paul Gertler, Guillermo Cruces, Samuel Berlinski, Fabian Gonzalez",
+        "year": 2025,
+        "title": "Long-run Effects of Universal Pre-Primary Education Expansion: Evidence from Argentina",
+        "methodology": "quasi-experimental",
+        "journal": "NBER Working Paper 34552",
+        "url": "https://www.nber.org/papers/w34552",
+        "keyFinding": "The universal pre-primary expansion produced positive long-run effects on educational and labor market outcomes"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Samuel Berlinski, Sebastian Galiani, Paul Gertler",
+        "year": 2009,
+        "title": "The effect of pre-primary education on primary school performance",
+        "source": "Journal of Public Economics",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0047272708001308"
+      }
+    ]
+  },
+  {
+    "id": "argentina-plan-fines",
+    "name": "Plan for the Completion of Primary and Secondary Studies",
+    "nameLocal": "Plan de Finalización de Estudios Primarios y Secundarios",
+    "acronym": "FinEs",
+    "country": "argentina",
+    "yearStart": 2008,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["curriculum", "tutoring"],
+    "affectedPopulations": ["secondary", "low-income"],
+    "summaryShort": "A national program launched in 2008 that allows young people and adults who left school to complete primary or secondary education through flexible, tutored study arrangements in community sites, workplaces and schools.",
+    "summaryLong": "Plan FinEs was created by the national Ministry of Education in 2008 (Resolution CFE 66/08) to address the large stock of adults without complete schooling. A first stage targeted adults who had finished the last year of secondary school but owed subjects, allowing them to graduate through tutorias and flexible examination. A second stage (FinEs 2) extended the model to people who had never completed primary or secondary school, delivering shortened, modular trajectories in thousands of decentralized sites including union halls, community organizations, municipalities and workplaces. The program became one of the largest second-chance education efforts in Latin America, and in Buenos Aires province it came to represent the bulk of adult secondary enrollment.",
+    "objectives": [
+      "Enable adults and out-of-school youth to complete primary and secondary education",
+      "Bring schooling opportunities to community and workplace settings outside traditional schools",
+      "Reduce the stock of adults without secondary credentials, a requirement for many jobs and benefit programs",
+      "Articulate national and provincial governments in adult education delivery"
+    ],
+    "mechanisms": "The program operates through agreements between the national ministry, provinces and local organizations that host decentralized study sites (sedes). Students follow shortened modular curricula with tutor teachers hired for the program, attend a few sessions per week, and take exams to certify completed levels. Stage I serves adults who owe subjects from completed secondary studies, while Stage II offers full primary or secondary trajectories, often articulated with social programs that require school completion.",
+    "coverage": "Large scale national coverage with fluctuating enrollment, for example about 631,000 enrolled across lines in 2010, about 165,000 students in FinEs 2 secondary in 2011, and about 308,000 persons assisted in 2017, with more than 5,000 sites operating around 2010.",
+    "evidenceQuality": "low",
+    "impactSummary": "No rigorous causal impact evaluation has been published. Available studies are quantitative-descriptive reconstructions of enrollment and graduation and qualitative work on implementation quality. They document very large enrollment and hundreds of thousands of graduates, alongside debates about instructional time and certification standards relative to regular adult schools.",
+    "keyOutcomes": [],
+    "evaluations": [
+      {
+        "authors": "Romina De Luca",
+        "year": 2022,
+        "title": "Plan de Finalización de Estudios Primarios y Secundarios (Plan Fines): una aproximación a su evolución cuantitativa, 2008-2018",
+        "methodology": "descriptive",
+        "journal": "Espacios en Blanco. Revista de Educación",
+        "url": "https://www.redalyc.org/journal/3845/384569922015/html/",
+        "keyFinding": "Reconstructs enrollment and graduation flows over the program's first decade, showing mass enrollment with hundreds of thousands of participants per year and substantial but uneven graduation"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Argentinos por la Educacion",
+        "year": 2023,
+        "title": "Terminalidad extendida: la secundaria de jovenes y adultos",
+        "source": "Observatorio Argentinos por la Educacion",
+        "url": "https://argentinosporlaeducacion.org/wp-content/uploads/2023/09/Terminalidad-extendida-Secundaria-de-Jovenes-y-Adultos.pdf"
+      },
+      {
+        "authors": "Ministerio de Educacion de la Nacion",
+        "year": 2008,
+        "title": "Resolución CFE Nº 66/08, Plan FinEs",
+        "source": "Consejo Federal de Educacion",
+        "url": "https://www.bnm.me.gov.ar/giga1/documentos/EL005349.pdf"
+      }
+    ]
+  },
+  {
+    "id": "chile-sep",
+    "name": "Preferential School Subsidy",
+    "nameLocal": "Subvención Escolar Preferencial (Ley 20.248)",
+    "acronym": "SEP",
+    "country": "chile",
+    "yearStart": 2008,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["vouchers", "governance"],
+    "affectedPopulations": ["primary", "secondary", "low-income"],
+    "summaryShort": "A 2008 reform to Chile's voucher system that pays a substantially higher per-student subsidy for socioeconomically vulnerable (priority) students, bans charging them fees, and conditions the extra funding on school improvement plans and accountability agreements.",
+    "summaryLong": "Law 20.248 of 2008 introduced a targeted top-up to Chile's flat per-student voucher. Schools that sign an Equality of Opportunities and Educational Excellence agreement receive an additional subsidy for each priority student (defined by household income, Ficha de Proteccion Social and other criteria) plus a concentration bonus for schools with many such students. Participating schools cannot charge fees to priority students or select them, must prepare school improvement plans (Planes de Mejoramiento Educativo), and are classified by performance with consequences for persistently low performers. The reform effectively eliminated tuition for roughly 40 percent of students at most voucher schools and significantly increased resources flowing to schools serving poor students.",
+    "objectives": [
+      "Compensate for the higher cost of educating socioeconomically vulnerable students",
+      "Improve learning outcomes and reduce achievement gaps between poor and non-poor students",
+      "Strengthen school accountability through improvement plans and performance classification",
+      "Remove financial barriers by prohibiting fees and selection for priority students"
+    ],
+    "mechanisms": "Schools voluntarily enter the SEP regime by signing an agreement with the Ministry of Education. They then receive an extra per-student subsidy for each priority student, increasing with grade level, plus additional resources where priority students are concentrated. In exchange, schools must waive fees for these students, refrain from selecting by ability or income, invest resources according to an improvement plan, and accept performance monitoring; schools classified as persistently underperforming face technical support requirements and eventual sanctions.",
+    "coverage": "By 2022 about 7,784 publicly subsidized schools, roughly 73 percent of all establishments, received SEP resources; the policy covers priority and preferential students from pre-kindergarten to grade 12, several hundred thousand to over a million students in any given year.",
+    "evidenceQuality": "high",
+    "impactSummary": "Several rigorous studies find positive effects. Difference-in-differences evidence shows SEP increased test scores of treated schools and students, and structural and quasi-experimental analyses indicate the policy raised achievement among the poorest students and significantly reduced the socioeconomic achievement gap, driven mostly by quality improvements in schools serving poor neighborhoods. Researchers debate whether competition incentives or the added resources and regulation drove the gains.",
+    "keyOutcomes": [
+      {
+        "metric": "Academic achievement of poor students (SIMCE test scores)",
+        "effect": "Test scores among the poorest students increased after SEP and the achievement gap between the richest 60 percent and poorest 40 percent narrowed significantly",
+        "source": "Neilson 2021"
+      },
+      {
+        "metric": "School level test scores",
+        "effect": "Positive and significant effects of the targeted voucher on standardized test results in participating schools",
+        "source": "Correa, Parro and Reyes 2014"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Juan A. Correa, Francisco Parro, Loreto Reyes",
+        "year": 2014,
+        "title": "The Effects of Vouchers on School Results: Evidence from Chile's Targeted Voucher Program",
+        "methodology": "difference-in-differences",
+        "journal": "Journal of Human Capital",
+        "doi": "10.1086/679282",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/679282",
+        "keyFinding": "The targeted voucher had positive and significant effects on standardized test scores"
+      },
+      {
+        "authors": "Alejandra Mizala, Florencia Torche",
+        "year": 2017,
+        "title": "Means-Tested School Vouchers and Educational Achievement: Evidence from Chile's Universal Voucher System",
+        "methodology": "difference-in-differences",
+        "journal": "The ANNALS of the American Academy of Political and Social Science",
+        "keyFinding": "SEP improved achievement of low-income students; the authors attribute gains to additional funding, regulation and support rather than competition"
+      },
+      {
+        "authors": "Christopher Neilson",
+        "year": 2021,
+        "title": "Targeted Vouchers, Competition Among Schools, and the Academic Achievement of Poor Students",
+        "methodology": "quasi-experimental",
+        "journal": "Working paper (Princeton University)",
+        "url": "https://www.christopher-neilson.com/work/documents/Neilson_SEPVouchers.pdf",
+        "keyFinding": "SEP raised achievement of the poorest students and reduced achievement gaps, mostly through improved quality of schools in poor neighborhoods"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Biblioteca del Congreso Nacional de Chile",
+        "year": 2008,
+        "title": "Ley 20.248, Establece Ley de Subvencion Escolar Preferencial",
+        "source": "BCN Ley Chile",
+        "url": "https://www.bcn.cl/leychile/navegar?idNorma=269001"
+      },
+      {
+        "authors": "DIPRES",
+        "year": 2023,
+        "title": "Evaluación Subvención Escolar Preferencial, informe final",
+        "source": "Dirección de Presupuestos, Gobierno de Chile",
+        "url": "https://www.dipres.gob.cl/597/articles-308400_informe_final.pdf"
+      }
+    ]
+  },
+  {
+    "id": "chile-p900",
+    "name": "900 Schools Program",
+    "nameLocal": "Programa de las 900 Escuelas",
+    "acronym": "P-900",
+    "country": "chile",
+    "yearStart": 1990,
+    "yearEnd": 2007,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["curriculum", "tutoring", "infrastructure"],
+    "affectedPopulations": ["primary", "low-income"],
+    "summaryShort": "Chile's first major compensatory program of the democratic transition, launched in 1990, which targeted the lowest-performing primary schools serving poor communities with learning materials, teacher workshops, infrastructure repairs and after-school tutoring.",
+    "summaryLong": "The Programa de las 900 Escuelas was launched at the start of the Aylwin government in 1990 to support roughly the bottom decile of publicly funded primary schools, selected on the basis of low average SIMCE test scores and poverty. Treated schools received textbooks and classroom libraries, in-service teacher workshops focused on language and mathematics, minor infrastructure improvements, and after-school learning workshops led by trained community monitors for children lagging behind. The program operated with rotating cohorts of schools, focusing on primary grades during 1990-1997 and extending its approach afterward, and ran until 2007 when it was superseded by newer school improvement policies.",
+    "objectives": [
+      "Raise learning outcomes in the lowest-performing primary schools serving poor populations",
+      "Strengthen teaching of language and mathematics in early grades through teacher workshops",
+      "Support lagging students through after-school learning workshops with community monitors",
+      "Improve basic school materials and infrastructure in disadvantaged schools"
+    ],
+    "mechanisms": "Schools were selected using cutoffs in school-level mean test scores within regions. Selected schools received a package combining instructional materials, professional development workshops for teachers in grades 1 to 4, after-school workshops (talleres de aprendizaje) for the lowest-achieving students run by local monitors, and small infrastructure investments. Schools could exit the program as their measured performance improved, with new schools rotating in.",
+    "coverage": "Approximately 900 of the lowest-performing primary schools at launch in 1990, about 10 percent of publicly funded schools, with rotating cohorts of schools served over the program's life through 2007.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "A prominent regression discontinuity study in the American Economic Review found that P-900 produced significant test score gains, but much smaller than earlier before-after comparisons suggested, because transitory noise and mean reversion in school-level scores inflated naive estimates. The program became a methodological reference case for evaluating interventions that assign treatment using test score rankings.",
+    "keyOutcomes": [
+      {
+        "metric": "Fourth grade test score gains in treated schools",
+        "effect": "Significant positive effects on test score gains, albeit much smaller than widely believed once mean reversion is accounted for",
+        "source": "Chay, McEwan and Urquiola 2005"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Kenneth Y. Chay, Patrick J. McEwan, Miguel Urquiola",
+        "year": 2005,
+        "title": "The Central Role of Noise in Evaluating Interventions That Use Test Scores to Rank Schools",
+        "methodology": "regression-discontinuity",
+        "journal": "American Economic Review",
+        "doi": "10.1257/0002828054825529",
+        "url": "https://www.aeaweb.org/articles?id=10.1257/0002828054825529",
+        "keyFinding": "P-900 had significant but modest positive effects on test score gains; naive before-after estimates overstated impacts due to mean reversion"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "DIPRES",
+        "year": 2007,
+        "title": "Programa de Escuelas de Sectores Pobres (P-900), informe final de evaluacion",
+        "source": "Direccion de Presupuestos, Gobierno de Chile",
+        "url": "https://www.dipres.gob.cl/597/articles-140979_informe_final.pdf"
+      },
+      {
+        "authors": "Centro de Estudios Publicos",
+        "year": 1990,
+        "title": "El programa de las 900 escuelas",
+        "source": "CEP Chile",
+        "url": "https://www.cepchile.cl/investigacion/el-programa-de-las-900-escuelas/"
+      }
+    ]
+  },
+  {
+    "id": "uruguay-escuelas-tiempo-completo",
+    "name": "Full-Time Schools Program",
+    "nameLocal": "Escuelas de Tiempo Completo",
+    "acronym": "ETC",
+    "country": "uruguay",
+    "yearStart": 1992,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["extended-day", "infrastructure"],
+    "affectedPopulations": ["primary", "early-childhood", "low-income"],
+    "summaryShort": "Uruguay's flagship extended school day model, begun in the early 1990s and scaled up under the 1995 Rama reform, which converts half-day public primary schools in poor areas into full-day schools with meals, additional teachers and purpose-built infrastructure.",
+    "summaryLong": "The Escuelas de Tiempo Completo model emerged between 1992 and 1995 with the creation of the first 58 full-time schools, and was institutionalized and expanded as a centerpiece compensatory policy of the 1995-2000 education reform led by German Rama, with sustained support from World Bank projects (MECAEP and later PAEPU). The model lengthens the school day from about four hours to seven and a half hours in schools serving socioeconomically disadvantaged urban areas, combining a specific pedagogical proposal, school meals, teacher training and new or remodeled buildings. Between 1997 and 2000 alone 112 full-time schools were created, and the modality has continued to expand under successive administrations.",
+    "objectives": [
+      "Extend daily pedagogical time for children in socioeconomically disadvantaged areas",
+      "Compensate for unequal learning opportunities and improve achievement among poor students",
+      "Provide nutrition and extended care that supports families and child wellbeing",
+      "Develop a distinctive full-time pedagogical model with trained teachers and adequate buildings"
+    ],
+    "mechanisms": "Selected schools in poor urban areas operate a seven and a half hour day instead of the standard half-day shift. The program finances construction or remodeling of buildings with dining halls and multipurpose spaces, additional teaching positions and specific in-service training, and daily meals. Schools follow a specific pedagogical proposal for full-time education, and targeting prioritizes contexts of high social vulnerability. World Bank loans have financed much of the infrastructure and training since 1994.",
+    "coverage": "193 full-time schools serving 43,633 students, about 13 percent of urban public primary enrollment, as of 2015; together with extended-time schools the modalities covered about 49,000 students in grades 1 to 6 and about 12,000 preschool children in 2020.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "A World Bank propensity score matching evaluation found that students in very disadvantaged full-time schools improved test scores by about 0.07 standard deviations per year of participation in mathematics and 0.04 in language relative to comparable half-day schools. The evidence base is credible but rests mainly on non-experimental matching designs, and effects appear concentrated among the most disadvantaged schools.",
+    "keyOutcomes": [
+      {
+        "metric": "Sixth grade mathematics test scores",
+        "effect": "Improvement of about 0.07 standard deviations per year of participation for students in very disadvantaged schools",
+        "source": "Cerdan-Infantes and Vermeersch 2007"
+      },
+      {
+        "metric": "Sixth grade language test scores",
+        "effect": "Improvement of about 0.04 standard deviations per year of participation for students in very disadvantaged schools",
+        "source": "Cerdan-Infantes and Vermeersch 2007"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Pedro Cerdan-Infantes, Christel Vermeersch",
+        "year": 2007,
+        "title": "More Time Is Better: An Evaluation of the Full-Time School Program in Uruguay",
+        "methodology": "propensity-score",
+        "journal": "World Bank Policy Research Working Paper 4167",
+        "url": "https://econpapers.repec.org/paper/wbkwbrwps/4167.htm",
+        "keyFinding": "Students in very disadvantaged schools gained about 0.07 standard deviations per year in math and 0.04 in language from full-time schooling"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "World Bank",
+        "year": 2018,
+        "title": "Que impacto tiene el Programa Escuelas de Tiempo Completo?",
+        "source": "World Bank",
+        "url": "https://documents1.worldbank.org/curated/en/157301536217801694/pdf/129769-WP-PUBLIC-SPANISH-EscuelasTiempoCompletoBajaRes.pdf"
+      },
+      {
+        "authors": "World Bank",
+        "year": 2015,
+        "title": "En Uruguay, las escuelas de tiempo completo sientan las bases de las oportunidades",
+        "source": "World Bank",
+        "url": "https://www.bancomundial.org/es/news/feature/2015/02/03/en-uruguay-las-escuelas-de-tiempo-completo-sientan-las-bases-de-las-oportunidades"
+      }
+    ]
+  },
+  {
+    "id": "uruguay-maestros-comunitarios",
+    "name": "Community Teachers Program",
+    "nameLocal": "Programa de Maestros Comunitarios",
+    "acronym": "PMC",
+    "country": "uruguay",
+    "yearStart": 2005,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["tutoring"],
+    "affectedPopulations": ["primary", "low-income", "teachers"],
+    "summaryShort": "A program created in 2005 by Uruguay's primary education council and the Ministry of Social Development that assigns community teachers to vulnerable urban schools to provide extra pedagogical time, small-group tutoring and home-based work with families of struggling students.",
+    "summaryLong": "The Programa de Maestros Comunitarios was launched in 2005 as a joint initiative of the Consejo de Educacion Inicial y Primaria (ANEP) and the Ministerio de Desarrollo Social through the Infamilia program. It places specially designated community teachers in public primary schools with single four-hour shifts located in highly vulnerable urban contexts. Community teachers work along two main lines, pedagogical acceleration and learning integration groups inside the school, and alfabetizacion en hogares, working directly with families in their homes to strengthen the household's capacity to support children's schooling. The program became a reference model for educational inclusion in the region and was later integrated into Uruguay's National Strategy for Childhood and Adolescence.",
+    "objectives": [
+      "Restore the school trajectory of children with high absenteeism, repetition or learning difficulties",
+      "Increase pedagogical time for students in vulnerable single-shift schools",
+      "Strengthen the educational role of families through home visits",
+      "Build bridges between school, family and community"
+    ],
+    "mechanisms": "Each participating school receives one or more community teachers who work outside the regular classroom shift. They run small-group acceleration and learning integration spaces for children flagged by their classroom teachers, and conduct home visits in which they work with mothers, fathers or caregivers on supporting the child's learning. The program combines education funding and social ministry financing, and each community teacher attends roughly 30 children per year.",
+    "coverage": "About 15,700 children attended per year on average during 2005-2011, with each community teacher attending around 31 children; by the mid 2010s the program reached more than 300 schools and around 16,000 children annually across the country.",
+    "evidenceQuality": "low",
+    "impactSummary": "No rigorous counterfactual impact evaluation has been published. Administrative monitoring by MIDES and ANEP shows high grade promotion among participants, around 85 percent in 2012 measurements, and falling repetition in participating schools between 2005 and 2012, but these are before-after and descriptive figures that cannot separate program effects from other trends.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {
+        "authors": "SITEAL, IIPE-UNESCO",
+        "year": 2010,
+        "title": "Programa de Maestros Comunitarios: caracteristicas generales del programa",
+        "source": "SITEAL / IIPE-UNESCO",
+        "url": "https://siteal.iiep.unesco.org/sites/default/files/sit_accion_files/programa_maestros_comunitarios_uruguay.pdf"
+      },
+      {
+        "authors": "DINEM, Ministerio de Desarrollo Social",
+        "year": 2015,
+        "title": "Programa de Maestros Comunitarios, monitoreo y evaluacion",
+        "source": "MIDES Uruguay",
+        "url": "https://dinem.mides.gub.uy/18633/programa-de-maestros-comunitarios"
+      }
+    ]
+  },
+  {
+    "id": "paraguay-escuela-viva",
+    "name": "Living School Program",
+    "nameLocal": "Programa Escuela Viva Hekokatúva",
+    "country": "paraguay",
+    "yearStart": 2001,
+    "yearEnd": 2018,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["curriculum", "teacher-reform", "indigenous-ed", "infrastructure"],
+    "affectedPopulations": ["primary", "rural", "indigenous", "low-income"],
+    "summaryShort": "An IDB-financed program (2001-2018, in two phases) that carried Paraguay's education reform into the most vulnerable rural, urban-fringe and indigenous schools through teacher training, community participation, learning materials and school improvement projects.",
+    "summaryLong": "Escuela Viva Hekokatuva began in 2001 as the Programa de Fortalecimiento de la Reforma Educativa en la Educacion Escolar Basica, financed by the Inter-American Development Bank. Its first phase (2001-2007) worked with about 1,000 of the most vulnerable basic education schools, focusing on rural areas, urban-fringe neighborhoods and indigenous communities, and was followed by Escuela Viva II (approved 2008, executed mainly 2011-2018) with a 45 million dollar IDB loan that expanded coverage to roughly 3,000 mostly rural schools. The program combined in-service teacher training and pedagogical support circuits, parent and community participation in school management, provision of learning materials, and small infrastructure investments, with a specific line of work for indigenous schools.",
+    "objectives": [
+      "Reduce gaps in access, retention and completion of basic education for the most vulnerable populations",
+      "Improve teaching quality in rural, urban-fringe and indigenous schools through training and pedagogical support",
+      "Strengthen community and parent participation in school management",
+      "Improve basic learning conditions through materials and infrastructure"
+    ],
+    "mechanisms": "Schools were grouped into local networks or circuits that received itinerant pedagogical support, in-service training for teachers and school directors, didactic materials, and funds for small school improvement projects co-managed with parent associations. Differentiated strategies were applied in three settings, rural schools, urban-fringe schools and indigenous schools, the latter with bilingual and culturally adapted approaches. The IDB financed and supervised the program through results frameworks tracking access, retention and completion.",
+    "coverage": "Phase I covered about 1,000 vulnerable schools (2001-2007); phase II benefited more than 675,000 students in grades 1 to 9 between 2011 and 2018 across roughly 2,700 rural schools, 260 urban-fringe schools and nearly 300 indigenous educational institutions.",
+    "evidenceQuality": "low",
+    "impactSummary": "No peer-reviewed rigorous impact evaluation is publicly available. IDB project monitoring reports improvements in access, years of schooling and completion in participating schools, including rising sixth grade completion in all three school settings by the close of phase II, with the urban-fringe completion rate reaching about 80 percent. These results come from administrative monitoring without a credible counterfactual, and Paraguayan education observers have questioned how much the program changed system-level outcomes.",
+    "keyOutcomes": [
+      {
+        "metric": "Sixth grade completion rate in program school settings",
+        "effect": "Completion rose in rural, urban-fringe and indigenous settings during phase II, reaching about 80 percent in urban-fringe schools",
+        "source": "IDB Corporate Results Framework 2020"
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Inter-American Development Bank",
+        "year": 2008,
+        "title": "IDB approves 45 million dollar loan to Paraguay for second stage of the Escuela Viva program",
+        "source": "IADB",
+        "url": "https://www.iadb.org/en/news/idb-approves-45-million-loan-paraguay-second-stage-escuela-viva-program"
+      },
+      {
+        "authors": "Inter-American Development Bank",
+        "year": 2020,
+        "title": "Closing Learning Gaps in Paraguay (Escuela Viva II results story)",
+        "source": "IADB Corporate Results Framework",
+        "url": "https://crf.iadb.org/en/2020-2023/stories/closing-learning-gaps-paraguay"
+      },
+      {
+        "authors": "Inter-American Development Bank",
+        "year": 2011,
+        "title": "Escuela Viva Program II (PR-L1017), project page",
+        "source": "IADB",
+        "url": "https://www.iadb.org/en/project/PR-L1017"
+      }
+    ]
+  },
+  {
+    "id": "paraguay-bilingual-education",
+    "name": "Guarani-Spanish Bilingual Education Policy",
+    "nameLocal": "Educación Bilingüe Guaraní-Castellano de la Reforma Educativa",
+    "country": "paraguay",
+    "yearStart": 1994,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["curriculum", "indigenous-ed"],
+    "affectedPopulations": ["primary", "secondary", "rural"],
+    "summaryShort": "The bilingual education component of Paraguay's 1994 education reform, grounded in the 1992 Constitution and Law 28/92, which made teaching in and of both official languages, Guarani and Spanish, mandatory throughout the school system in one of the region's few society-wide bilingual policies.",
+    "summaryLong": "Paraguay's 1992 Constitution declared Guarani and Spanish co-official languages, and Law 28/92 made the teaching of both national languages compulsory in primary, secondary and university education. The Reforma Educativa launched in 1994 operationalized this mandate with a maintenance bilingual education program that respected children's mother tongue while gradually introducing the second language, beginning with about 118 pilot schools in 1994 and later extending bilingual curriculum and materials across basic education. The policy is distinctive because a majority of Paraguayans, especially in rural areas, speak Guarani or are bilingual; a 1994 urban household survey found only about a third of 6 year olds were monolingual Spanish speakers. Implementation has faced persistent challenges in teacher preparation, materials and the standardization of written Guarani, and the policy was later complemented by the 2010 Law of Languages and a national intercultural bilingual education plan.",
+    "objectives": [
+      "Guarantee schooling in both official languages, Guarani and Spanish, across the education system",
+      "Teach initial literacy in the child's mother tongue with gradual incorporation of the second language",
+      "Improve learning and reduce school failure among Guarani-speaking children, who historically faced Spanish-only instruction",
+      "Strengthen the status and standardization of Guarani as a language of instruction"
+    ],
+    "mechanisms": "The reform curriculum for basic education incorporated both languages as subjects of study and as media of instruction, with modality choices depending on students' predominant home language. Schools applying the Guarani-mother-tongue modality teach initial literacy in Guarani while progressively introducing Spanish, and vice versa for Spanish-dominant schools. The Ministry of Education developed bilingual textbooks and teacher training, starting from a 1994 pilot in around 118 schools, and subsequent plans extended intercultural bilingual approaches to indigenous communities speaking other languages.",
+    "coverage": "Nationwide mandate covering all basic and secondary education; began with about 118 pilot schools implementing the Guarani-medium modality in 1994 before generalization of bilingual curriculum across the system.",
+    "evidenceQuality": "low",
+    "impactSummary": "There is no rigorous causal evaluation of the bilingual education policy. The available literature is descriptive and qualitative, documenting implementation difficulties such as shortages of trained bilingual teachers, contested choices about the variety of Guarani used in textbooks, and uneven application of the mother-tongue modality, alongside the policy's recognized role in raising the status of Guarani and in regional debates on bilingual schooling.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {
+        "authors": "Domingo M. Rivarola",
+        "year": 2000,
+        "title": "La reforma educativa en el Paraguay",
+        "source": "CEPAL, Serie Politicas Sociales No. 40",
+        "url": "https://www.cepal.org/es/publicaciones/5972-la-reforma-educativa-paraguay"
+      },
+      {
+        "authors": "Congreso de la Nacion Paraguaya",
+        "year": 1992,
+        "title": "Ley No. 28/92 que declara obligatoria la inclusion de los dos idiomas nacionales en el curriculo educativo",
+        "source": "Justia Paraguay",
+        "url": "https://docs.paraguay.justia.com/nacionales/leyes/ley-28-sep-10-1992.doc"
+      },
+      {
+        "authors": "Ministerio de Educacion y Ciencias",
+        "year": 2010,
+        "title": "Plan Nacional de Educacion Intercultural Bilingue",
+        "source": "Gobierno de Paraguay",
+        "url": "https://informacionpublica.paraguay.gov.py/public/466432-PNEIBeditrevisadoultimo12033doc-PNEIBeditrevisadoultimo12033.doc"
+      }
+    ]
+  }
+]

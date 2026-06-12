@@ -51,11 +51,11 @@ export function FilterSidebar({
   return (
     <div className="w-full">
       {/* Header */}
-      <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#e5e0d8]">
+      <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#e4e4e7]">
         <div className="flex items-center gap-2">
-          <span className="font-serif text-lg text-[#1a2744]">Filters</span>
+          <span className="font-display text-lg text-[#18181b]">Filters</span>
           {filterCount > 0 && (
-            <span className="text-xs bg-[#c4654a] text-white px-2 py-0.5 rounded-full">
+            <span className="text-xs bg-[#1e43c8] text-white px-2 py-0.5 rounded-full">
               {filterCount}
             </span>
           )}
@@ -63,7 +63,7 @@ export function FilterSidebar({
         {hasActiveFilters() && (
           <button
             onClick={clearFilters}
-            className="flex items-center gap-1.5 text-xs text-[#5c6578] hover:text-[#c4654a] transition-colors"
+            className="flex items-center gap-1.5 text-xs text-[#52525b] hover:text-[#1e43c8] transition-colors"
           >
             <RotateCcw className="h-3 w-3" />
             Clear
@@ -80,11 +80,11 @@ export function FilterSidebar({
                 id="active-only"
                 checked={activeOnly}
                 onCheckedChange={(checked) => setActiveOnly(checked as boolean)}
-                className="border-[#e5e0d8] data-[state=checked]:bg-[#1a2744] data-[state=checked]:border-[#1a2744]"
+                className="border-[#e4e4e7] data-[state=checked]:bg-[#18181b] data-[state=checked]:border-[#18181b]"
               />
               <label
                 htmlFor="active-only"
-                className="text-sm text-[#1a2744] cursor-pointer select-none"
+                className="text-sm text-[#18181b] cursor-pointer select-none"
               >
                 Active policies only
               </label>
@@ -168,16 +168,16 @@ function FilterSection({
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (
-    <div className="border-b border-[#e5e0d8] pb-5">
+    <div className="border-b border-[#e4e4e7] pb-5">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center justify-between w-full text-left mb-3 group"
       >
-        <h3 className="text-xs uppercase tracking-[0.15em] font-medium text-[#5c6578]">
+        <h3 className="text-xs uppercase tracking-[0.15em] font-medium text-[#52525b]">
           {title}
         </h3>
         <ChevronDown
-          className={`h-4 w-4 text-[#5c6578] transition-transform ${isOpen ? 'rotate-180' : ''}`}
+          className={`h-4 w-4 text-[#52525b] transition-transform ${isOpen ? 'rotate-180' : ''}`}
         />
       </button>
       {isOpen && <div className="space-y-2.5">{children}</div>}
@@ -205,17 +205,17 @@ function FilterCheckbox({
           id={id}
           checked={checked}
           onCheckedChange={onChange}
-          className="border-[#e5e0d8] data-[state=checked]:bg-[#1a2744] data-[state=checked]:border-[#1a2744]"
+          className="border-[#e4e4e7] data-[state=checked]:bg-[#18181b] data-[state=checked]:border-[#18181b]"
         />
         <label
           htmlFor={id}
-          className="text-sm text-[#1a2744] cursor-pointer select-none group-hover:text-[#c4654a] transition-colors"
+          className="text-sm text-[#18181b] cursor-pointer select-none group-hover:text-[#1e43c8] transition-colors"
         >
           {label}
         </label>
       </div>
       {count !== undefined && count > 0 && (
-        <span className="text-xs text-[#5c6578] tabular-nums">{count}</span>
+        <span className="text-xs text-[#52525b] tabular-nums">{count}</span>
       )}
     </div>
   );
@@ -231,17 +231,17 @@ export function MobileFilterSheet({
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <button className="lg:hidden inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-[#1a2744] border border-[#e5e0d8] bg-white hover:border-[#c4654a] transition-colors">
+        <button className="lg:hidden inline-flex items-center gap-2 px-4 py-2.5 text-sm font-medium text-[#18181b] border border-[#e4e4e7] bg-white hover:border-[#1e43c8] transition-colors">
           <Filter className="h-4 w-4" />
           Filters
           {filterCount > 0 && (
-            <span className="bg-[#c4654a] text-white px-2 py-0.5 rounded-full text-xs">
+            <span className="bg-[#1e43c8] text-white px-2 py-0.5 rounded-full text-xs">
               {filterCount}
             </span>
           )}
         </button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-[320px] sm:w-[380px] bg-[#faf8f5] border-r border-[#e5e0d8] p-0">
+      <SheetContent side="left" className="w-[320px] sm:w-[380px] bg-[#fafafa] border-r border-[#e4e4e7] p-0">
         <SheetTitle className="sr-only">Filter Policies</SheetTitle>
         <div className="p-6">
           <FilterSidebar {...props} />

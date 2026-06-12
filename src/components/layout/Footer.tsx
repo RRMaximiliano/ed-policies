@@ -3,26 +3,21 @@ import { ArrowUpRight } from 'lucide-react';
 
 export function Footer() {
   return (
-    <footer className="border-t border-[#e5e0d8] bg-[#1a2744] text-white">
-      <div className="container max-w-screen-2xl px-4 md:px-8 py-12 md:py-16">
+    <footer className="border-t border-[#e4e4e7] bg-[#18181b] text-white">
+      <div className="shell-wide py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8">
           {/* Brand column */}
           <div className="md:col-span-5">
-            <div className="flex items-center gap-3 mb-6">
-              <div className="relative w-10 h-10 flex items-center justify-center">
-                <div className="absolute inset-0 border-2 border-white/30 rounded-sm rotate-45" />
-                <span className="font-serif text-lg font-bold relative z-10">LA</span>
-              </div>
-              <div>
-                <div className="font-serif text-xl leading-tight">Education Policy</div>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-white/60">
-                  Latin America Database
-                </div>
+            <div className="mb-6">
+              <div className="font-display text-xl font-bold tracking-tight">Ed Policies</div>
+              <div className="mt-0.5 text-sm text-white/60">
+                Latin America &amp; the Caribbean
               </div>
             </div>
             <p className="text-sm text-white/70 leading-relaxed max-w-md">
-              A curated collection of education policies implemented across Latin America,
-              designed for researchers, policymakers, and students seeking evidence-based insights.
+              A catalog of education policies implemented across Latin America and the
+              Caribbean, with evaluation evidence where research exists. Built for
+              researchers, policymakers, and students.
             </p>
           </div>
 
@@ -62,7 +57,7 @@ export function Footer() {
               href="https://github.com/RRMaximiliano/ed-policies"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-4 py-2 border border-white/30 text-sm hover:bg-white hover:text-[#1a2744] transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 border border-white/30 text-sm hover:bg-white hover:text-[#18181b] transition-colors"
             >
               View on GitHub
               <ArrowUpRight className="h-4 w-4" />
@@ -76,7 +71,7 @@ export function Footer() {
             Data compiled from peer-reviewed research and official government sources.
           </p>
           <p className="text-xs text-white/50">
-            2024 &middot; Open source project
+            Open source under the MIT license
           </p>
         </div>
       </div>
@@ -89,7 +84,7 @@ function FooterLink({ href, children }: { href: string; children: React.ReactNod
     <li>
       <Link
         href={href}
-        className="text-sm text-white/70 hover:text-[#c4654a] transition-colors"
+        className="text-sm text-white/70 hover:text-[#1e43c8] transition-colors"
       >
         {children}
       </Link>
@@ -104,7 +99,7 @@ function FooterExternalLink({ href, children }: { href: string; children: React.
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm text-white/70 hover:text-[#c4654a] transition-colors inline-flex items-center gap-1"
+        className="text-sm text-white/70 hover:text-[#1e43c8] transition-colors inline-flex items-center gap-1"
       >
         {children}
         <ArrowUpRight className="h-3 w-3 opacity-50" />

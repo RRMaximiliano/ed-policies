@@ -66,8 +66,8 @@ export function usePolicies(
   stats: {
     countryCount: number;
     activeCount: number;
+    evaluatedCount: number;
     highEvidenceCount: number;
-    highOrModerateEvidenceCount: number;
   };
 } {
   // First apply filters (excluding search)
@@ -83,16 +83,16 @@ export function usePolicies(
   const stats = useMemo(() => {
     const countries = new Set(allPolicies.map((p) => p.country));
     const activeCount = allPolicies.filter((p) => p.isActive).length;
-    const highEvidenceCount = allPolicies.filter((p) => p.evidenceQuality === 'high').length;
-    const highOrModerateEvidenceCount = allPolicies.filter(
-      (p) => p.evidenceQuality === 'high' || p.evidenceQuality === 'moderate'
+    const evaluatedCount = allPolicies.filter(
+      (p) => (p.evaluations?.length ?? 0) > 0
     ).length;
+    const highEvidenceCount = allPolicies.filter((p) => p.evidenceQuality === 'high').length;
 
     return {
       countryCount: countries.size,
       activeCount,
+      evaluatedCount,
       highEvidenceCount,
-      highOrModerateEvidenceCount,
     };
   }, [allPolicies]);
 

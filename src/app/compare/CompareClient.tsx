@@ -7,25 +7,16 @@ import {
   AFFECTED_POPULATION_LABELS,
   COUNTRY_LABELS,
   EVIDENCE_QUALITY_DESCRIPTIONS,
-  EVIDENCE_QUALITY_LABELS,
   POLICY_TYPE_LABELS,
   STUDY_METHODOLOGY_LABELS,
-  EvidenceQuality,
   Policy,
 } from '@/types/policy';
+import { EvidenceBadge } from '@/components/policy/EvidenceBadge';
 import policiesData from '@/data/policies.json';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
 
 const allPolicies = policiesData as Policy[];
 const compareLimit = 4;
-
-const evidenceBadgeStyles: Record<EvidenceQuality, string> = {
-  high: 'bg-[#e8f5e9] text-[#1b5e20] border-[#c8e6c9]',
-  moderate: 'bg-[#e3f2fd] text-[#1565c0] border-[#bbdefb]',
-  emerging: 'bg-[#fff8e1] text-[#e65100] border-[#ffecb3]',
-  low: 'bg-[#fff3e0] text-[#bf360c] border-[#ffe0b2]',
-  none: 'bg-[#f5f5f5] text-[#616161] border-[#e0e0e0]',
-};
 
 export function CompareClient() {
   const searchParams = useSearchParams();
@@ -38,45 +29,34 @@ export function CompareClient() {
     .filter((policy): policy is Policy => Boolean(policy));
 
   return (
-    <div className="min-h-screen bg-[#faf8f5]">
-      <header className="border-b border-[#e5e0d8] bg-[#fbfaf7]">
-        <div className="container max-w-screen-2xl px-4 py-8 md:px-8 md:py-10">
+    <div className="min-h-screen bg-[#fafafa]">
+      <header className="border-b border-[#e4e4e7] bg-[#fafafa]">
+        <div className="shell-wide py-8 md:py-10">
           <Link
             href="/"
-            className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-[#5c6578] hover:text-[#1a2744]"
+            className="mb-6 inline-flex items-center gap-2 text-sm font-medium text-[#52525b] hover:text-[#18181b]"
           >
             <ArrowLeft className="h-4 w-4" />
             Back to browser
           </Link>
-          <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-end">
-            <div>
-              <div className="mb-4 flex items-center gap-3">
-                <div className="h-px w-10 bg-[#c4654a]" />
-                <span className="text-xs uppercase text-[#5c6578]">Comparison</span>
-              </div>
-              <h1 className="font-serif text-3xl leading-tight text-[#1a2744] md:text-5xl">
-                Policy Comparison
-              </h1>
-              <p className="mt-4 max-w-2xl text-[#5c6578]">
-                Compare selected policies by implementation context, target population, evidence
-                strength, key outcomes, evaluation studies, and source material.
-              </p>
-            </div>
-            <div className="border border-[#e5e0d8] bg-white px-5 py-4">
-              <div className="font-serif text-3xl text-[#1a2744]">{selectedPolicies.length}</div>
-              <div className="text-sm text-[#5c6578]">Selected policies</div>
-            </div>
-          </div>
+          <h1 className="font-display text-3xl font-semibold leading-tight tracking-tight text-[#18181b] md:text-5xl">
+            Policy comparison
+          </h1>
+          <p className="mt-4 max-w-prose text-[#52525b]">
+            {selectedPolicies.length > 0
+              ? `Comparing ${selectedPolicies.length} ${selectedPolicies.length === 1 ? 'policy' : 'policies'} by implementation context, target population, evidence strength, outcomes, and sources.`
+              : 'Compare policies by implementation context, target population, evidence strength, outcomes, and sources.'}
+          </p>
         </div>
       </header>
 
-      <main className="container max-w-screen-2xl px-4 py-8 md:px-8">
+      <main className="shell-wide py-8">
         {selectedPolicies.length === 0 ? (
           <EmptyCompareState />
         ) : (
           <>
             {selectedPolicies.length === 1 && (
-              <div className="mb-6 border border-[#e5e0d8] bg-white p-4 text-sm text-[#5c6578]">
+              <div className="mb-6 border border-[#e4e4e7] bg-white p-4 text-sm text-[#52525b]">
                 Select at least one more policy from the browser for a meaningful comparison.
               </div>
             )}
@@ -90,14 +70,14 @@ export function CompareClient() {
 
 function EmptyCompareState() {
   return (
-    <div className="border border-[#e5e0d8] bg-white p-8 text-center">
-      <h2 className="font-serif text-2xl text-[#1a2744]">No policies selected</h2>
-      <p className="mx-auto mt-3 max-w-xl text-[#5c6578]">
+    <div className="border border-[#e4e4e7] bg-white p-8 text-center">
+      <h2 className="font-display text-2xl text-[#18181b]">No policies selected</h2>
+      <p className="mx-auto mt-3 max-w-xl text-[#52525b]">
         Go back to the policy browser, select 2-4 policies, and open the comparison from the tray.
       </p>
       <Link
         href="/"
-        className="mt-6 inline-flex h-10 items-center justify-center bg-[#1a2744] px-4 text-sm font-medium text-white hover:bg-[#26385f]"
+        className="mt-6 inline-flex h-10 items-center justify-center bg-[#18181b] px-4 text-sm font-medium text-white hover:bg-[#2f2f36]"
       >
         Browse policies
       </Link>
@@ -107,23 +87,23 @@ function EmptyCompareState() {
 
 function CompareMatrix({ policies }: { policies: Policy[] }) {
   return (
-    <div className="overflow-x-auto border border-[#e5e0d8] bg-white">
+    <div className="overflow-x-auto border border-[#e4e4e7] bg-white">
       <table className="w-full min-w-[920px] border-collapse text-sm">
         <thead>
-          <tr className="bg-[#1a2744] text-white">
-            <th className="sticky left-0 z-10 w-48 border-r border-white/10 bg-[#1a2744] px-4 py-4 text-left text-xs uppercase font-medium text-white/70">
+          <tr className="border-b-2 border-[#18181b] bg-[#f4f4f5]">
+            <th className="sticky left-0 z-10 w-48 border-r border-[#e4e4e7] bg-[#f4f4f5] px-4 py-4 text-left text-xs uppercase font-medium text-[#52525b]">
               Field
             </th>
             {policies.map((policy) => (
               <th
                 key={policy.id}
-                className="min-w-[260px] border-r border-white/10 px-4 py-4 text-left align-top last:border-r-0"
+                className="min-w-[260px] border-r border-[#e4e4e7] px-4 py-4 text-left align-top last:border-r-0"
               >
-                <div className="font-serif text-xl font-normal leading-snug text-white">
+                <div className="font-display text-xl leading-snug text-[#18181b]">
                   {policy.name}
                 </div>
                 {policy.acronym && (
-                  <div className="mt-1 text-xs uppercase text-white/55">{policy.acronym}</div>
+                  <div className="mt-1 text-xs uppercase text-[#52525b]">{policy.acronym}</div>
                 )}
               </th>
             ))}
@@ -159,9 +139,9 @@ function CompareMatrix({ policies }: { policies: Policy[] }) {
                   : [{ metric: 'Impact', effect: policy.impactSummary }]
                 ).map((outcome, index) => (
                   <li key={`${outcome.metric}-${index}`}>
-                    <span className="font-medium text-[#1a2744]">{outcome.metric}: </span>
+                    <span className="font-medium text-[#18181b]">{outcome.metric}: </span>
                     <span>{outcome.effect}</span>
-                    {outcome.source && <span className="text-[#5c6578]/70"> ({outcome.source})</span>}
+                    {outcome.source && <span className="text-[#52525b]/70"> ({outcome.source})</span>}
                   </li>
                 ))}
               </ul>
@@ -195,13 +175,13 @@ function CompareRow({
   render: (policy: Policy) => ReactNode;
 }) {
   return (
-    <tr className="border-b border-[#e5e0d8] last:border-b-0">
-      <th className="sticky left-0 z-10 border-r border-[#e5e0d8] bg-[#f5f2ed] px-4 py-4 text-left align-top text-xs uppercase font-medium text-[#5c6578]">
+    <tr className="border-b border-[#e4e4e7] last:border-b-0">
+      <th className="sticky left-0 z-10 border-r border-[#e4e4e7] bg-[#f4f4f5] px-4 py-4 text-left align-top text-xs uppercase font-medium text-[#52525b]">
         {label}
       </th>
       {policies.map((policy) => (
-        <td key={policy.id} className="border-r border-[#e5e0d8] px-4 py-4 align-top text-[#5c6578] last:border-r-0">
-          {render(policy)}
+        <td key={policy.id} className="border-r border-[#e4e4e7] px-4 py-4 align-top text-[#52525b] last:border-r-0">
+          <div className="max-w-[52ch]">{render(policy)}</div>
         </td>
       ))}
     </tr>
@@ -211,27 +191,24 @@ function CompareRow({
 function EvidenceBlock({ policy }: { policy: Policy }) {
   return (
     <div className="space-y-3">
-      <span
-        className={`inline-flex items-center border px-2 py-1 text-[10px] font-medium uppercase tracking-wide ${evidenceBadgeStyles[policy.evidenceQuality]}`}
-      >
-        {EVIDENCE_QUALITY_LABELS[policy.evidenceQuality]}
-      </span>
+      <EvidenceBadge quality={policy.evidenceQuality} />
       <p>{EVIDENCE_QUALITY_DESCRIPTIONS[policy.evidenceQuality]}</p>
     </div>
   );
 }
 
 function EvaluationList({ policy }: { policy: Policy }) {
-  if (policy.evaluations.length === 0) {
-    return 'No evaluation studies listed';
+  const evaluations = policy.evaluations ?? [];
+  if (evaluations.length === 0) {
+    return 'No evaluation studies yet';
   }
 
   return (
     <ul className="space-y-4">
-      {policy.evaluations.map((study, index) => (
+      {evaluations.map((study, index) => (
         <li key={`${study.title}-${index}`}>
-          <div className="font-medium text-[#1a2744]">{study.title}</div>
-          <div className="mt-1 text-xs text-[#5c6578]">
+          <div className="font-medium text-[#18181b]">{study.title}</div>
+          <div className="mt-1 text-xs text-[#52525b]">
             {study.authors} ({study.year}) - {STUDY_METHODOLOGY_LABELS[study.methodology]}
           </div>
           <p className="mt-2">{study.keyFinding}</p>
@@ -240,7 +217,7 @@ function EvaluationList({ policy }: { policy: Policy }) {
               href={study.doi ? `https://doi.org/${study.doi}` : study.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-[#c4654a] hover:underline"
+              className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-[#1e43c8] hover:underline"
             >
               Source
               <ExternalLink className="h-3 w-3" />
@@ -253,22 +230,23 @@ function EvaluationList({ policy }: { policy: Policy }) {
 }
 
 function ReferenceList({ policy }: { policy: Policy }) {
-  if (policy.keyReferences.length === 0) {
+  const references = policy.keyReferences ?? [];
+  if (references.length === 0) {
     return 'No key references listed';
   }
 
   return (
     <ul className="space-y-3">
-      {policy.keyReferences.slice(0, 3).map((reference, index) => (
+      {references.slice(0, 3).map((reference, index) => (
         <li key={`${reference.title}-${index}`}>
-          <span className="font-medium text-[#1a2744]">{reference.authors}</span> ({reference.year}).{' '}
+          <span className="font-medium text-[#18181b]">{reference.authors}</span> ({reference.year}).{' '}
           <em>{reference.title}</em>. {reference.source}.
           {reference.url && (
             <a
               href={reference.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="ml-1 inline-flex items-center gap-1 text-[#c4654a] hover:underline"
+              className="ml-1 inline-flex items-center gap-1 text-[#1e43c8] hover:underline"
             >
               <ExternalLink className="h-3 w-3" />
             </a>

@@ -8,47 +8,43 @@ export const metadata = {
 
 export default function ContributePage() {
   return (
-    <div className="min-h-screen bg-[#faf8f5]">
-      {/* Hero */}
-      <div className="border-b border-[#e5e0d8] bg-[#1a2744] text-white">
-        <div className="container max-w-4xl px-4 md:px-8 py-12 md:py-16">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="h-px w-10 bg-[#c4654a]" />
-            <span className="text-xs uppercase text-white/60">Open Source</span>
-          </div>
-          <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-5">
-            Contribute to the <em className="text-[#c4654a]">Database</em>
+    <div className="min-h-screen bg-[#fafafa]">
+      {/* Page header */}
+      <div className="border-b border-[#e4e4e7] bg-white">
+        <div className="shell-article py-12 md:py-16">
+          <h1 className="font-display text-3xl md:text-5xl font-semibold leading-tight tracking-tight text-[#18181b] mb-5">
+            Contribute to the database
           </h1>
-          <p className="text-lg text-white/80 leading-relaxed max-w-2xl">
+          <p className="text-lg text-[#52525b] leading-relaxed max-w-prose">
             This database is a community resource. We welcome contributions of new policies,
             corrections to existing entries, and additional evaluation evidence.
           </p>
         </div>
       </div>
 
-      <div className="container max-w-4xl px-4 md:px-8 py-12 md:py-16">
+      <div className="shell-article py-12 md:py-16">
         {/* How to Contribute */}
         <section className="mb-16">
           <SectionHeader>How to Contribute</SectionHeader>
-          <div className="space-y-6 text-[#5c6578] leading-relaxed">
+          <div className="max-w-prose space-y-6 text-[#52525b] leading-relaxed">
             <div>
-              <h3 className="font-medium text-[#1a2744] mb-2">Via GitHub <span className="text-xs text-[#c4654a] uppercase tracking-wide ml-2">Recommended</span></h3>
+              <h3 className="font-medium text-[#18181b] mb-2">Via GitHub <span className="text-xs text-[#1e43c8] uppercase tracking-wide ml-2">Recommended</span></h3>
               <p className="mb-3">
-                Fork the repository, add or edit entries in <code className="bg-[#f5f2ed] px-1.5 py-0.5 text-[#1a2744] text-sm">policies.json</code>,
+                Fork the repository, add or edit entries in <code className="bg-[#f4f4f5] px-1.5 py-0.5 text-[#18181b] text-sm">policies.json</code>,
                 and submit a Pull Request with sources for all claims.
               </p>
               <a
                 href="https://github.com/RRMaximiliano/ed-policies"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm text-[#c4654a] hover:underline"
+                className="inline-flex items-center gap-1.5 text-sm text-[#1e43c8] hover:underline"
               >
                 View repository
                 <ArrowUpRight className="h-3.5 w-3.5" />
               </a>
             </div>
             <div>
-              <h3 className="font-medium text-[#1a2744] mb-2">Via Email</h3>
+              <h3 className="font-medium text-[#18181b] mb-2">Via Email</h3>
               <p>
                 Send policy information or corrections directly to our team with relevant details and source citations.
               </p>
@@ -59,16 +55,16 @@ export default function ContributePage() {
         {/* Policy Entry Template */}
         <section className="mb-16">
           <SectionHeader>Policy Entry Template</SectionHeader>
-          <p className="text-[#5c6578] mb-6 leading-relaxed">
+          <p className="max-w-prose text-[#52525b] mb-6 leading-relaxed">
             Each policy entry should include the following information:
           </p>
 
-          <div className="bg-white border border-[#e5e0d8] overflow-hidden">
-            <div className="flex items-center gap-3 px-5 py-4 bg-[#f5f2ed] border-b border-[#e5e0d8]">
-              <FileJson className="h-5 w-5 text-[#c4654a]" />
-              <span className="font-medium text-[#1a2744]">Required Fields</span>
+          <div className="bg-white border border-[#e4e4e7] overflow-hidden">
+            <div className="flex items-center gap-3 px-5 py-4 bg-[#f4f4f5] border-b border-[#e4e4e7]">
+              <FileJson className="h-5 w-5 text-[#1e43c8]" />
+              <span className="font-medium text-[#18181b]">Required Fields</span>
             </div>
-            <pre className="p-5 overflow-x-auto text-xs text-[#5c6578] leading-relaxed">
+            <pre className="p-5 overflow-x-auto text-xs text-[#52525b] leading-relaxed">
 {`{
   "id": "unique-policy-slug",
   "name": "Full Policy Name",
@@ -121,10 +117,10 @@ export default function ContributePage() {
         {/* Submission Checklist */}
         <section className="mb-16">
           <SectionHeader>Submission Checklist</SectionHeader>
-          <div className="bg-white border border-[#e5e0d8]">
-            <div className="flex items-center gap-3 px-5 py-4 bg-[#f5f2ed] border-b border-[#e5e0d8]">
-              <CheckSquare className="h-5 w-5 text-[#c4654a]" />
-              <span className="font-medium text-[#1a2744]">Before Submitting</span>
+          <div className="bg-white border border-[#e4e4e7]">
+            <div className="flex items-center gap-3 px-5 py-4 bg-[#f4f4f5] border-b border-[#e4e4e7]">
+              <CheckSquare className="h-5 w-5 text-[#1e43c8]" />
+              <span className="font-medium text-[#18181b]">Before Submitting</span>
             </div>
             <ul className="p-5 space-y-3">
               {[
@@ -139,7 +135,7 @@ export default function ContributePage() {
                 'Key findings are supported by the cited sources',
                 'JSON is valid and properly formatted',
               ].map((item, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-sm text-[#5c6578]">
+                <li key={idx} className="flex items-start gap-3 text-sm text-[#52525b]">
                   <CheckSquare className="h-4 w-4 text-[#2d6a4f] mt-0.5 shrink-0" />
                   {item}
                 </li>
@@ -194,8 +190,8 @@ export default function ContributePage() {
         {/* Questions */}
         <section>
           <SectionHeader>Questions?</SectionHeader>
-          <div className="bg-[#f5f2ed] border-l-4 border-[#c4654a] p-6">
-            <p className="text-[#5c6578] leading-relaxed">
+          <div className="bg-[#f4f4f5] border-l-4 border-[#1e43c8] p-6">
+            <p className="max-w-prose text-[#52525b] leading-relaxed">
               If you have questions about contributing or need help with the submission process, please
               open an issue on GitHub or contact us directly. We appreciate your contributions to making
               this resource more comprehensive and accurate.
@@ -210,8 +206,8 @@ export default function ContributePage() {
 function SectionHeader({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-4 mb-6">
-      <h2 className="font-serif text-2xl text-[#1a2744]">{children}</h2>
-      <div className="flex-1 h-[1px] bg-[#e5e0d8]" />
+      <h2 className="font-display text-2xl text-[#18181b]">{children}</h2>
+      <div className="flex-1 h-[1px] bg-[#e4e4e7]" />
     </div>
   );
 }
@@ -219,12 +215,12 @@ function SectionHeader({ children }: { children: React.ReactNode }) {
 function FieldValueGroup({ title, values }: { title: string; values: string[] }) {
   return (
     <div>
-      <h3 className="font-medium text-[#1a2744] mb-3">{title}</h3>
+      <h3 className="font-medium text-[#18181b] mb-3">{title}</h3>
       <div className="flex flex-wrap gap-2">
         {values.map((value) => (
           <span
             key={value}
-            className="font-mono text-xs bg-white border border-[#e5e0d8] px-2.5 py-1.5 text-[#5c6578] hover:border-[#c4654a]/50 hover:text-[#1a2744] transition-colors"
+            className="font-mono text-xs bg-white border border-[#e4e4e7] px-2.5 py-1.5 text-[#52525b] hover:border-[#1e43c8]/50 hover:text-[#18181b] transition-colors"
           >
             {value}
           </span>

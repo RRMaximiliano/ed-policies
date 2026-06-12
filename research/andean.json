@@ -1,0 +1,557 @@
+[
+  {
+    "id": "bolivia-bono-juancito-pinto",
+    "name": "Juancito Pinto School Grant",
+    "nameLocal": "Bono Juancito Pinto",
+    "acronym": "BJP",
+    "country": "bolivia",
+    "yearStart": 2006,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["cct"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "rural"],
+    "summaryShort": "An annual cash transfer of 200 bolivianos paid to students in Bolivian public schools, conditional on enrollment and regular attendance, created in 2006 to promote school entry, retention and completion.",
+    "summaryLong": "The Bono Juancito Pinto was introduced by the government of Evo Morales in October 2006 as a yearly cash payment to children enrolled in public schools, with the explicit objective of improving enrollment, retention and completion rates. It initially covered the first years of primary school and was progressively expanded so that by 2014 it reached all grades of public primary and secondary education. The benefit is a flat 200 bolivianos per student per year, roughly 29 US dollars, delivered at school pay points with support from the armed forces and financed largely with transfers from state owned enterprises, especially the oil and gas company YPFB. It is one of the largest social programs in Bolivia by number of beneficiaries and has been paid every year since 2006.",
+    "objectives": [
+      "Increase enrollment in public primary and secondary schools",
+      "Reduce dropout and promote school year completion",
+      "Lower the direct costs of schooling for poor households",
+      "Discourage child labor by compensating part of the opportunity cost of schooling"
+    ],
+    "mechanisms": "Each year the government issues a supreme decree authorizing the payment, financed mainly by contributions from public enterprises. Students enrolled in public schools who have attended regularly during the school year receive a single payment of 200 bolivianos, usually handed over at the school in the presence of a parent or guardian, with the armed forces supporting logistics and payment in remote areas. School directors certify enrollment and attendance, which constitutes the conditionality.",
+    "coverage": "In 2023 the program paid 2,297,296 students, about 99.7 percent of the target population of 2.34 million, with a budget of 477 million bolivianos funded by 28 public enterprises.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "A peer reviewed quasi-experimental study found that the transfer raises the probability of school enrollment by about one percentage point on average but has no sizeable effect on child labor, which the authors attribute to the small size of the transfer relative to the opportunity cost of older children's time. Other analyses associate the program with small reductions in extreme poverty and inequality. There is no experimental evaluation.",
+    "keyOutcomes": [
+      {
+        "metric": "School enrollment",
+        "effect": "Increase of roughly 1 percentage point in the likelihood of enrollment",
+        "source": "Canelas and Niño-Zarazúa 2019"
+      },
+      {
+        "metric": "Child labor",
+        "effect": "No sizeable effect on the incidence of child labor",
+        "source": "Canelas and Niño-Zarazúa 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Carla Canelas and Miguel Niño-Zarazúa",
+        "year": 2019,
+        "title": "Schooling and Labor Market Impacts of Bolivia's Bono Juancito Pinto Program",
+        "methodology": "quasi-experimental",
+        "journal": "Population and Development Review",
+        "doi": "10.1111/padr.12270",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/padr.12270",
+        "keyFinding": "The transfer increases the likelihood of school enrollment by about one percentage point but does not significantly reduce child labor."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Carla Canelas and Miguel Niño-Zarazúa",
+        "year": 2018,
+        "title": "Schooling and labour market impacts of Bolivia's Bono Juancito Pinto",
+        "source": "UNU-WIDER Working Paper 2018/36",
+        "url": "https://www.wider.unu.edu/publication/schooling-and-labour-market-impacts-bolivia%E2%80%99s-bono-juancito-pinto"
+      },
+      {
+        "authors": "Government of Bolivia",
+        "year": 2023,
+        "title": "Decreto Supremo No 5031, authorizing the 2023 payment of the Bono Juancito Pinto",
+        "source": "Gaceta Oficial de Bolivia via Lexivox",
+        "url": "https://www.lexivox.org/norms/BO-DS-N5031.html"
+      }
+    ]
+  },
+  {
+    "id": "bolivia-asep-education-law",
+    "name": "Avelino Siñani-Elizardo Pérez Education Law",
+    "nameLocal": "Ley de la Educación No 070 Avelino Siñani-Elizardo Pérez",
+    "acronym": "ASEP",
+    "country": "bolivia",
+    "yearStart": 2010,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["curriculum", "governance", "indigenous-ed", "teacher-reform"],
+    "affectedPopulations": ["all", "indigenous", "teachers"],
+    "summaryShort": "Bolivia's framework education law of December 2010, which reorganized the entire education system around decolonizing, intracultural, intercultural, plurilingual, community based and productive education aligned with the plurinational state.",
+    "summaryLong": "Law No 070, enacted on 20 December 2010, replaced the 1994 education reform law and refounded the Bolivian education system as the Sistema Educativo Plurinacional. The law declares education a fundamental right that the state must guarantee at all levels in a universal, free, integral and intercultural way without discrimination, and it is named after Avelino Siñani and Elizardo Pérez, founders of the indigenous school of Warisata in the 1930s. It organizes the system into regular education, alternative and special education, and higher education for professional training, and mandates that schooling be intracultural, intercultural and plurilingual, recognizing indigenous languages alongside Spanish.",
+    "objectives": [
+      "Establish education as a universal, free and compulsory right guaranteed by the state",
+      "Decolonize education and root curricula in Bolivia's indigenous cultures, languages and knowledge",
+      "Link schooling to productive and community life through a sociocommunity productive education model",
+      "Consolidate the plurinational state by promoting intracultural, intercultural and plurilingual education at all levels"
+    ],
+    "mechanisms": "The law restructures governance of the whole education system under state and social oversight, creates the plurinational education system with its three subsystems, and mandates new curricular bases that combine universal knowledge with indigenous knowledge systems. Implementation proceeded through a new national base curriculum and regionalized curricula rolled out in stages starting in 2013, complementary in-service teacher training, and the introduction of a technical humanistic upper secondary degree. Indigenous education councils participate in curriculum development for their peoples.",
+    "coverage": "The law governs the entire Bolivian education system, covering all students in regular, alternative and special, and higher education, which means several million students and the whole teaching force.",
+    "evidenceQuality": "none",
+    "impactSummary": "There is no rigorous impact evaluation of the law or of its sociocommunity productive education model. Available literature is legal, descriptive and qualitative, discussing implementation, the decolonization agenda and tensions between national curricula and local indigenous curricula. Its causal effects on learning, attainment or equity have not been measured.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {
+        "authors": "Plurinational State of Bolivia",
+        "year": 2010,
+        "title": "Ley de la Educación No 070 Avelino Siñani-Elizardo Pérez",
+        "source": "Gaceta Oficial de Bolivia via Lexivox",
+        "url": "https://www.lexivox.org/norms/BO-L-N70.html"
+      },
+      {
+        "authors": "UNESCO Institute for Lifelong Learning",
+        "year": 2010,
+        "title": "Bolivia: Education Law Avelino Siñani-Elizardo Pérez, issued in 2010",
+        "source": "UNESCO UIL",
+        "url": "https://www.uil.unesco.org/en/articles/bolivia-education-law-avelino-sinani-elizardo-perez-issued-2010"
+      },
+      {
+        "authors": "SITEAL, IIEP UNESCO",
+        "year": 2019,
+        "title": "Ley 70/2010. Ley de Educación Avelino Siñani-Elizardo Pérez",
+        "source": "SITEAL policy database",
+        "url": "https://siteal.iiep.unesco.org/bdnp/92/ley-702010-ley-educacion-avelino-sinani-elizardo-perez"
+      }
+    ]
+  },
+  {
+    "id": "bolivia-yo-si-puedo",
+    "name": "National Literacy Program Yes I Can",
+    "nameLocal": "Programa Nacional de Alfabetización Yo Sí Puedo",
+    "country": "bolivia",
+    "yearStart": 2006,
+    "yearEnd": 2008,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["curriculum"],
+    "affectedPopulations": ["low-income", "rural", "indigenous", "women-girls"],
+    "summaryShort": "A mass adult literacy campaign launched by the Morales government in 2006 using the Cuban Yo Sí Puedo audiovisual method, after which Bolivia declared itself free of illiteracy in December 2008.",
+    "summaryLong": "The Programa Nacional de Alfabetización was launched in 2006 with technical assistance from Cuba and financial support from Venezuela, using the Cuban Yo Sí Puedo method of audiovisual literacy lessons delivered over about 65 sessions. A census carried out in 2006 and 2007 identified 823,256 illiterate adults, and by the end of the campaign the government reported that 819,417 people had completed the program, including graduates in Aymara and Quechua. On 20 December 2008 Bolivia declared itself a territory free of illiteracy, citing an illiteracy rate below the 4 percent threshold used by UNESCO. The campaign was followed by a post-literacy program, Yo Sí Puedo Seguir, managed by the Ministry of Education.",
+    "objectives": [
+      "Eradicate adult illiteracy in Bolivia within roughly 30 months",
+      "Reach rural, indigenous and female populations with the highest illiteracy rates",
+      "Provide literacy instruction in Spanish and in Aymara and Quechua",
+      "Create the basis for continuing adult education through post-literacy programs"
+    ],
+    "mechanisms": "The program used the Cuban Yo Sí Puedo methodology, in which facilitators guide small groups of adult learners through a sequence of about 65 audiovisual classes shown on television sets and video players installed in community learning points. Cuba provided advisers, teaching materials and equipment, Venezuela provided financing, and Bolivian facilitators ran the local sessions. Literacy points were set up throughout the country, including versions of the materials in Aymara and Quechua.",
+    "coverage": "819,417 adults completed the program between 2006 and 2008, out of 823,256 illiterate adults identified in the baseline census, including 24,699 graduates in Aymara and 13,599 in Quechua.",
+    "evidenceQuality": "emerging",
+    "impactSummary": "Official figures show near universal completion among the identified illiterate population, and Bolivia declared itself free of illiteracy in 2008. An independent quasi-experimental assessment by researchers at Fundación ARU questioned how much of the decline in illiteracy can be attributed to the program and whether illiteracy actually fell below the 4 percent threshold, finding more modest effects on basic reading and writing skills than official graduation counts suggest. No experimental evaluation exists.",
+    "keyOutcomes": [
+      {
+        "metric": "Program completion",
+        "effect": "819,417 adults graduated from the literacy course between 2006 and 2008",
+        "source": "Ministry of Education of Bolivia 2008"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Werner L. Hernani-Limarino, Christian Valencia and Paul Villarroel",
+        "year": 2015,
+        "title": "¿Libres de Analfabetismo? Evaluando la Experiencia Boliviana con el Programa Nacional de Alfabetización Yo Sí Puedo",
+        "methodology": "quasi-experimental",
+        "journal": "Revista Latinoamericana de Desarrollo Económico (LAJED)",
+        "url": "https://ideas.repec.org/p/aru/wpaper/201504.html",
+        "keyFinding": "The study examines whether the program reduced illiteracy below the 4 percent threshold and finds that its measured contribution to literacy skills was more modest than official graduation figures imply."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "SITEAL, IIEP UNESCO",
+        "year": 2019,
+        "title": "Programa Nacional de Alfabetización Yo Sí Puedo",
+        "source": "SITEAL policy database",
+        "url": "https://siteal.iiep.unesco.org/bdnp/3476/programa-nacional-alfabetizacion-yo-si-puedo"
+      },
+      {
+        "authors": "Opinión (Bolivia)",
+        "year": 2008,
+        "title": "Bolivia territorio libre de analfabetismo",
+        "source": "Opinión newspaper",
+        "url": "https://www.opinion.com.bo/articulo/opini-oacute-n/bolivia-territorio-libre-analfabetismo/20081221192916300558.html"
+      }
+    ]
+  },
+  {
+    "id": "peru-coar",
+    "name": "High Performance Schools",
+    "nameLocal": "Colegios de Alto Rendimiento",
+    "acronym": "COAR",
+    "country": "peru",
+    "yearStart": 2014,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["curriculum", "infrastructure"],
+    "affectedPopulations": ["secondary", "low-income", "rural"],
+    "summaryShort": "A national network of selective public boarding schools for high achieving students in the last three grades of secondary school, created by Peru's Ministry of Education in 2014 and operating in all 25 regions.",
+    "summaryLong": "The Colegios de Alto Rendimiento are selective public boarding schools that serve high achieving students in grades 3 to 5 of secondary education. Building on the Colegio Mayor Secundario Presidente del Perú created in Lima in 2009, the Ministry of Education established the COAR network in 2014 and expanded it so that every one of Peru's 25 regions has a COAR. Students are admitted through a competitive two stage process that prioritizes top performers from public schools, and they receive full board, an extended school day, intensive English, and a curriculum aligned with the International Baccalaureate diploma. The model is one of the most resource intensive per student interventions in Peruvian basic education and has been the subject of a joint research agenda between the ministry and the development bank CAF.",
+    "objectives": [
+      "Offer a high quality public secondary education option to high achieving students, especially from public schools and poorer regions",
+      "Develop academic, artistic and socioemotional talent through a boarding school model with an International Baccalaureate aligned curriculum",
+      "Improve access of talented public school students to higher education and high return careers",
+      "Decentralize educational excellence by operating one COAR in each of the 25 regions"
+    ],
+    "mechanisms": "Students who finished second grade of secondary school with top grades or who placed in academic competitions apply through an annual admission process that combines a standardized test phase with an assessment of skills and interviews. Admitted students move to residential campuses where they study an extended day under the IB framework, with housing, food, materials and tutoring fully funded by the state. Each region operates one COAR under ministry guidelines.",
+    "coverage": "25 schools, one per region, serving about 6,700 students in grades 3 to 5 of secondary education as of the early 2020s.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "A regression discontinuity evaluation by the Ministry of Education and CAF comparing marginally admitted and marginally rejected applicants of the 2016 cohort found no detectable differences in mathematics and reading test performance or in measured socioemotional skills three years after entry, but a 14.5 percentage point higher intention to attend university. Follow up analysis of education and labor market outcomes found higher immediate university enrollment, a 7 percentage point higher probability of choosing high return careers, and formal wage gains averaging about 4 percent, reaching 16 percent for the earliest cohort observed longest in the labor market. A separate GRADE study evaluated design and implementation qualitatively, reporting strong engagement alongside infrastructure problems and staff overload.",
+    "keyOutcomes": [
+      {
+        "metric": "Cognitive and socioemotional test scores",
+        "effect": "No significant differences at the admission margin three years after entry",
+        "source": "MINEDU and CAF 2021"
+      },
+      {
+        "metric": "Intention to attend university",
+        "effect": "14.5 percentage points higher among admitted students (76 versus 63 percent)",
+        "source": "MINEDU and CAF 2021"
+      },
+      {
+        "metric": "Choice of high return careers and formal wages",
+        "effect": "7 percentage point higher probability of high return career choice and average formal wage gains of about 4 percent",
+        "source": "Medina Tito 2025"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Ministry of Education of Peru and CAF Development Bank of Latin America",
+        "year": 2021,
+        "title": "Evaluación de Impacto del Modelo de Servicio Educativo para Estudiantes de Alto Desempeño implementado a través de los Colegios de Alto Rendimiento (COAR)",
+        "methodology": "regression-discontinuity",
+        "url": "https://scioteca.caf.com/handle/123456789/1701",
+        "keyFinding": "At the admission cutoff, COAR attendance produced no measurable gains in cognitive or socioemotional test scores after three years but raised intentions to pursue university study by 14.5 percentage points."
+      },
+      {
+        "authors": "Dessiré Medina Tito, Ministry of Education of Peru",
+        "year": 2025,
+        "title": "Evaluación de impacto de los Colegios de Alto Rendimiento (COAR): resultados en el acceso a la educación superior y el mercado laboral",
+        "methodology": "regression-discontinuity",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/11790",
+        "keyFinding": "COAR attendance increased immediate university enrollment, raised the probability of choosing high return careers by about 7 percentage points, and increased formal wages by about 4 percent on average, reaching 16 percent for the 2015 cohort."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "CAF Development Bank of Latin America",
+        "year": 2021,
+        "title": "Impacto de colegios de alto rendimiento en Perú",
+        "source": "CAF Scioteca",
+        "url": "https://scioteca.caf.com/handle/123456789/1668"
+      },
+      {
+        "authors": "GRADE Group for the Analysis of Development",
+        "year": 2019,
+        "title": "Evaluation of the design and implementation of high performance schools COAR",
+        "source": "GRADE",
+        "url": "https://grade.org.pe/en/publicaciones/evaluation-of-the-design-and-implementation-of-high-performance-schools-coar/"
+      },
+      {
+        "authors": "Dessiré Medina Tito, Ministry of Education of Peru",
+        "year": 2025,
+        "title": "Evaluación de impacto de los Colegios de Alto Rendimiento (COAR): resultados en el acceso a la educación superior y el mercado laboral",
+        "source": "MINEDU repository",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/11790"
+      }
+    ]
+  },
+  {
+    "id": "peru-aprendo-en-casa",
+    "name": "I Learn at Home",
+    "nameLocal": "Aprendo en Casa",
+    "acronym": "AeC",
+    "country": "peru",
+    "yearStart": 2020,
+    "yearEnd": 2022,
+    "isActive": false,
+    "implementationStatus": "ended",
+    "policyTypes": ["digital-inclusion", "curriculum"],
+    "affectedPopulations": ["primary", "secondary", "early-childhood", "rural", "low-income", "all"],
+    "summaryShort": "Peru's national multichannel remote learning strategy during the COVID-19 school closures, launched in April 2020 and delivered through television, radio, a web platform and WhatsApp, later wound down as schools returned to in person classes through 2022.",
+    "summaryLong": "Aprendo en Casa was created by the Ministry of Education in roughly two weeks after the March 2020 closure of schools and was launched on 6 April 2020 as a free national distance education service. It combined daily programming on open signal television and on hundreds of radio stations, including programming in indigenous languages, with a web platform organized by grade and competencies, using WhatsApp and phone contact between teachers and families for follow up. The ministry reported in 2020 that around 90 percent of students had connected with the strategy in some form. As in person and blended schooling resumed in 2021 and 2022, the strategy was redefined through the guidelines for Aprendo en Casa, Aprendo en Escuela and Aprendo en Comunidad and was phased out as a stand alone national remote schooling channel after the 2022 return to in person education.",
+    "objectives": [
+      "Guarantee continuity of the school year during COVID-19 school closures",
+      "Reach students across the digital divide by combining web, television and radio delivery",
+      "Provide content aligned with the national curriculum, including in indigenous languages and for students with disabilities",
+      "Support teachers and families in accompanying remote learning"
+    ],
+    "mechanisms": "The ministry produced weekly learning sessions aligned with the national curriculum and broadcast them on the state television channel and a network of radio stations, while a web platform hosted guided activities by grade. Private telecom operators zero rated the platform, and teachers followed up with students by phone and WhatsApp, adapting and complementing the broadcast content. Radio programming was produced in several indigenous languages, and complementary tablet distribution targeted students without connectivity.",
+    "coverage": "Ministry figures from 2020 indicate that over 85 to 90 percent of Peru's roughly 8 million basic education students connected with the strategy through at least one channel.",
+    "evidenceQuality": "low",
+    "impactSummary": "There is no rigorous impact evaluation of effects on learning. Evidence is mainly descriptive, including a large phone survey of about 8,000 households by Innovations for Poverty Action documenting high but unequal engagement, with access and participation gaps by region, income and connectivity, and ministry monitoring data on reach and satisfaction. Studies of the pandemic period in Peru document substantial learning losses despite the strategy, but these cannot be attributed causally to the program design.",
+    "keyOutcomes": [],
+    "evaluations": [
+      {
+        "authors": "Innovations for Poverty Action",
+        "year": 2020,
+        "title": "Realities of Remote Learning: Lessons from Initial Findings of an 8,000-Household Survey in Peru During COVID-19",
+        "methodology": "descriptive",
+        "url": "https://poverty-action.org/blog/realities-remote-learning-lessons-initial-findings-8000-household-survey-peru-during-covid-19",
+        "keyFinding": "Engagement with Aprendo en Casa was high overall but unequal, with poorer and less connected households relying on television and radio and reporting lower participation and more difficulties."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Ministry of Education of Peru",
+        "year": 2020,
+        "title": "Aprendo en Casa, official documentation",
+        "source": "MINEDU repository",
+        "url": "https://repositorio.minedu.gob.pe/handle/20.500.12799/6918"
+      },
+      {
+        "authors": "Pontifical Catholic University of Peru and University of Notre Dame",
+        "year": 2020,
+        "title": "Education Response to COVID-19 in Peru",
+        "source": "University of Notre Dame, Inter-American Educational Initiatives brief",
+        "url": "https://iei.nd.edu/sites/default/files/2020-07/COVID19_PeruBrief_Final.pdf"
+      }
+    ]
+  },
+  {
+    "id": "ecuador-unidades-milenio",
+    "name": "Millennium Schools",
+    "nameLocal": "Unidades Educativas del Milenio",
+    "acronym": "UEM",
+    "country": "ecuador",
+    "yearStart": 2008,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "scaled-down",
+    "policyTypes": ["infrastructure"],
+    "affectedPopulations": ["primary", "secondary", "rural", "low-income", "indigenous"],
+    "summaryShort": "A flagship school infrastructure program of the Correa government that built large, fully equipped public schools in poor and rural areas of Ecuador from 2008; construction was halted after 2017 but existing schools continue to operate.",
+    "summaryLong": "The Unidades Educativas del Milenio were conceived in 2007 and inaugurated from 2008 as model public schools with laboratories, computer and language facilities, libraries and modern buildings, intended to bring high quality educational services to historically underserved areas. Spatial analyses found that the large majority of UEMs were located in areas of extreme poverty. By 2017 around 100 to 117 UEMs had been built at a reported cost of roughly 800 million dollars, serving over 83,000 students, while the policy was accompanied by the closure or consolidation of many small rural schools. A 2015 contract with a Chinese company to add 200 prefabricated UEMs was terminated by the Moreno government in 2018, and new construction stopped, although the existing schools remain part of the public system.",
+    "objectives": [
+      "Improve the quality of public education infrastructure in poor and rural areas",
+      "Expand access to complete basic and secondary education with laboratories and technology",
+      "Serve historically excluded populations, including indigenous communities",
+      "Act as reference schools for surrounding educational institutions"
+    ],
+    "mechanisms": "The Ministry of Education selected sites prioritizing poverty and unmet demand, built large standardized campuses with classrooms, science and computer laboratories and other facilities, and staffed and equipped them as regular public schools, often replacing or consolidating dispersed small rural schools whose students were transferred to the new units. Each UEM was expected to anchor a network of nearby schools.",
+    "coverage": "Around 117 schools built by 2017 serving 83,425 students, with an investment estimated at about 803 million dollars.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "An IDB financed quasi-experimental evaluation by FLACSO Ecuador using 2015 and 2016 data found a large positive impact on mathematics achievement of about 0.5 standard deviations for students attending UEMs, no measurable impact on language achievement, and no impact on enrollment. Critics and qualitative studies argue the schools were costly, displaced community and intercultural bilingual schools, and increased travel distances for some rural students.",
+    "keyOutcomes": [
+      {
+        "metric": "Mathematics achievement, upper secondary",
+        "effect": "Positive impact of about 0.5 standard deviations relative to other public schools",
+        "source": "Ponce 2019"
+      },
+      {
+        "metric": "Language achievement",
+        "effect": "No measurable impact",
+        "source": "Ponce 2019"
+      },
+      {
+        "metric": "School enrollment",
+        "effect": "No measurable impact",
+        "source": "Ponce 2019"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Juan Ponce (FLACSO Ecuador)",
+        "year": 2019,
+        "title": "Evaluación de Impacto del Programa de Escuelas del Milenio",
+        "methodology": "quasi-experimental",
+        "url": "https://educacion.gob.ec/wp-content/uploads/downloads/2019/02/Evaluacion-impacto-UEM.pdf",
+        "keyFinding": "Attending a Millennium School raised mathematics scores by about 0.5 standard deviations but had no impact on language scores or on enrollment."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "FLACSO Ecuador",
+        "year": 2018,
+        "title": "Evaluación de Impacto sobre logro y matrícula del programa: Unidades Educativas del Milenio",
+        "source": "FLACSO Andes repository",
+        "url": "https://repositorio.flacsoandes.edu.ec/xmlui/handle/10469/15903"
+      },
+      {
+        "authors": "Rosa María Torres",
+        "year": 2020,
+        "title": "Ecuador: Cronología de las escuelas del milenio (2007-2025)",
+        "source": "OTRA EDUCACION blog",
+        "url": "https://otra-educacion.blogspot.com/2020/01/cronologia-de-las-escuelas-del-milenio.html"
+      },
+      {
+        "authors": "Ministry of Education of Ecuador",
+        "year": 2023,
+        "title": "Unidades Educativas del Milenio, institutional page",
+        "source": "Ministry of Education of Ecuador",
+        "url": "https://educacion.gob.ec/unidades-educativas-del-milenio-pag/"
+      }
+    ]
+  },
+  {
+    "id": "colombia-escuela-nueva",
+    "name": "New School",
+    "nameLocal": "Escuela Nueva",
+    "country": "colombia",
+    "yearStart": 1975,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["curriculum", "teacher-reform"],
+    "affectedPopulations": ["primary", "rural", "teachers"],
+    "summaryShort": "A rural multigrade schooling model developed in Colombia in the mid 1970s by Vicky Colbert, Oscar Mogollón and Beryl Levinger that combines self paced learning guides, active pedagogy, flexible promotion and community participation; it became national rural policy in the 1980s and has been replicated internationally.",
+    "summaryLong": "Escuela Nueva emerged in 1975 as an improvement on Colombia's one teacher rural unitary schools, formalizing a model in which one or two teachers manage several grades simultaneously using structured self instructional learning guides, student government, classroom learning corners, flexible promotion and strong community involvement. With support from the Coffee Growers Federation, the Inter-American Development Bank and later the World Bank, the program expanded from pilot schools to roughly 8,000 schools by 1986 and was then scaled as national policy toward some 20,000 rural schools. The model has been adapted in numerous countries and is sustained in Colombia by the Ministry of Education and by the Fundación Escuela Nueva Volvamos a la Gente, founded by Vicky Colbert, whose work has received international recognition including the Yidan Prize.",
+    "objectives": [
+      "Provide complete, quality primary education in low density rural areas through multigrade teaching",
+      "Replace rote teaching with active, student centered and cooperative learning",
+      "Reduce repetition and dropout through flexible promotion adapted to rural life",
+      "Strengthen ties between school, family and community"
+    ],
+    "mechanisms": "Teachers in multigrade rural schools use sequenced self instructional learning guides that let students advance at their own pace individually or in small groups, while the teacher acts as facilitator across grades. Classrooms are organized with learning corners and small libraries, students participate in school government to build civic skills, promotion between grades is flexible so that children who miss time for harvests can resume without repeating, and teachers are trained through workshops and peer microcenters. Community members participate in school activities and management.",
+    "coverage": "Expanded to about 8,000 schools by 1986 and to roughly 20,000 rural schools with World Bank support thereafter, reaching hundreds of thousands of Colombian rural students; the model has since been adapted in more than a dozen countries.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Multiple peer reviewed quasi-experimental studies from the late 1980s and 1990s found that Escuela Nueva students outperformed students in conventional rural schools in third grade Spanish and mathematics and in fifth grade Spanish, and scored higher on civic values and self esteem measures, with evidence of lower dropout. Effects vary across samples and the studies are observational, so selection into the program cannot be fully ruled out. The model is widely cited as one of the most successful rural education innovations in the developing world.",
+    "keyOutcomes": [
+      {
+        "metric": "Third grade Spanish and mathematics achievement",
+        "effect": "Significantly higher scores than students in traditional rural schools",
+        "source": "Psacharopoulos, Rojas and Vélez 1993; McEwan 1998"
+      },
+      {
+        "metric": "Civic values and self esteem",
+        "effect": "Higher scores among Escuela Nueva students in third and fifth grades",
+        "source": "Psacharopoulos, Rojas and Vélez 1993"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "George Psacharopoulos, Carlos Rojas and Eduardo Vélez",
+        "year": 1993,
+        "title": "Achievement Evaluation of Colombia's Escuela Nueva: Is Multigrade the Answer?",
+        "methodology": "quasi-experimental",
+        "journal": "Comparative Education Review",
+        "doi": "10.1086/447190",
+        "url": "https://www.journals.uchicago.edu/doi/abs/10.1086/447190",
+        "keyFinding": "Escuela Nueva students scored significantly higher than traditional rural school students in third grade Spanish and mathematics and fifth grade Spanish, and on civic values and self esteem measures."
+      },
+      {
+        "authors": "Patrick J. McEwan",
+        "year": 1998,
+        "title": "The effectiveness of multigrade schools in Colombia",
+        "methodology": "quasi-experimental",
+        "journal": "International Journal of Educational Development",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0738059398000236",
+        "keyFinding": "Using a 1992 sample, Escuela Nueva schools showed positive and statistically significant effects on third grade Spanish and mathematics achievement and fifth grade Spanish."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Fundación Escuela Nueva Volvamos a la Gente",
+        "year": 2020,
+        "title": "Historia de Escuela Nueva en Colombia: una renovación pedagógica",
+        "source": "Fundación Escuela Nueva",
+        "url": "https://escuelanueva.org/wp-content/uploads/2020/04/HistoriaEscuelaNuevaEnColombia.compressed.pdf"
+      },
+      {
+        "authors": "Emily Gustafsson-Wright and Eileen McGivney",
+        "year": 2014,
+        "title": "Fundación Escuela Nueva: Changing the Way Children Learn from Colombia to Southeast Asia",
+        "source": "Brookings Institution",
+        "url": "https://www.brookings.edu/articles/fundacion-escuela-nueva-changing-the-way-children-learn-from-colombia-to-southeast-asia/"
+      }
+    ]
+  },
+  {
+    "id": "colombia-todos-a-aprender",
+    "name": "Everyone Learning Program",
+    "nameLocal": "Programa Todos a Aprender",
+    "acronym": "PTA",
+    "country": "colombia",
+    "yearStart": 2011,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["teacher-reform", "tutoring", "curriculum"],
+    "affectedPopulations": ["primary", "teachers", "rural", "low-income"],
+    "summaryShort": "Colombia's largest in service teacher professional development program, launched by the Ministry of National Education in 2011 and implemented from 2012, in which trained tutors coach primary school teachers in low performing public schools and distribute structured teaching materials.",
+    "summaryLong": "The Programa Todos a Aprender, formally the program for the transformation of educational quality, was launched in 2011 and has operated since 2012 as the Colombian government's main instrument to raise learning in primary education in public schools with weak results, a majority of them rural. The program selects and trains a cadre of expert teachers who work as tutors, each accompanying teachers in a set of focused schools through classroom observation, feedback, and situated training sessions, complemented by the mass distribution of textbooks and teacher guides in mathematics and language. The program was relaunched as PTA 2.0 in 2015 and has continued under successive governments, with national coverage figures around 4,000 to 4,500 school establishments and roughly 84,000 to 100,000 teachers accompanied in recent cycles.",
+    "objectives": [
+      "Improve learning outcomes in mathematics and language in primary grades of low performing public schools",
+      "Transform classroom practice through situated professional development and coaching by tutors",
+      "Provide high quality textbooks and teacher guides at scale",
+      "Close urban rural gaps in educational quality"
+    ],
+    "mechanisms": "The ministry identifies low performing public schools using national Saber test results and assigns each a tutor, an outstanding teacher selected by competition and trained by a smaller group of trainers. Tutors visit schools regularly, model and observe lessons, give feedback, and run study communities of teachers, following a structured pedagogical route. Schools receive student textbooks and teacher guides aligned with national standards in mathematics and language, and program operation is monitored through cycles of accompaniment.",
+    "coverage": "In 2020 the program operated in 798 municipalities and about 4,500 school establishments covering more than 14,000 school sites, accompanying over 83,000 classroom teachers with about 4,400 tutors; by September 2021 it had accompanied 100,794 teachers.",
+    "evidenceQuality": "moderate",
+    "impactSummary": "Quasi-experimental analyses using school fixed effects and several years of Saber test data find that additional years of exposure to PTA are associated with better student performance, with the largest effects in third grade mathematics and in schools serving lower socioeconomic populations. Government commissioned evaluations, including work by Universidad de los Andes researchers around 2016, found positive but heterogeneous effects that depended strongly on implementation quality, and earlier reviews around 2014 found stagnant outcomes and irregular tutor visits, which motivated the redesign as PTA 2.0. There is no randomized evaluation of the full program.",
+    "keyOutcomes": [
+      {
+        "metric": "Saber test performance, grades 3, 5 and 9",
+        "effect": "An additional year of PTA exposure is positively associated with student performance, strongest in third grade mathematics in low socioeconomic status schools",
+        "source": "Dueñas Herrera et al. 2018"
+      }
+    ],
+    "evaluations": [
+      {
+        "authors": "Ximena Dueñas Herrera, Ana Bolena Escobar Escobar, Silvana Godoy Mateus and Jorge Leonardo Duarte Rodríguez",
+        "year": 2018,
+        "title": "Coaching a docentes y rendimiento académico: PTA en Colombia",
+        "methodology": "quasi-experimental",
+        "journal": "Revista de Educación, no. 381",
+        "url": "https://www.educacionfpydeportes.gob.es/revista-de-educacion/numeros-revista-educacion/numeros-anteriores/2018/381/381-7.html",
+        "keyFinding": "Using four years of Saber data and school fixed effects, an additional year in PTA correlates positively with student performance, with the strongest effects in third grade mathematics in poorer schools."
+      }
+    ],
+    "keyReferences": [
+      {
+        "authors": "Ministry of National Education of Colombia",
+        "year": 2021,
+        "title": "Todos a Aprender, Educación rinde cuentas",
+        "source": "Ministry of National Education of Colombia",
+        "url": "https://educacionrindecuentas.mineducacion.gov.co/pilar-1-educacion-de-calidad/todos-a-aprender/"
+      },
+      {
+        "authors": "Chelsea Raubenheimer, Milena Rosenzvit, Laura Ospina and Rin Kim",
+        "year": 2020,
+        "title": "Supporting Teacher Professional Development: Program Sustainability in Colombia (in Empowering Teachers to Build a Better World)",
+        "source": "Springer",
+        "url": "https://link.springer.com/chapter/10.1007/978-981-15-2137-9_3"
+      }
+    ]
+  },
+  {
+    "id": "venezuela-canaima-educativo",
+    "name": "Canaima Educational Project",
+    "nameLocal": "Canaima Educativo",
+    "country": "venezuela",
+    "yearStart": 2009,
+    "yearEnd": null,
+    "isActive": true,
+    "implementationStatus": "national",
+    "policyTypes": ["digital-inclusion"],
+    "affectedPopulations": ["primary", "secondary", "low-income", "teachers"],
+    "summaryShort": "Venezuela's one laptop per child style program, launched in 2009, which has distributed millions of small laptops known as Canaimitas with free software and curricular content to public school students, later extended to secondary and with tablets to other levels.",
+    "summaryLong": "Canaima Educativo began in 2009 under the government of Hugo Chávez as a program to deliver portable computers loaded with educational content to students and teachers in public and subsidized primary schools, using the Venezuelan Canaima GNU Linux operating system and locally developed digital content. The program started with classroom use in first grade and moved to a model in which children take the Canaimita home, and from 2013 it was extended to secondary education students. Government sources report cumulative deliveries rising from about 2.35 million devices in the early 2010s to more than 6 million laptops and tablets by 2017, with reported state investment of around 600 million dollars between 2013 and 2016. Deliveries have continued intermittently in subsequent years amid Venezuela's economic crisis.",
+    "objectives": [
+      "Provide universal access to computers and digital educational content in public basic education",
+      "Support the national curriculum with locally produced free software and digital resources",
+      "Promote technological sovereignty through the Canaima GNU Linux platform and local assembly",
+      "Reduce the digital divide for low income students and their families"
+    ],
+    "mechanisms": "The state procures and partially assembles small laptops and tablets that run the Canaima GNU Linux distribution preloaded with curricular content developed by the Ministry of Education. Devices are distributed free of charge through public and subsidized schools, first for in classroom use in early grades and then under home use schemes, with teachers also receiving equipment and some training. Content updates and maintenance run through state technology agencies, and the scheme was later broadened with tablets for secondary and university students.",
+    "coverage": "Government figures report more than 6 million devices delivered between 2009 and 2017, including about 4.5 million reported by 2014, with roughly 600 million dollars invested between 2013 and 2016.",
+    "evidenceQuality": "low",
+    "impactSummary": "There is no rigorous national impact evaluation of Canaima Educativo on learning outcomes. The available literature consists of government reports and small scale descriptive and qualitative academic studies of particular schools or municipalities, which tend to report incomplete pedagogical integration, limited teacher training, maintenance problems and uneven use of the devices, alongside valued access to technology for poor households. Effects on achievement, attendance or digital skills have not been credibly measured.",
+    "keyOutcomes": [],
+    "keyReferences": [
+      {
+        "authors": "UNESCO Policy Monitoring Platform",
+        "year": 2017,
+        "title": "Educational Canaima",
+        "source": "UNESCO",
+        "url": "https://www.unesco.org/creativity/en/policy-monitoring-platform/educational-canaima"
+      },
+      {
+        "authors": "Centro Nacional de Tecnologías de Información (CNTI)",
+        "year": 2014,
+        "title": "Proyecto Canaima: Soporte tecnológico para la educación primaria",
+        "source": "CNTI, Government of Venezuela",
+        "url": "https://cnti.gob.ve/proyecto-canaima-soporte-tecnologico-para-la-educacion-primaria/"
+      }
+    ]
+  }
+]

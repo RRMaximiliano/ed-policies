@@ -17,10 +17,9 @@ import { MapPin, Calendar, FileText, Filter, RotateCcw } from 'lucide-react';
 
 interface CommandPaletteProps {
   policies: Policy[];
-  onSelectPolicy: (policy: Policy) => void;
 }
 
-export function CommandPalette({ policies, onSelectPolicy }: CommandPaletteProps) {
+export function CommandPalette({ policies }: CommandPaletteProps) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState('');
   const router = useRouter();
@@ -42,9 +41,9 @@ export function CommandPalette({ policies, onSelectPolicy }: CommandPaletteProps
     (policy: Policy) => {
       setOpen(false);
       setSearch('');
-      onSelectPolicy(policy);
+      router.push(`/policies/${policy.id}`);
     },
-    [onSelectPolicy]
+    [router]
   );
 
   const handleSearch = useCallback(() => {

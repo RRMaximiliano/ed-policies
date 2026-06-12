@@ -20,24 +20,24 @@ export function CompareTray({ policies, limit = 4, onRemove, onClear }: CompareT
   const canCompare = policies.length >= 2;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[#d8d2c8] bg-[#fbfaf7]/95 px-4 py-3 shadow-[0_-12px_30px_rgba(26,39,68,0.12)] backdrop-blur md:px-8">
-      <div className="mx-auto flex max-w-screen-2xl flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[#d4d4d8] bg-[#fafafa]/95 py-3 shadow-[0_-12px_30px_rgba(26,39,68,0.12)] backdrop-blur">
+      <div className="shell-wide flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex min-w-0 flex-1 flex-col gap-3 sm:flex-row sm:items-center">
-          <div className="flex shrink-0 items-center gap-2 text-sm font-medium text-[#1a2744]">
-            <GitCompareArrows className="h-4 w-4 text-[#c4654a]" />
+          <div className="flex shrink-0 items-center gap-2 text-sm font-medium text-[#18181b]">
+            <GitCompareArrows className="h-4 w-4 text-[#1e43c8]" />
             Compare {policies.length}/{limit}
           </div>
           <div className="flex min-w-0 flex-wrap gap-2">
             {policies.map((policy) => (
               <span
                 key={policy.id}
-                className="inline-flex max-w-[260px] items-center gap-2 border border-[#d8d2c8] bg-white px-2.5 py-1.5 text-xs text-[#1a2744]"
+                className="inline-flex max-w-[260px] items-center gap-2 border border-[#d4d4d8] bg-white px-2.5 py-1.5 text-xs text-[#18181b]"
               >
                 <span className="truncate">{policy.acronym || policy.name}</span>
                 <button
                   type="button"
                   onClick={() => onRemove(policy.id)}
-                  className="text-[#5c6578] hover:text-[#c4654a]"
+                  className="text-[#52525b] hover:text-[#1e43c8]"
                   aria-label={`Remove ${policy.name} from comparison`}
                 >
                   <X className="h-3.5 w-3.5" />
@@ -51,14 +51,14 @@ export function CompareTray({ policies, limit = 4, onRemove, onClear }: CompareT
           <button
             type="button"
             onClick={onClear}
-            className="h-10 px-3 text-sm font-medium text-[#5c6578] hover:text-[#1a2744]"
+            className="h-10 px-3 text-sm font-medium text-[#52525b] hover:text-[#18181b]"
           >
             Clear
           </button>
           {canCompare ? (
             <Link
               href={compareHref}
-              className="inline-flex h-10 items-center justify-center bg-[#1a2744] px-4 text-sm font-medium text-white hover:bg-[#26385f]"
+              className="inline-flex h-10 items-center justify-center bg-[#18181b] px-4 text-sm font-medium text-white hover:bg-[#2f2f36]"
             >
               Open comparison
             </Link>
@@ -66,7 +66,7 @@ export function CompareTray({ policies, limit = 4, onRemove, onClear }: CompareT
             <button
               type="button"
               disabled
-              className="inline-flex h-10 cursor-not-allowed items-center justify-center bg-[#d8d2c8] px-4 text-sm font-medium text-[#5c6578]"
+              className="inline-flex h-10 cursor-not-allowed items-center justify-center bg-[#d4d4d8] px-4 text-sm font-medium text-[#52525b]"
             >
               Select 2 to compare
             </button>

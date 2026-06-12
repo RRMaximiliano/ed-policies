@@ -4,7 +4,8 @@ import {
   EvidenceQuality,
   Policy,
 } from '@/types/policy';
-import { CheckCircle, ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight } from 'lucide-react';
+import { EvidenceBadge } from '@/components/policy/EvidenceBadge';
 import policiesData from '@/data/policies.json';
 
 const allPolicies = policiesData as Policy[];
@@ -16,78 +17,62 @@ export const metadata = {
     'Learn about our methodology for cataloging education policies, evidence quality ratings, and how to interpret policy impact findings.',
 };
 
-const evidenceStyles: Record<EvidenceQuality, { bg: string; text: string; border: string }> = {
-  high: { bg: 'bg-[#e8f5e9]', text: 'text-[#1b5e20]', border: 'border-[#c8e6c9]' },
-  moderate: { bg: 'bg-[#e3f2fd]', text: 'text-[#1565c0]', border: 'border-[#bbdefb]' },
-  emerging: { bg: 'bg-[#fff8e1]', text: 'text-[#e65100]', border: 'border-[#ffecb3]' },
-  low: { bg: 'bg-[#fff3e0]', text: 'text-[#bf360c]', border: 'border-[#ffe0b2]' },
-  none: { bg: 'bg-[#f5f5f5]', text: 'text-[#616161]', border: 'border-[#e0e0e0]' },
-};
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-[#faf8f5]">
-      {/* Hero */}
-      <div className="border-b border-[#e5e0d8] bg-[#1a2744] text-white">
-        <div className="container max-w-4xl px-4 md:px-8 py-12 md:py-16">
-          <div className="flex items-center gap-3 mb-5">
-            <div className="h-px w-10 bg-[#c4654a]" />
-            <span className="text-xs uppercase text-white/60">Methodology</span>
-          </div>
-          <h1 className="font-serif text-3xl md:text-5xl leading-tight mb-5">
-            About This <em className="text-[#c4654a]">Database</em>
+    <div className="min-h-screen bg-[#fafafa]">
+      {/* Page header */}
+      <div className="border-b border-[#e4e4e7] bg-white">
+        <div className="shell-article py-12 md:py-16">
+          <h1 className="font-display text-3xl md:text-5xl font-semibold leading-tight tracking-tight text-[#18181b] mb-5">
+            About this database
           </h1>
-          <p className="text-lg text-white/80 leading-relaxed max-w-2xl">
-            A comprehensive, searchable resource cataloging education policies implemented across{' '}
-            {countryCount} countries in Latin America and the Caribbean, designed for researchers,
-            policymakers, and students seeking evidence-based insights.
+          <p className="text-lg text-[#52525b] leading-relaxed max-w-prose">
+            A searchable catalog of education policies implemented across {countryCount} countries
+            in Latin America and the Caribbean, built for researchers, policymakers, and
+            students.
           </p>
         </div>
       </div>
 
-      <div className="container max-w-4xl px-4 md:px-8 py-12 md:py-16">
+      <div className="shell-article py-12 md:py-16">
         {/* Who Is This For */}
         <section className="mb-16">
           <SectionHeader>Who Is This For?</SectionHeader>
-          <p className="text-[#5c6578] leading-relaxed">
-            This database serves <strong className="text-[#1a2744]">researchers</strong> studying education policy and development economics,
-            <strong className="text-[#1a2744]"> policy evaluators</strong> designing impact studies and identifying evidence gaps,
-            and <strong className="text-[#1a2744]">policymakers</strong> seeking evidence-based options for improving education outcomes across Latin America.
+          <p className="max-w-prose text-[#52525b] leading-relaxed">
+            This database serves <strong className="text-[#18181b]">researchers</strong> studying education policy and development economics,
+            <strong className="text-[#18181b]"> policy evaluators</strong> designing impact studies and identifying evidence gaps,
+            and <strong className="text-[#18181b]">policymakers</strong> seeking evidence-based options for improving education outcomes across Latin America.
           </p>
         </section>
 
         {/* Evidence Quality Ratings */}
         <section className="mb-16">
           <SectionHeader>Evidence Quality Ratings</SectionHeader>
-          <p className="text-[#5c6578] mb-8 leading-relaxed">
+          <p className="max-w-prose text-[#52525b] mb-8 leading-relaxed">
             We rate each policy&apos;s evidence base on a five-tier scale based on the rigor and
             consistency of available evaluations:
           </p>
 
-          <div className="space-y-4">
-            {(Object.keys(EVIDENCE_QUALITY_LABELS) as EvidenceQuality[]).map((quality) => {
-              const style = evidenceStyles[quality];
-              return (
-                <div
-                  key={quality}
-                  className="flex items-start gap-4 p-5 bg-white border border-[#e5e0d8] hover:border-[#c4654a]/30 transition-colors"
-                >
-                  <span className={`shrink-0 text-[10px] uppercase tracking-wider font-medium px-2.5 py-1 border ${style.bg} ${style.text} ${style.border}`}>
-                    {EVIDENCE_QUALITY_LABELS[quality]}
-                  </span>
-                  <p className="text-sm text-[#5c6578] leading-relaxed">
-                    {EVIDENCE_QUALITY_DESCRIPTIONS[quality]}
-                  </p>
-                </div>
-              );
-            })}
+          <div className="border border-[#e4e4e7] bg-white">
+            {(Object.keys(EVIDENCE_QUALITY_LABELS) as EvidenceQuality[]).map((quality) => (
+              <div
+                key={quality}
+                className="grid gap-1 border-b border-[#e4e4e7] p-5 last:border-b-0 sm:grid-cols-[160px_1fr] sm:gap-4"
+              >
+                <EvidenceBadge quality={quality} />
+                <p className="text-sm text-[#52525b] leading-relaxed">
+                  {EVIDENCE_QUALITY_DESCRIPTIONS[quality]}
+                </p>
+              </div>
+            ))}
           </div>
         </section>
 
         {/* Study Methodologies */}
         <section className="mb-16">
           <SectionHeader>Study Methodologies</SectionHeader>
-          <p className="text-[#5c6578] mb-8 leading-relaxed">
+          <p className="max-w-prose text-[#52525b] mb-8 leading-relaxed">
             We prioritize evaluations using rigorous methodologies that can establish causal impacts:
           </p>
 
@@ -118,7 +103,7 @@ export default function AboutPage() {
         {/* Policy Categories */}
         <section className="mb-16">
           <SectionHeader>Policy Categories</SectionHeader>
-          <p className="text-[#5c6578] mb-8 leading-relaxed">
+          <p className="max-w-prose text-[#52525b] mb-8 leading-relaxed">
             Policies are categorized by intervention type. Many policies span multiple categories:
           </p>
 
@@ -135,12 +120,9 @@ export default function AboutPage() {
               { label: 'Indigenous Education', desc: 'Bilingual and intercultural programs' },
               { label: 'Tutoring', desc: 'One-on-one or small group instruction' },
             ].map((category) => (
-              <div key={category.label} className="flex items-start gap-3 p-4 bg-white border border-[#e5e0d8]">
-                <CheckCircle className="h-4 w-4 text-[#2d6a4f] mt-0.5 shrink-0" />
-                <div>
-                  <span className="font-medium text-[#1a2744]">{category.label}</span>
-                  <p className="text-sm text-[#5c6578] mt-1">{category.desc}</p>
-                </div>
+              <div key={category.label} className="p-4 bg-white border border-[#e4e4e7]">
+                <span className="font-medium text-[#18181b]">{category.label}</span>
+                <p className="text-sm text-[#52525b] mt-1">{category.desc}</p>
               </div>
             ))}
           </div>
@@ -149,7 +131,7 @@ export default function AboutPage() {
         {/* Data Sources */}
         <section className="mb-16">
           <SectionHeader>Data Sources</SectionHeader>
-          <p className="text-[#5c6578] mb-8 leading-relaxed">
+          <p className="max-w-prose text-[#52525b] mb-8 leading-relaxed">
             Policy information and evaluation evidence is compiled from peer-reviewed research and
             official government documentation:
           </p>
@@ -168,12 +150,12 @@ export default function AboutPage() {
                 href={source.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-between p-4 bg-white border border-[#e5e0d8] hover:border-[#c4654a] hover:bg-[#c4654a]/5 transition-all group"
+                className="flex items-center justify-between p-4 bg-white border border-[#e4e4e7] hover:border-[#1e43c8] hover:bg-[#1e43c8]/5 transition-all group"
               >
-                <span className="text-[#1a2744] group-hover:text-[#c4654a] transition-colors">
+                <span className="text-[#18181b] group-hover:text-[#1e43c8] transition-colors">
                   {source.name}
                 </span>
-                <ArrowUpRight className="h-4 w-4 text-[#5c6578] group-hover:text-[#c4654a] transition-colors" />
+                <ArrowUpRight className="h-4 w-4 text-[#52525b] group-hover:text-[#1e43c8] transition-colors" />
               </a>
             ))}
           </div>
@@ -182,12 +164,12 @@ export default function AboutPage() {
         {/* Limitations */}
         <section className="mb-16">
           <SectionHeader>Limitations</SectionHeader>
-          <div className="bg-[#f5f2ed] border-l-4 border-[#c4654a] p-6">
-            <p className="text-[#5c6578] leading-relaxed">
+          <div className="bg-[#f4f4f5] border-l-4 border-[#1e43c8] p-6">
+            <p className="max-w-prose text-[#52525b] leading-relaxed">
               This database aims to be comprehensive but has limitations. Not all policies have been
               rigorously evaluated, and we may not have captured all relevant studies. Evidence quality
               ratings are our assessment and may differ from others. Impact findings should be
-              interpreted in context—effects may vary by implementation quality, target population, and
+              interpreted in context: effects may vary by implementation quality, target population, and
               local conditions.
             </p>
           </div>
@@ -200,8 +182,8 @@ export default function AboutPage() {
 function SectionHeader({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-center gap-4 mb-6">
-      <h2 className="font-serif text-2xl text-[#1a2744]">{children}</h2>
-      <div className="flex-1 h-[1px] bg-[#e5e0d8]" />
+      <h2 className="font-display text-2xl text-[#18181b]">{children}</h2>
+      <div className="flex-1 h-[1px] bg-[#e4e4e7]" />
     </div>
   );
 }
@@ -216,14 +198,14 @@ function MethodCard({
   description: string;
 }) {
   return (
-    <div className="p-5 bg-white border border-[#e5e0d8] hover:shadow-md transition-shadow">
+    <div className="p-5 bg-white border border-[#e4e4e7] hover:shadow-md transition-shadow">
       <div className="flex items-baseline gap-2 mb-3">
-        <h3 className="font-medium text-[#1a2744]">{title}</h3>
-        <span className="text-[10px] uppercase tracking-wide text-[#5c6578] bg-[#f5f2ed] px-1.5 py-0.5">
+        <h3 className="font-medium text-[#18181b]">{title}</h3>
+        <span className="text-[10px] uppercase tracking-wide text-[#52525b] bg-[#f4f4f5] px-1.5 py-0.5">
           {acronym}
         </span>
       </div>
-      <p className="text-sm text-[#5c6578] leading-relaxed">{description}</p>
+      <p className="text-sm text-[#52525b] leading-relaxed">{description}</p>
     </div>
   );
 }

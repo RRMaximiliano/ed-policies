@@ -9,8 +9,12 @@ Thank you for your interest in contributing! This database is a community resour
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally
 3. **Edit `src/data/policies.json`** to add or update policy entries
-4. **Validate your JSON** using a linter
+4. **Run `npm run validate`** to check every entry against the schema (the same check runs in CI)
 5. **Submit a Pull Request** with a clear description of changes
+
+> **Policies without research are welcome.** A policy that was implemented but never
+> evaluated belongs in this catalog. Set `"evidenceQuality": "none"` and omit
+> `evaluations` and `keyReferences` (or leave them as empty arrays).
 
 ### Via Issue
 
@@ -31,6 +35,7 @@ Each policy entry must include the following fields:
   "yearStart": 2020,
   "yearEnd": null,
   "isActive": true,
+  "implementationStatus": "pilot|regional|national|scaled-down|ended",
 
   "policyTypes": ["cct", "school-feeding"],
   "affectedPopulations": ["primary", "low-income"],
@@ -75,7 +80,7 @@ Each policy entry must include the following fields:
 ```
 argentina, bolivia, brazil, chile, colombia, costa-rica, cuba,
 dominican-republic, ecuador, el-salvador, guatemala, haiti, honduras,
-mexico, nicaragua, panama, paraguay, peru, uruguay, venezuela
+jamaica, mexico, nicaragua, panama, paraguay, peru, uruguay, venezuela
 ```
 
 ### Policy Types
@@ -93,6 +98,18 @@ early-childhood, primary, secondary, tertiary, indigenous,
 rural, low-income, women-girls, teachers, all
 ```
 
+### Implementation Status
+
+How far the policy actually reached, independent of whether it was evaluated:
+
+| Status | Definition |
+|--------|------------|
+| `pilot` | Small-scale trial or research experiment, never scaled |
+| `regional` | Operating in a subset of states, provinces, or districts |
+| `national` | Operating countrywide |
+| `scaled-down` | Still running but reduced from its peak scope |
+| `ended` | No longer operating |
+
 ### Evidence Quality
 
 | Rating | Definition |
@@ -101,7 +118,7 @@ rural, low-income, women-girls, teachers, all
 | `moderate` | At least one well-designed RCT or multiple high-quality quasi-experimental studies |
 | `emerging` | Promising evidence from quasi-experimental studies or early-stage RCTs |
 | `low` | Limited evidence, primarily descriptive or correlational studies |
-| `none` | No systematic evaluation evidence available |
+| `none` | Not yet evaluated. No systematic evaluation evidence available |
 
 ### Study Methodologies
 
@@ -124,7 +141,7 @@ Before submitting, please verify:
 - [ ] All evaluation studies have proper citations
 - [ ] DOIs or URLs provided where available
 - [ ] Key findings are supported by the cited sources
-- [ ] JSON is valid and properly formatted
+- [ ] `npm run validate` passes locally
 
 ## Code of Conduct
 

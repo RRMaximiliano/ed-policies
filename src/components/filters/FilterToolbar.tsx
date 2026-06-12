@@ -81,8 +81,8 @@ export function FilterToolbar({
   );
 
   return (
-    <section className="mb-6 border border-[#e5e0d8] bg-white">
-      <div className="grid gap-3 border-b border-[#e5e0d8] p-4 lg:grid-cols-[minmax(280px,1fr)_auto]">
+    <section className="mb-6 border border-[#e4e4e7] bg-white">
+      <div className="grid gap-3 border-b border-[#e4e4e7] p-4 lg:grid-cols-[minmax(280px,1fr)_auto]">
         <SearchBar className="max-w-none" />
 
         <div className="flex flex-wrap items-center gap-2">
@@ -123,11 +123,11 @@ export function FilterToolbar({
               }))}
           />
 
-          <label className="flex h-11 items-center gap-2 border border-[#e5e0d8] bg-[#fbfaf7] px-3 text-sm text-[#1a2744]">
+          <label className="flex h-11 items-center gap-2 border border-[#e4e4e7] bg-[#fafafa] px-3 text-sm text-[#18181b]">
             <Checkbox
               checked={activeOnly}
               onCheckedChange={(checked) => setActiveOnly(checked as boolean)}
-              className="border-[#d8d2c8]"
+              className="border-[#d4d4d8]"
             />
             Active only
           </label>
@@ -137,12 +137,12 @@ export function FilterToolbar({
               <Button
                 type="button"
                 variant="outline"
-                className="h-11 rounded-none border-[#e5e0d8] bg-white text-[#1a2744] hover:border-[#c4654a] hover:bg-[#fbfaf7]"
+                className="h-11 rounded-none border-[#e4e4e7] bg-white text-[#18181b] hover:border-[#1e43c8] hover:bg-[#fafafa]"
               >
                 <Filter className="h-4 w-4" />
                 More filters
                 {activeFilterCount > 0 && (
-                  <span className="ml-1 bg-[#c4654a] px-1.5 py-0.5 text-xs text-white">
+                  <span className="ml-1 bg-[#1e43c8] px-1.5 py-0.5 text-xs text-white">
                     {activeFilterCount}
                   </span>
                 )}
@@ -150,7 +150,7 @@ export function FilterToolbar({
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="w-[340px] max-w-[92vw] bg-[#faf8f5] p-0 sm:w-[400px]"
+              className="w-[340px] max-w-[92vw] bg-[#fafafa] p-0 sm:w-[400px]"
             >
               <SheetTitle className="sr-only">Filter Policies</SheetTitle>
               <div className="p-6">
@@ -206,14 +206,14 @@ export function FilterToolbar({
             <button
               type="button"
               onClick={clearFilters}
-              className="ml-1 inline-flex h-7 items-center gap-1.5 px-2 text-xs font-medium text-[#5c6578] hover:text-[#c4654a]"
+              className="ml-1 inline-flex h-7 items-center gap-1.5 px-2 text-xs font-medium text-[#52525b] hover:text-[#1e43c8]"
             >
               <RotateCcw className="h-3.5 w-3.5" />
               Clear all
             </button>
           </>
         ) : (
-          <span className="text-sm text-[#5c6578]">
+          <span className="text-sm text-[#52525b]">
             No filters active. Add filters above to narrow the evidence set.
           </span>
         )}
@@ -239,7 +239,7 @@ function QuickSelect({
       <select
         value={value}
         onChange={(event) => onChange(event.target.value)}
-        className="h-11 min-w-[150px] appearance-none border border-[#e5e0d8] bg-white py-2 pl-3 pr-8 text-sm text-[#1a2744] outline-none transition-colors hover:border-[#c4654a] focus:border-[#c4654a] focus:ring-1 focus:ring-[#c4654a]/20"
+        className="h-11 min-w-[150px] appearance-none border border-[#e4e4e7] bg-white py-2 pl-3 pr-8 text-sm text-[#18181b] outline-none transition-colors hover:border-[#1e43c8] focus:border-[#1e43c8] focus:ring-1 focus:ring-[#1e43c8]/20"
       >
         <option value="">{label}</option>
         {options.map((option) => (
@@ -249,7 +249,7 @@ function QuickSelect({
           </option>
         ))}
       </select>
-      <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#5c6578]">
+      <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-[#52525b]">
         <ChevronDown className="h-3.5 w-3.5" />
       </span>
     </label>
@@ -258,12 +258,12 @@ function QuickSelect({
 
 function FilterChip({ label, onRemove }: { label: string; onRemove: () => void }) {
   return (
-    <span className="inline-flex h-7 max-w-full items-center gap-1.5 border border-[#d8d2c8] bg-[#f5f2ed] px-2 text-xs text-[#1a2744]">
+    <span className="inline-flex h-7 max-w-full items-center gap-1.5 border border-[#d4d4d8] bg-[#f4f4f5] px-2 text-xs text-[#18181b]">
       <span className="truncate">{label}</span>
       <button
         type="button"
         onClick={onRemove}
-        className="text-[#5c6578] hover:text-[#c4654a]"
+        className="text-[#52525b] hover:text-[#1e43c8]"
         aria-label={`Remove ${label} filter`}
       >
         <X className="h-3.5 w-3.5" />

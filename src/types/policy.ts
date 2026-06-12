@@ -104,6 +104,24 @@ export const AFFECTED_POPULATION_LABELS: Record<AffectedPopulation, string> = {
   all: 'General Population',
 };
 
+// Implementation status - how far the policy actually reached, independent of
+// whether it was ever evaluated. This is what makes unevaluated policies
+// first-class catalog entries.
+export type ImplementationStatus =
+  | 'pilot'
+  | 'regional'
+  | 'national'
+  | 'scaled-down'
+  | 'ended';
+
+export const IMPLEMENTATION_STATUS_LABELS: Record<ImplementationStatus, string> = {
+  pilot: 'Pilot',
+  regional: 'Regional',
+  national: 'National',
+  'scaled-down': 'Scaled down',
+  ended: 'Ended',
+};
+
 // Evidence quality ratings
 export type EvidenceQuality = 'high' | 'moderate' | 'emerging' | 'low' | 'none';
 
@@ -112,7 +130,7 @@ export const EVIDENCE_QUALITY_LABELS: Record<EvidenceQuality, string> = {
   moderate: 'Moderate',
   emerging: 'Emerging',
   low: 'Low',
-  none: 'No Evidence',
+  none: 'Not yet evaluated',
 };
 
 export const EVIDENCE_QUALITY_DESCRIPTIONS: Record<EvidenceQuality, string> = {
@@ -120,7 +138,7 @@ export const EVIDENCE_QUALITY_DESCRIPTIONS: Record<EvidenceQuality, string> = {
   moderate: 'At least one well-designed RCT or multiple high-quality quasi-experimental studies',
   emerging: 'Promising evidence from quasi-experimental studies or early-stage RCTs',
   low: 'Limited evidence, primarily descriptive or correlational studies',
-  none: 'No systematic evaluation evidence available',
+  none: 'No systematic evaluation evidence available yet. An open opportunity for researchers.',
 };
 
 // Key outcomes from evaluations
@@ -187,8 +205,9 @@ export interface Policy {
 
   country: Country;
   yearStart: number;
-  yearEnd?: number;
+  yearEnd?: number | null;
   isActive: boolean;
+  implementationStatus: ImplementationStatus;
 
   policyTypes: PolicyType[];
   affectedPopulations: AffectedPopulation[];
@@ -202,8 +221,10 @@ export interface Policy {
   evidenceQuality: EvidenceQuality;
   impactSummary: string;
   keyOutcomes: Outcome[];
-  evaluations: EvaluationStudy[];
-  keyReferences: Reference[];
+  // Optional by design: a policy that has never been studied is still a
+  // first-class catalog entry.
+  evaluations?: EvaluationStudy[];
+  keyReferences?: Reference[];
 }
 
 // Filter state interface
@@ -235,7 +256,9 @@ export interface PolicySortState {
   direction: SortDirection;
 }
 
+// Recency, not evidence strength, is the neutral default for a catalog that
+// includes policies regardless of whether they have been evaluated.
 export const DEFAULT_POLICY_SORT: PolicySortState = {
-  key: 'evidence',
+  key: 'year',
   direction: 'desc',
 };
