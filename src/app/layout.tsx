@@ -2,10 +2,12 @@ import type { Metadata } from 'next';
 import './globals.css';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { SITE_NAME, SITE_URL } from '@/lib/site';
+import { SITE_NAME, SITE_ORIGIN, SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
+  // Origin only: Next prepends basePath (/ed-policies) itself when resolving
+  // file-convention metadata like opengraph-image.png against metadataBase.
+  metadataBase: new URL(SITE_ORIGIN),
   title: 'Latin America Education Policy Database',
   description:
     'A comprehensive, searchable catalog of education policies implemented across Latin America and the Caribbean, with evaluation evidence where research exists. Designed for PhD students, policy evaluators, and researchers.',
